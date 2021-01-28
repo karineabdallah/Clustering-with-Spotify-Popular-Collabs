@@ -1,0 +1,1255 @@
+,artist,genre,artists_collab,degree,sous_genre
+0,KK,pop,"['Shilpa Rao', 'Shreya Ghoshal', 'Shaan', 'Shankar-Ehsaan-Loy']",4,pop
+1,Louis Tomlinson,pop,['Bebe Rexha'],1,pop
+2,"Lisa ""Left Eye"" Lopes",pop,['*NSYNC'],1,pop
+3,Little Mix,pop,"['Jason Derulo', 'Charlie Puth', 'Machine Gun Kelly', 'Nicki Minaj', 'Sean Paul']",5,dance pop
+4,Lizzo,pop,"['Missy Elliott', 'Ariana Grande']",2,dance pop
+5,Lloyd,pop,"['Lil Wayne', 'Drake', 'Jeezy']",3,dance pop
+6,Loco,pop,"['Hwa Sa', 'Jay Park']",2,pop
+7,Loon,pop,"['Kelis', 'Usher', 'Faith Evans', 'Ginuwine']",4,pop
+8,Loote,pop,"['David Guetta', 'gnash']",2,dance pop
+9,Lorde,pop,['SZA'],1,pop
+10,Loren Gray,pop,['Lost Kings'],1,pop
+11,Lost Kings,pop,"['Norma Jean Martine', 'Loren Gray', 'Wiz Khalifa', 'Emily Warren', 'Madison Beer', 'Social House']",6,dance pop
+12,Loud Luxury,pop,"['Morgan St. Jean', 'Nicky Jam', 'Pitbull', 'Bryce Vine', 'Brando']",5,dance pop
+13,Lucas Grabeel,pop,"['High School Musical Cast', 'Vanessa Hudgens', 'Corbin Bleu']",3,pop
+14,Lilly Wood and The Prick,pop,['Robin Schulz'],1,pop
+15,Lucy Dacus,pop,['Phoebe Bridgers'],1,pop
+16,Lukas Graham,pop,['G-Eazy'],1,pop
+17,Luke Benward,pop,['Dove Cameron'],1,pop
+18,Lumidee,pop,"['Fabolous', 'Fat Joe', 'Nina Sky', 'Busta Rhymes']",4,pop
+19,Lyfe Jennings,pop,['Erin'],1,pop
+20,Lykke Li,pop,['Drake'],1,pop
+21,M.I.A.,pop,"['A$AP Rocky', 'Future', 'Young Thug', 'Joe Fox', 'Bun B']",5,dance pop
+22,MAX,pop,"['Felly', 'Rags Cast', 'Ashe', 'Hoodie Allen', 'Quinn XCII', 'Hayley Kiyoko', 'gnash']",7,dance pop
+23,MERCE,pop,['T.I.'],1,pop
+24,MK,pop,['Becky Hill'],1,dance pop
+25,MNEK,pop,"['Joel Corry', 'Matoma', 'Zara Larsson']",3,pop
+26,Lily Allen,pop,"['P!nk', 'Wiz Khalifa', 'T-Pain']",3,dance pop
+27,Lil Mama,pop,"['Chris Brown', 'Avril Lavigne', 'T-Pain']",3,pop
+28,Mabel,pop,['Clean Bandit'],1,dance pop
+29,Labrinth,pop,"['Noah Cyrus', 'Emeli Sandé', 'Zendaya']",3,pop
+30,Kiko el Crazy,pop,['Jowell & Randy'],1,pop
+31,Kim Petras,pop,"['K/DA', 'Madison Beer']",2,pop
+32,Kina,pop,['Adriana Proenza'],1,pop
+33,Kina Grannis,pop,['Imaginary Future'],1,pop
+34,Kiyotaka Sugiyama,pop,['オメガトライブ'],1,pop
+35,Klangkarussell,pop,['Jaymes Young'],1,pop
+36,Kleerup,pop,['Robyn'],1,pop
+37,Kurt Hugo Schneider,pop,"['Christina Grimmie', 'Sam Tsui', 'Anna Clendening', 'T-Pain']",4,pop
+38,LANY,pop,['Lauv'],1,pop
+39,LMFAO,pop,"['David Guetta', 'Lil Jon', 'Fergie', 'Lauren Bennett', 'Natalia Kills']",5,dance pop
+40,La Secta AllStar,pop,['Eddie Dee'],1,pop
+41,Lady Gaga,pop,"['Wale', 'Flo Rida', 'BLACKPINK', 'Ariana Grande']",4,dance pop
+42,Liam Payne,pop,"['Lennon Stella', 'Jonas Blue', 'Dixie D’Amelio', 'Quavo']",4,dance pop
+43,Lana Del Rey,pop,"['Playboi Carti', 'A$AP Rocky', 'RAC', 'Miley Cyrus', 'Ariana Grande']",5,pop
+44,Landy Wen,pop,['Jay Chou'],1,pop
+45,Lapiz Conciente,pop,"['Belinda', 'Juan Magán']",2,pop
+46,Lara Liang,pop,['Jay Chou'],1,pop
+47,Lauren Bennett,pop,['LMFAO'],1,pop
+48,Lauv,pop,"['blackbear', 'Troye Sivan', 'LANY', 'DJ Snake', 'Julia Michaels', 'Anne-Marie', 'Sofia Reyes']",7,pop
+49,Layton Greene,pop,"['Quality Control', 'City Girls', 'Lil Baby']",3,pop
+50,Leighton Meester,pop,['Cobra Starship'],1,dance pop
+51,Lele Pons,pop,['Guaynaa'],1,pop
+52,Lennon Stella,pop,"['The Chainsmokers', 'Charlie Puth', 'Jonas Blue', 'Liam Payne']",4,pop
+53,Lexie Liu,pop,"['(G)I-DLE', 'Jaira Burns', 'Madison Beer', 'K/DA']",4,pop
+54,MOD SUN,pop,"['Machine Gun Kelly', 'G-Eazy']",2,pop
+55,Macklemore,pop,"['Jess Glynne', 'Rudimental', 'Kesha', 'Lil Yachty', 'Skylar Grey', 'G-Eazy']",6,dance pop
+56,Keyshia Cole,pop,"['Diddy', 'Trina', 'Sean Paul', 'Jaheim', 'Kehlani']",5,dance pop
+57,Mr. Cheeks,pop,"['Diddy', 'Missy Elliott']",2,pop
+58,Michael Jackson,pop,"['Akon', 'Drake']",2,pop
+59,Miguel,pop,"['Chris Brown', 'Salaam Remi', 'Ludacris', 'A$AP Rocky', 'Natalia Lafourcade', 'Mariah Carey', 'Mac Miller', 'Mark Ronson', 'Alicia Keys']",9,dance pop
+60,Mike Posner,pop,"['Rittz', 'Sammy Adams', 'Lil Wayne', 'Big Sean', 'Seeb', 'B.o.B']",6,dance pop
+61,Miles Kane,pop,['The Last Shadow Puppets'],1,pop
+62,Miley Cyrus,pop,"['Dua Lipa', 'Jonas Brothers', 'French Montana', 'Lana Del Rey', 'Mark Ronson', 'Ariana Grande']",6,dance pop
+63,Milo,pop,['Busdriver'],1,pop
+64,Miranda Cosgrove,pop,['Drake Bell'],1,dance pop
+65,Missy Elliott,pop,"['Dua Lipa', 'Ludacris', 'Diddy', 'Lizzo', 'DMX', 'Memphis Bleek', 'Busta Rhymes', 'Mr. Cheeks', 'Timbaland', 'Tweet', 'Pharrell Williams', 'Fantasia', 'Madonna', 'Mary J. Blige', 'Beyoncé']",15,dance pop
+66,Mohit Chauhan,pop,"['Javed Ali', 'A.R. Rahman']",2,pop
+67,Monica,pop,"['Dem Franchize Boyz', 'DMX']",2,dance pop
+68,Mothica,pop,['Shawn Wasabi'],1,pop
+69,Mr. Probz,pop,"['Robin Schulz', 'Dolly Parton']",2,dance pop
+70,Melanie Fiona,pop,"['Wale', 'The Roots', 'J. Cole', 'Common']",4,pop
+71,Mulatto,pop,"['Trina', 'City Girls', '2 Chainz', 'Gucci Mane']",4,pop
+72,Murs,pop,['Kendrick Lamar'],1,dance pop
+73,Musiq Soulchild,pop,"['Ty Dolla $ign', 'The Roots', 'Chrisette Michele']",3,dance pop
+74,Mýa,pop,"['Blackstreet', 'P!nk', 'JAY-Z', 'Christina Aguilera']",4,dance pop
+75,NCT,pop,['NCT U'],1,pop
+76,NCT U,pop,['NCT'],1,pop
+77,NEEDTOBREATHE,pop,['Gavin DeGraw'],1,pop
+78,NEIMY,pop,['Jubël'],1,pop
+79,NOTD,pop,"['Captain Cuts', 'Felix Jaehn', 'HRVY', 'Georgia Ku', 'Bea Miller', 'SHY Martin', 'Astrid S']",7,dance pop
+80,Naomi Scott,pop,"['Hayley Kiyoko', 'Bridgit Mendler']",2,pop
+81,Naomi Wild,pop,['Machine Gun Kelly'],1,pop
+82,Messiah,pop,"['Baby Rasta', 'Noriel', 'Lyan', 'Darkiel']",4,pop
+83,Meghan Trainor,pop,"['Nicki Minaj', 'Charlie Puth']",2,dance pop
+84,Macklemore & Ryan Lewis,pop,"['Grandmaster Caz', 'Ed Sheeran', 'Grandmaster Melle Mel', 'Mary Lambert', 'Kool Moe Dee']",5,dance pop
+85,Mario,pop,['T.I.'],1,dance pop
+86,Madison Beer,pop,"['(G)I-DLE', 'Lexie Liu', 'Offset', 'Jaira Burns', 'Lost Kings', 'K/DA', 'Kim Petras', 'Jax Jones']",8,dance pop
+87,Madonna,pop,"['Dua Lipa', 'Justin Timberlake', 'Missy Elliott', 'Timbaland', 'Britney Spears']",5,dance pop
+88,Maggie Lindemann,pop,['Cheat Codes'],1,dance pop
+89,Magic System,pop,['Bob Sinclar'],1,pop
+90,Maino,pop,['T-Pain'],1,pop
+91,Maite Perroni,pop,"['Anahí', 'Dulce María', 'Christian Chávez', 'Christopher von Uckermann', 'RBD']",5,pop
+92,Major Lazer,pop,"['Wale', 'Dua Lipa', 'Wild Belle', 'Amber Coffman', 'J Balvin', 'Bruno Mars', 'DJ Snake', 'Ellie Goulding', 'Tyga', 'Quavo', 'Camila Cabello']",11,dance pop
+93,Manuel Turizo,pop,"['Myke Towers', 'Ozuna', 'Farruko', 'Reik', 'Nicky Jam', 'DJ Luian', 'Lalo Ebratt', 'Anuel AA', 'Dalmata', 'Natti Natasha', 'Mau y Ricky', 'Cosculluela', 'Camilo', 'Sebastian Yatra']",14,pop
+94,Marc E. Bassy,pop,"['blackbear', 'Kyle', 'Quinn XCII', 'Skizzy Mars', 'Kehlani']",5,pop
+95,Mariah Carey,pop,"['DJ Clue', 'Ludacris', 'Fabolous', 'Jermaine Dupri', 'Justin Bieber', 'Westlife', 'Ja Rule', 'Clue', 'Flipmode Squad', 'Miguel']",10,dance pop
+96,Marian Hill,pop,['Billie Eilish'],1,pop
+97,Mark Ronson,pop,"['Dua Lipa', 'A$AP Rocky', 'Miguel', 'Ghostface Killah', 'Bruno Mars', 'Miley Cyrus', 'Camila Cabello']",7,dance pop
+98,Megan Nicole,pop,['Jason Chen'],1,pop
+99,Maroon 5,pop,"['Future', 'Cardi B', 'Wiz Khalifa', 'Kendrick Lamar', 'SZA', 'Christina Aguilera']",6,pop
+100,Marques Houston,pop,['Yung Joc'],1,pop
+101,Marta Sánchez,pop,['Carlos Baute'],1,pop
+102,Martin Jensen,pop,['The Vamps'],1,dance pop
+103,Mary J. Blige,pop,"['DJ Clue', 'Justin Timberlake', 'DMX', 'Rah Digga', 'Busta Rhymes', 'Drake', 'Ja Rule', 'Kendrick Lamar', 'Missy Elliott', 'Common', 'The Notorious B.I.G.', 'Method Man', 'Kelly Clarkson', 'Kid Cudi', 'Talib Kweli']",15,dance pop
+104,Mary Lambert,pop,['Macklemore & Ryan Lewis'],1,pop
+105,Matoma,pop,"['MNEK', 'The Notorious B.I.G.', 'Josie Dunne', 'Ja Rule', 'Wilder Woods', 'Astrid S']",6,dance pop
+106,Matthew Koma,pop,['RAC'],1,pop
+107,Maxwell,pop,['Alicia Keys'],1,dance pop
+108,Meaghan Martin,pop,['Demi Lovato'],1,pop
+109,Meg Donnelly,pop,['Chandler Kinney'],1,pop
+110,Kid Ink,pop,"['Chris Brown', 'Wale', 'Fifth Harmony', 'Omarion', 'Bebe Rexha', 'French Montana', '2 Chainz', 'DeJ Loaf', 'Usher', 'Trey Songz', 'Tyga', 'Machine Gun Kelly', 'Rich Homie Quan', 'Nico & Vinz']",14,dance pop
+111,Kevin Rudolf,pop,"['Lil Wayne', 'Jay Sean']",2,dance pop
+112,Natalia Kills,pop,['LMFAO'],1,pop
+113,James Arthur,pop,"['Sigala', 'Anne-Marie', 'Ty Dolla $ign']",3,pop
+114,Il Divo,pop,['Céline Dion'],1,pop
+115,Imaginary Future,pop,['Kina Grannis'],1,pop
+116,Ink,pop,"['Chris Brown', 'Childish Gambino', 'Justin Bieber', '21 Savage']",4,dance pop
+117,Internet Money,pop,"['Anuel AA', 'Gunna', 'NAV']",3,pop
+118,Iyaz,pop,"['Charice', 'Big Time Rush', 'Hannah Montana', 'Travie McCoy']",4,dance pop
+119,JJ Lin,pop,['Charlene Choi'],1,pop
+120,Ja Rule,pop,"['Fat Joe', 'DMX', 'Mariah Carey', 'Method Man', 'Ashanti', 'The Notorious B.I.G.', 'Christina Milian', 'Charli Baltimore', 'Matoma', 'Vita', 'Mary J. Blige', 'Bobby Brown']",12,dance pop
+121,Jack & Jack,pop,['Jonas Blue'],1,dance pop
+122,Jacki-O,pop,"['Lil Jon', 'Fat Joe', 'Pitbull', 'Ying Yang Twins']",4,pop
+123,Jaheim,pop,"['Keyshia Cole', 'Nelly', 'Trina']",3,dance pop
+124,Jaira Burns,pop,"['(G)I-DLE', 'Lexie Liu', 'Madison Beer', 'K/DA']",4,pop
+125,Jamie Fox,pop,['Adina Howard'],1,dance pop
+126,Hwa Sa,pop,['Loco'],1,pop
+127,Jamie Foxx,pop,"['Ludacris', 'Justin Timberlake', 'The-Dream', 'Drake', 'Trey Songz', 'Ty Dolla $ign', 'T-Pain']",7,dance pop
+128,Jamie Scott,pop,"['David Guetta', 'Romy Dya']",2,pop
+129,Jasmine Thompson,pop,['Robin Schulz'],1,pop
+130,Jason Chen,pop,['Megan Nicole'],1,pop
+131,Jason Derulo,pop,"['Jawsh 685', 'French Montana', '2 Chainz', 'Sofia Reyes', 'Tyga', 'Little Mix', 'Nicki Minaj', 'Ty Dolla $ign', 'BTS', 'De La Ghetto']",10,dance pop
+132,Jason Mraz,pop,['Sara Bareilles'],1,pop
+133,Jatin-Lalit,pop,['Sonu Nigam'],1,pop
+134,Javed Ali,pop,"['Mohit Chauhan', 'Shankar Mahadevan', 'A.R. Rahman']",3,pop
+135,Jawsh 685,pop,"['BTS', 'Jason Derulo']",2,pop
+136,Jax Jones,pop,"['Duke Dumont', 'Jess Glynne', 'Bebe Rexha', 'RAYE', 'Madison Beer', 'Au/Ra']",6,dance pop
+137,Jay Chou,pop,"['Landy Wen', 'Lara Liang']",2,pop
+138,Icona Pop,pop,"['Justin Timberlake', 'Chiddy Bang', 'Charli XCX']",3,pop
+139,Hurts,pop,['Calvin Harris'],1,pop
+140,Jay Sean,pop,"['Lil Wayne', 'Nicki Minaj', 'Kevin Rudolf']",3,dance pop
+141,Gus Dapperton,pop,['BENEE'],1,pop
+142,GOLDHOUSE,pop,['Billie Eilish'],1,pop
+143,Gavin DeGraw,pop,['NEEDTOBREATHE'],1,pop
+144,Georgia Ku,pop,"['Captain Cuts', 'NOTD', 'Felix Jaehn']",3,pop
+145,Ghetto Kids,pop,['Guaynaa'],1,pop
+146,Ghost Loft,pop,['Wiz Khalifa'],1,pop
+147,Ginuwine,pop,"['Diddy', 'Loon', 'Tyrese']",3,dance pop
+148,Gloria Estefan,pop,['*NSYNC'],1,dance pop
+149,Grey,pop,['Hailee Steinfeld'],1,pop
+150,Grimes,pop,"['Majical Cloudz', 'Ashnikko']",2,pop
+151,Gruff Rhys,pop,['Gorillaz'],1,pop
+152,Gryffin,pop,"['Elley Duhé', 'Quinn XCII', 'John Martin', 'Bipolar Sunshine', 'Daya', 'Years & Years', 'Carly Rae Jepsen']",7,dance pop
+153,Gwen Stefani,pop,"['Pharrell Williams', 'Akon', 'Eminem']",3,dance pop
+154,Hot Chelle Rae,pop,"['New Boyz', 'Demi Lovato', 'Maejor']",3,dance pop
+155,Gym Class Heroes,pop,"['The-Dream', 'Adam Levine', 'Neon Hitch']",3,dance pop
+156,HAIM,pop,['Calvin Harris'],1,pop
+157,HEIZE,pop,['DJ Friz'],1,pop
+158,HRVY,pop,['NOTD'],1,dance pop
+159,Hailee Steinfeld,pop,"['Drax Project', 'DNCE', 'Grey', 'Machine Gun Kelly', 'BloodPop®']",5,dance pop
+160,Halsey,pop,"['Future', 'Justin Bieber', 'Big Sean', 'benny blanco', 'Machine Gun Kelly', 'BTS', 'G-Eazy']",7,dance pop
+161,Hannah Montana,pop,"['Corbin Bleu', 'Iyaz']",2,dance pop
+162,Hayley Kiyoko,pop,"['MAX', 'Party Pupils', 'Kehlani', 'Bridgit Mendler', 'Naomi Scott']",5,dance pop
+163,Haze,pop,['Anuel AA'],1,pop
+164,High School Musical Cast,pop,"['Vanessa Hudgens', 'Ashley Tisdale', 'Lucas Grabeel', 'Zac Efron', 'Corbin Bleu', 'Ryan']",6,dance pop
+165,Hoodie Allen,pop,"['blackbear', 'MAX', 'Kyle', 'Chiddy', 'G-Eazy', 'Jhameel']",6,pop
+166,Jay Park,pop,['Loco'],1,pop
+167,Jaymes Young,pop,['Klangkarussell'],1,pop
+168,Kesha,pop,"['Macklemore', 'Pitbull']",2,dance pop
+169,KYLE,pop,"['Chris Brown', 'Rich The Kid', 'Lil Yachty', 'K CAMP', 'Kehlani']",5,pop
+170,Jubël,pop,['NEIMY'],1,pop
+171,Julia Michaels,pop,"['Clean Bandit', 'Niall Horan', '5 Seconds of Summer', 'Shawn Mendes', 'Selena Gomez', 'Lauv']",6,dance pop
+172,Juliander,pop,['Noah Cyrus'],1,pop
+173,Julie Bergan,pop,['SEUNGRI'],1,pop
+174,Justin Bieber,pop,"['Ludacris', 'Ed Sheeran', 'Young Thug', 'Busta Rhymes', 'will.i.am', 'Chris Brown', 'Billie Eilish', 'Maejor', 'Mariah Carey', 'Usher', 'Shawn Mendes', 'DJ Snake', 'Halsey', 'Nicki Minaj', 'Kehlani', 'DJ Khaled', 'Summer Walker', 'David Guetta', 'Lil Wayne', 'J Balvin', 'Quavo', 'Ink', 'Sage The Gemini', 'BloodPop®', 'Far East Movement', 'Luis Fonsi', 'Daddy Yankee', 'Big Sean', 'benny blanco', 'Tyga', 'Ariana Grande']",31,pop
+175,Justin Jesso,pop,['Seeb'],1,pop
+176,Justin Timberlake,pop,"['Ciara', 'Nelly Furtado', 'Jamie Foxx', 'Icona Pop', 'Madonna', 'Kelly Clarkson', 'Mary J. Blige', 'Beyoncé', '50 Cent', 'Meek Mill']",10,dance pop
+177,K.Flay,pop,['Zion I'],1,pop
+178,K/DA,pop,"['(G)I-DLE', 'Lexie Liu', 'Aluna', 'Annika Wells', 'Jaira Burns', 'TWICE', 'Madison Beer', 'Bea Miller', 'Kim Petras']",9,pop
+179,KEY!,pop,"['A$AP Mob', 'A$AP Twelvyy', 'A$AP Rocky']",3,pop
+180,Alida,pop,['Robin Schulz'],1,pop
+181,Kailash Kher,pop,['Shaan'],1,pop
+182,Juan Magán,pop,"['Belinda', 'Future', 'J Balvin', 'Pitbull', 'Don Omar', 'Lapiz Conciente', 'El Cata', 'Sebastian Yatra']",8,dance pop
+183,Kali Uchis,pop,"['PARTYNEXTDOOR', 'Jorja Smith', 'Gorillaz', 'Jowell & Randy', 'Jhay Cortez']",5,pop
+184,Kardinal Offishall,pop,['Akon'],1,pop
+185,Kat Deluna,pop,['Busta Rhymes'],1,dance pop
+186,Katie Herzig,pop,['RAC'],1,pop
+187,Katy Perry,pop,"['Calvin Harris', 'Aitana', 'Migos', 'Daddy Yankee', 'Big Sean', 'Timbaland', 'Pharrell Williams', 'Nicki Minaj']",8,dance pop
+188,Kehlani,pop,"['Aminé', 'Calvin Harris', 'Marc E. Bassy', 'Ty Dolla $ign', 'Justin Bieber', 'Russ', 'Cardi B', 'G-Eazy', 'Lil Yachty', 'Phora', 'Charlie Puth', 'Hayley Kiyoko', 'Lexii Alijai', 'ZAYN', 'Tory Lanez', 'Keyshia Cole', 'KYLE']",17,pop
+189,Keke Palmer,pop,"['Becky G', 'SOYEON of (G)I-DLE', 'Thutmose']",3,dance pop
+190,Kelis,pop,"['OutKast', 'Calvin Harris', 'Loon', 'André 3000']",4,dance pop
+191,Kelly Clarkson,pop,"['Mary J. Blige', 'Justin Timberlake']",2,dance pop
+192,Kelly Price,pop,"['Faith Evans', 'Whitney Houston']",2,pop
+193,Keri Hilson,pop,"['Chris Brown', 'Timbaland', 'Lil Wayne']",3,dance pop
+194,Juanes,pop,"['Nelly Furtado', 'Morat']",2,pop
+195,Joywave,pop,"['Big Data', 'Oliver']",2,pop
+196,Jeff Bernat,pop,['Crush'],1,pop
+197,John Martin,pop,['Gryffin'],1,pop
+198,Jennifer Lopez,pop,"['Fat Joe', 'Ricky Martin', 'Lil Wayne', 'Cardi B', 'Wisin & Yandel', 'Styles P', 'DJ Khaled', 'Wisin']",8,dance pop
+199,Jeremy Zucker,pop,"['Bea Miller', 'ayokay', 'blackbear']",3,pop
+200,Jess Glynne,pop,"['Clean Bandit', 'Rudimental', 'Alex Newell', 'Macklemore', 'Jax Jones']",5,dance pop
+201,Jesse McCartney,pop,"['Ludacris', 'T-Pain']",2,dance pop
+202,Jessica Simpson,pop,['Nick Lachey'],1,dance pop
+203,Jhameel,pop,['Hoodie Allen'],1,pop
+204,Jill Scott,pop,"['Common', 'Mos Def', 'Bilal']",3,pop
+205,JoJo,pop,"['Wiz Khalifa', 'Tory Lanez']",2,dance pop
+206,Joe Jonas,pop,"['Nick Jonas', 'Demi Lovato']",2,pop
+207,Joel Corry,pop,['MNEK'],1,dance pop
+208,John K,pop,['Sigala'],1,pop
+209,John Newman,pop,['Calvin Harris'],1,pop
+210,Joy Williams,pop,['Paramore'],1,pop
+211,Johnny Orlando,pop,['kenzie'],1,pop
+212,Jon Bellion,pop,"['Travis Mendes', 'Annika Wells']",2,pop
+213,Jonas Blue,pop,"['Jack & Jack', 'Rita Ora', 'Lennon Stella', 'Theresa Rex', 'Liam Payne']",5,dance pop
+214,Jonas Brothers,pop,"['Miley Cyrus', 'KAROL G', 'Demi Lovato']",3,dance pop
+215,Jonn Hart,pop,['French Montana'],1,pop
+216,Jordan Fisher,pop,['Ross Lynch'],1,pop
+217,Jordin Sparks,pop,"['Chris Brown', 'Big Time Rush']",2,dance pop
+218,Jorge Celedón,pop,['Binomio de Oro de América'],1,pop
+219,Jorja Smith,pop,"['Kali Uchis', 'Drake']",2,pop
+220,Josie Dunne,pop,['Matoma'],1,pop
+221,José Feliciano,pop,"['Farruko', 'Adalberto Santiago', 'Ismael Miranda', 'Héctor Lavoe', 'Fania All Stars']",5,pop
+222,Naresh Iyer,pop,['A.R. Rahman'],1,pop
+223,Natalie Hemby,pop,['Brandi Carlile'],1,pop
+224,G.R.L.,pop,['Pitbull'],1,dance pop
+225,Taylor Swift,pop,"['Panic! At The Disco', 'Ed Sheeran', 'Future', 'Shawn Mendes', 'ZAYN', 'B.o.B', 'The Civil Wars']",7,dance pop
+226,StayLoose,pop,['Bryce Fox'],1,pop
+227,Sub Urban,pop,['REI AMI'],1,pop
+228,Summer Walker,pop,"['Chris Brown', 'PARTYNEXTDOOR', 'London On Da Track', 'Justin Bieber', 'Drake', 'Usher', '21 Savage', 'Trey Songz', 'Bryson Tiller', 'Kash Doll']",10,pop
+229,Sunidhi Chauhan,pop,"['Shankar Mahadevan', 'Vishal Dadlani', 'Vishal-Shekhar']",3,pop
+230,T-Pain,pop,"['Wiz Khalifa', 'Pitbull', 'Wisin & Yandel', 'B.o.B', 'Young M.A', 'Bow Wow', 'Omarion', 'Jesse McCartney', 'Lily Allen', 'Lil Yachty', 'Kurt Hugo Schneider', 'DJ Khaled', 'Sean Paul', 'Jamie Foxx', 'Meek Mill', 'Lil Mama', 'Tory Lanez', 'Maino', 'Wale', 'Flo Rida', 'Fabolous', 'Tech N9ne', 'Dolla', 'T.I.', 'Yung Joc']",25,dance pop
+231,TK Kravitz,pop,"['Ty Dolla $ign', 'Gunna', 'Jacquees']",3,pop
+232,TWICE,pop,"['K/DA', 'Annika Wells']",2,pop
+233,Taio Cruz,pop,"['Flo Rida', 'Ludacris']",2,dance pop
+234,Tamar Braxton,pop,['Future'],1,dance pop
+235,Tank,pop,['Kendrick Lamar'],1,pop
+236,Tate McRae,pop,"['Ali Gatie', 'SAYGRACE']",2,pop
+237,The Chainsmokers,pop,"['sirenXX', 'bülow', 'Lennon Stella', 'Emily Warren', '5 Seconds of Summer', 'Daya', 'Phoebe Ryan', 'Ty Dolla $ign', 'ROZES']",9,dance pop
+238,St. Vincent,pop,['Kid Cudi'],1,pop
+239,The Cheetah Girls,pop,['Belinda'],1,dance pop
+240,The Civil Wars,pop,['Taylor Swift'],1,pop
+241,The Dream,pop,"['Fabolous', 'Drake']",2,dance pop
+242,The Last Shadow Puppets,pop,['Miles Kane'],1,pop
+243,The Polish Ambassador,pop,['Mr. Lif'],1,pop
+244,The Pussycat Dolls,pop,"['Nicole Scherzinger', 'Busta Rhymes', 'Timbaland', 'will.i.am', 'A.R. Rahman']",5,dance pop
+245,The Vamps,pop,"['Martin Jensen', 'Shawn Mendes', 'Demi Lovato']",3,dance pop
+246,The-Dream,pop,"['Lil Wayne', 'Drake', 'JAY-Z', 'Gym Class Heroes', 'Ty Dolla $ign', 'Jamie Foxx']",6,dance pop
+247,Theresa Rex,pop,['Jonas Blue'],1,pop
+248,Tiffany Evans,pop,['Ciara'],1,pop
+249,Timbaland,pop,"['Flo Rida', 'Drake', 'Jeezy', 'Missy Elliott', 'Keri Hilson', 'Katy Perry', 'Madonna', 'The Pussycat Dolls', 'Bobby V.', 'CeeLo Green', '50 Cent']",11,dance pop
+250,Stacy Barthe,pop,['Nipsey Hussle'],1,pop
+251,Sonu Nigam,pop,"['Jatin-Lalit', 'Sandesh Shandilya', 'Shreya Ghoshal', 'Salim–Sulaiman', 'Shankar-Ehsaan-Loy', 'Salim Merchant']",6,pop
+252,Tomine Harket,pop,['Au/Ra'],1,pop
+253,Shreya Ghoshal,pop,"['Sonu Nigam', 'KK', 'Sachin-Jigar', 'Shankar Mahadevan', 'Arijit Singh', 'Salim–Sulaiman', 'Salim Merchant']",7,pop
+254,Shaan,pop,"['Kailash Kher', 'Shankar-Ehsaan-Loy', 'KK']",3,pop
+255,Shafqat Amanat Ali,pop,"['Shankar-Ehsaan-Loy', 'Shankar Mahadevan']",2,pop
+256,Shaggy,pop,"['Rayvon', 'Mohombi', 'Costi']",3,dance pop
+257,Shakira,pop,"['Calle 13', 'Nicky Jam', 'Maná', 'Pitbull', 'El Cata', 'Camilo', 'Anuel AA', 'Rihanna', 'Beyoncé', 'Pedro Capó']",10,pop
+258,Shallou,pop,['Wales'],1,pop
+259,Shane 54,pop,['Tove Lo'],1,pop
+260,Shankar Mahadevan,pop,"['Vishal-Shekhar', 'Shreya Ghoshal', 'Javed Ali', 'Shafqat Amanat Ali', 'Sunidhi Chauhan', 'Shankar-Ehsaan-Loy', 'Vishal Dadlani']",7,pop
+261,Shankar-Ehsaan-Loy,pop,"['KK', 'Shankar Mahadevan', 'Shaan', 'Shafqat Amanat Ali', 'Sonu Nigam']",5,pop
+262,Shawn Mendes,pop,"['Justin Bieber', 'Taylor Swift', 'Camila Cabello', 'Julia Michaels', 'The Vamps']",5,pop
+263,Shawn Wasabi,pop,['Mothica'],1,pop
+264,Shilpa Rao,pop,['KK'],1,pop
+265,Shwayze,pop,['Cisco Adler'],1,pop
+266,Sofia Reyes,pop,"['Jason Derulo', 'De La Ghetto', 'Lauv']",3,dance pop
+267,Sigala,pop,"['Ella Eyre', 'John K', 'James Arthur']",3,dance pop
+268,Sigma,pop,['Sam Feldt'],1,dance pop
+269,Silence Wang,pop,['By2'],1,pop
+270,Simple Plan,pop,"['Natasha Bedingfield', 'Sean Paul']",2,pop
+271,Sisqo,pop,['DMX'],1,dance pop
+272,Skizzy Mars,pop,"['Marc E. Bassy', 'Olivver the Kid', 'G-Eazy', 'Cam Meekins']",4,pop
+273,Skylar Grey,pop,"['Macklemore', 'Nicki Minaj', 'Eminem']",3,pop
+274,Sleeping With Sirens,pop,['Machine Gun Kelly'],1,pop
+275,Social House,pop,"['Wiz Khalifa', 'Lil Yachty', 'Lost Kings', 'Ariana Grande']",4,pop
+276,Sofi Tukker,pop,['Billie Eilish'],1,pop
+277,Sofia Carson,pop,"['Dove Cameron', 'Sabrina Carpenter']",2,dance pop
+278,Tinie Tempah,pop,['Calvin Harris'],1,dance pop
+279,Toni Braxton,pop,['Trey Songz'],1,dance pop
+280,Selena Gomez,pop,"['Tainy', 'A$AP Rocky', 'Ozuna', 'J Balvin', 'Cardi B', 'Charlie Puth', 'DJ Snake', 'Julia Michaels', 'benny blanco', 'Gucci Mane', 'BLACKPINK', 'Demi Lovato']",12,dance pop
+281,ayokay,pop,"['Quinn XCII', 'Jeremy Zucker', 'Nightly']",3,pop
+282,Wynter Gordon,pop,['Flo Rida'],1,pop
+283,Y2K,pop,"['The Kid LAROI', 'bbno$', 'blackbear']",3,pop
+284,Years & Years,pop,['Gryffin'],1,dance pop
+285,Yebba,pop,['Ed Sheeran'],1,pop
+286,Young Bombs,pop,['Aloe Blacc'],1,pop
+287,ZAYN,pop,"['Chris Brown', 'PARTYNEXTDOOR', 'Taylor Swift', 'Usher', 'Zhavia Ward', 'SHAED', 'Kehlani']",7,dance pop
+288,Zac Efron,pop,"['Zendaya', 'Queen Latifah', 'High School Musical Cast']",3,dance pop
+289,Zara Larsson,pop,"['Clean Bandit', 'MNEK', 'Sabrina Carpenter', 'Tyga']",4,dance pop
+290,Zendaya,pop,"['Zac Efron', 'Labrinth']",2,dance pop
+291,Zhavia Ward,pop,"['French Montana', 'ZAYN']",2,pop
+292,Zoe Nash,pop,['G-Eazy'],1,pop
+293,beabadoobee,pop,['Oscar Lang'],1,pop
+294,Wilder Woods,pop,['Matoma'],1,pop
+295,benny blanco,pop,"['Tainy', 'J Balvin', 'Justin Bieber', 'Halsey', 'Selena Gomez']",5,pop
+296,blackbear,pop,"['Billie Eilish', 'Y2K', 'Jeremy Zucker', 'Marc E. Bassy', 'The Kid LAROI', 'Hoodie Allen', 'Kyle', 'Quinn XCII', 'FRND', 'Charlie Puth', 'Ellie Goulding', 'Dixie D’Amelio', 'Gucci Mane', 'Lauv']",14,pop
+297,bülow,pop,"['Ty Dolla $ign', 'The Chainsmokers']",2,pop
+298,fun.,pop,['Panic! At The Disco'],1,pop
+299,gnash,pop,"['RKCB', 'MAX', 'Loote', 'EDEN']",4,pop
+300,j-hope,pop,['Becky G'],1,pop
+301,kenzie,pop,['Johnny Orlando'],1,pop
+302,mansionz,pop,['Spark Master Tape'],1,pop
+303,pewdiepie,pop,['Party in Backyard'],1,pop
+304,sirenXX,pop,['The Chainsmokers'],1,pop
+305,will.i.am,pop,"['Flo Rida', 'Becky G', 'Fergie', 'Justin Bieber', 'Usher', 'The Pussycat Dolls', 'Britney Spears', 'Nicki Minaj']",8,dance pop
+306,Witt Lowry,pop,['Ava Max'],1,pop
+307,Whitney Houston,pop,"['Kelly Price', 'Deborah Cox', 'Faith Evans']",3,dance pop
+308,Tori Kelly,pop,['Ed Sheeran'],1,dance pop
+309,Vanessa Hudgens,pop,"['Ashley Tisdale', 'Lucas Grabeel', 'Corbin Bleu', 'High School Musical Cast']",4,dance pop
+310,Tove Lo,pop,['Shane 54'],1,dance pop
+311,Tove Styrke,pop,['Big Wild'],1,dance pop
+312,Travie McCoy,pop,"['Bruno Mars', 'Iyaz', 'Jake Miller', 'Olly Murs']",4,dance pop
+313,Trey Songz,pop,"['Wale', 'Ludacris', 'August Alsina', 'Lil Wayne', 'Summer Walker', 'T.I.', 'Jeezy', 'Toni Braxton', 'Kid Ink', 'Gucci Mane', 'Tory Lanez', 'Nicki Minaj', 'Jamie Foxx']",13,dance pop
+314,Trina,pop,"['Foxy Brown', 'Jermaine Dupri', 'Kelly Rowland', 'Mulatto', 'Pitbull', 'Jaheim', 'Keyshia Cole', 'Killer Mike']",8,pop
+315,Troy,pop,['Ryan'],1,pop
+316,Troye Sivan,pop,"['Charli XCX', 'Allday', 'Lauv', 'Ariana Grande']",4,pop
+317,Truth Hurts,pop,"['JAY-Z', 'Rakim']",2,pop
+318,Tweet,pop,['Missy Elliott'],1,pop
+319,Tyga,pop,"['A$AP Rocky', 'Offset', 'Young Thug', 'Wiz Khalifa', 'Iggy Azalea', 'Rich The Kid', 'Pia Mia', 'Ozuna', 'Justin Bieber', 'Takeoff', 'Major Lazer', '2 Chainz', 'Usher', 'DJ Snake', 'Travis Porter', 'Nicki Minaj', 'Rich Homie Quan', 'G-Eazy', 'J Balvin', 'Bruno Mars', 'Kid Ink', 'Tory Lanez', 'Ty Dolla $ign', 'Pleasure P', 'A$AP Ferg', 'Wale', 'Lil Jon', 'Jason Derulo', 'Zara Larsson']",29,dance pop
+320,Tyrese,pop,['Ginuwine'],1,dance pop
+321,Vedo,pop,['Natasha Mosley'],1,pop
+322,Westlife,pop,['Mariah Carey'],1,dance pop
+323,Victoria Justice,pop,"['Victorious Cast', 'Ariana Grande']",2,pop
+324,Victorious Cast,pop,"['Victoria Justice', 'Ariana Grande']",2,dance pop
+325,Vika Jigulina,pop,['Edward Maya'],1,pop
+326,Vishal Dadlani,pop,"['Shankar Mahadevan', 'Sunidhi Chauhan', 'Vishal-Shekhar']",3,pop
+327,Vishal-Shekhar,pop,"['Neeti Mohan', 'Vishal Dadlani', 'Sunidhi Chauhan', 'Shankar Mahadevan', 'Salim Merchant']",5,pop
+328,Vistoso Bosses,pop,['Soulja Boy'],1,pop
+329,Vita,pop,"['N.E.R.D', 'Ashanti', 'Ja Rule', 'Charli Baltimore']",4,pop
+330,Wale,pop,"['Drake', 'Bryson Tiller', 'T-Pain', 'Omarion', 'J. Cole', 'Lady Gaga', 'Major Lazer', 'Usher', 'Melanie Fiona', 'Trey Songz', 'Rich Homie Quan', 'Meek Mill', 'Dua Lipa', 'Lil Wayne', 'Kid Ink', 'SZA', 'Roscoe Dash', 'Rihanna', 'Rotimi', 'Tyga', 'Bun B']",21,dance pop
+331,Wales,pop,['Shallou'],1,pop
+332,Wallows,pop,['Clairo'],1,pop
+333,We The Kings,pop,"['Elena Coats', 'Demi Lovato']",2,pop
+334,Sevyn Streeter,pop,['Chris Brown'],1,dance pop
+335,Seeb,pop,"['Justin Jesso', 'Mike Posner', 'OneRepublic', 'Bastille', '5 Seconds of Summer']",5,dance pop
+336,Natasha Bedingfield,pop,"['Sean Kingston', 'Simple Plan']",2,dance pop
+337,Percy P,pop,"['Jurassic 5', 'Big Daddy Kane']",2,pop
+338,Omarion,pop,"['Chris Brown', 'Wale', 'French Montana', 'Drake', 'Kid Ink', 'T-Pain', 'Bow Wow']",7,dance pop
+339,OneRepublic,pop,"['Logic', 'Seeb']",2,dance pop
+340,Oscar Lang,pop,['beabadoobee'],1,pop
+341,P!nk,pop,"['Lily Allen', 'Mýa', 'Christina Aguilera', 'Eminem']",4,dance pop
+342,PARTYNEXTDOOR,pop,"['Kali Uchis', 'ZAYN', 'Bad Bunny', 'Rihanna', 'Summer Walker']",5,pop
+343,PRETTYMUCH,pop,['Rich The Kid'],1,dance pop
+344,Panic! At The Disco,pop,"['fun.', 'Taylor Swift']",2,pop
+345,Paramore,pop,['Joy Williams'],1,pop
+346,Party in Backyard,pop,['pewdiepie'],1,pop
+347,Paulina,pop,['Russ'],1,dance pop
+348,Paulina Rubio,pop,"['Coti', 'Julieta Venegas']",2,dance pop
+349,Pharrell Williams,pop,"['Ludacris', 'Calvin Harris', 'Busta Rhymes', 'Katy Perry', 'Future', '2 Chainz', 'Kid Cudi', 'Robin Thicke', 'Clipse', 'N.E.R.D', 'J Balvin', 'Missy Elliott', 'SZA', 'Gwen Stefani', 'Ty Dolla $ign', 'Rihanna', 'Diddy', 'T.I.', 'Big Sean', 'Britney Spears']",20,pop
+350,Olivver the Kid,pop,"['G-Eazy', 'Skizzy Mars']",2,pop
+351,Phoebe Bridgers,pop,['Lucy Dacus'],1,pop
+352,Phoebe Ryan,pop,['The Chainsmokers'],1,dance pop
+353,Pia Mia,pop,"['Chris Brown', 'G-Eazy', 'Tyga']",3,dance pop
+354,Piso 21,pop,['Micro TDH'],1,pop
+355,Pitbull,pop,"['Nicky Jam', 'Kesha', 'Yandel', 'Austin Mahone', 'Ivy Queen', 'Shakira', 'Elvis Crespo', 'Camila Cabello', 'T-Pain', 'Chris Brown', 'Loud Luxury', 'Fat Joe', 'Usher', 'El Cata', 'Sean Paul', 'Noriega', 'J Balvin', 'G.R.L.', 'Marc Anthony', 'LunchMoney Lewis', 'Becky G', 'Trina', 'Nayer', 'Juan Magán', 'Jacki-O', 'Natti Natasha', 'Christina Aguilera', 'Brando']",28,dance pop
+356,Pleasure P,pop,['Tyga'],1,dance pop
+357,Puri,pop,"['Adje', 'Jhorrmountain']",2,pop
+358,Purity Ring,pop,['Danny Brown'],1,pop
+359,Queen Naija,pop,['Tee Grizzley'],1,pop
+360,Queen Pen,pop,['Blackstreet'],1,pop
+361,Quinn XCII,pop,"['Marc E. Bassy', 'blackbear', 'ayokay', 'MAX', 'Logic', 'Gryffin', 'Chelsea Cutler']",7,pop
+362,Olly Murs,pop,"['Flo Rida', 'Chiddy Bang', 'Demi Lovato', 'Travie McCoy']",4,dance pop
+363,Olivia Rodrigo,pop,['Joshua Bassett'],1,pop
+364,RAC,pop,"['Katie Herzig', 'Matthew Koma', 'Lana Del Rey']",3,dance pop
+365,Nico & Vinz,pop,"['Kid Ink', 'Bebe Rexha']",2,dance pop
+366,Natasha Mosley,pop,['Vedo'],1,pop
+367,Nayer,pop,['Pitbull'],1,pop
+368,Nea,pop,['Felix Jaehn'],1,pop
+369,Neeti Mohan,pop,"['Salim Merchant', 'Vishal-Shekhar']",2,pop
+370,Nelly,pop,"['Fat Joe', 'Ali', 'Kelly Rowland', 'Lil Wayne', '*NSYNC', 'T.I.', 'Ashanti', 'Jagged Edge', 'The Notorious B.I.G.', 'Jaheim', 'André 3000', 'Akon', 'Rasheed', 'Freeway']",14,dance pop
+371,Neon Hitch,pop,['Gym Class Heroes'],1,pop
+372,New Boyz,pop,"['Ray J', 'Hot Chelle Rae', 'Chris Brown']",3,dance pop
+373,Niall Horan,pop,"['Ashe', 'Julia Michaels', 'Oliver Nelson']",3,dance pop
+374,Nick Jonas,pop,"['Joe Jonas', 'Demi Lovato', 'Nicki Minaj', 'Ty Dolla $ign']",4,dance pop
+375,Nick Lachey,pop,['Jessica Simpson'],1,dance pop
+376,Nicki Minaj,pop,"['Meghan Trainor', 'Ludacris', 'Playboi Carti', 'Migos', 'Bebe Rexha', 'OJ Da Juiceman', 'A$AP Rocky', 'Sean Garrett', 'DaBaby', 'Skylar Grey', 'KAROL G', 'Rae Sremmurd', 'Gucci Mane', 'Katy Perry', 'Shawty Lo', 'B.o.B', 'will.i.am', 'Eminem', 'Justin Bieber', 'Cardi B', 'Jay Sean', 'Usher', 'Trey Songz', 'Little Mix', 'DJ Khaled', 'Rich Homie Quan', 'Meek Mill', 'David Guetta', 'Sean Kingston', 'Murda Beatz', 'Diddy - Dirty Money', 'Rocko', 'A$AP Ferg', 'MadeinTYO', 'LunchMoney Lewis', 'Rihanna', 'Cassie', 'August Alsina', 'Jason Derulo', 'Big Sean', 'Oh Wonder', 'Tyga', 'Anuel AA', 'Nick Jonas', 'Alicia Keys']",45,dance pop
+377,Nicole Scherzinger,pop,"['Diddy', 'Avant', 'The Pussycat Dolls', '50 Cent', 'A.R. Rahman']",5,dance pop
+378,Olivia,pop,['50 Cent'],1,pop
+379,Nicole Wray,pop,"['Kid Cudi', 'Chip Tha Ripper']",2,pop
+380,Nightly,pop,['ayokay'],1,pop
+381,Nina Sky,pop,"['Lumidee', 'Fat Joe', 'Statik Selektah', 'Daddy Yankee', 'Action Bronson']",5,pop
+382,NoMBe,pop,['Thutmose'],1,pop
+383,Noah Cyrus,pop,"['Labrinth', 'Juliander']",2,pop
+384,Norma Jean Martine,pop,['Lost Kings'],1,pop
+385,Normani,pop,['Sam Smith'],1,dance pop
+386,OB OBrien,pop,"['Preme', 'Drake']",2,pop
+387,OMI,pop,['Felix Jaehn'],1,dance pop
+388,Oh Wonder,pop,['Nicki Minaj'],1,pop
+389,Oliver Nelson,pop,['Niall Horan'],1,pop
+390,R5,pop,['Ross Lynch'],1,pop
+391,RANI,pop,['Sam Feldt'],1,pop
+392,Sebastian Yatra,pop,"['Reik', 'Nacho', 'Juan Magán', 'Lalo Ebratt', 'Guaynaa', 'Rauw Alejandro', 'Dalmata', 'Mau y Ricky', 'Cosculluela', 'Manuel Turizo', 'Danna Paola', 'Wisin']",12,pop
+393,Salt-N-Pepa,pop,['En Vogue'],1,dance pop
+394,SHAED,pop,['ZAYN'],1,pop
+395,SHAUN,pop,"['Sam Feldt', 'Conor Maynard']",2,pop
+396,SHY Martin,pop,"['NOTD', 'Boy In Space']",2,pop
+397,SIX60,pop,['Drax Project'],1,pop
+398,SOYEON of (G)I-DLE,pop,"['Becky G', 'Thutmose', 'Keke Palmer']",3,pop
+399,SZA,pop,"['Wale', 'Calvin Harris', 'Maroon 5', 'DRAM', 'Rihanna', 'Cardi B', 'Pharrell Williams', 'Lorde', 'Ty Dolla $ign', 'DJ Khaled']",10,pop
+400,Sabrina Carpenter,pop,"['Farruko', 'Zara Larsson', 'Sofia Carson']",3,dance pop
+401,Sachin-Jigar,pop,['Shreya Ghoshal'],1,pop
+402,Sage The Gemini,pop,"['Flo Rida', 'Future', 'Adrian Marcel', 'Justin Bieber']",4,dance pop
+403,Salim Merchant,pop,"['Neeti Mohan', 'Vishal-Shekhar', 'Shreya Ghoshal', 'Salim–Sulaiman', 'Sonu Nigam']",5,pop
+404,Salim–Sulaiman,pop,"['Shreya Ghoshal', 'Salim Merchant', 'Sonu Nigam']",3,pop
+405,Sam Feldt,pop,"['SHAUN', 'Conor Maynard', 'Ella Henderson', 'Ava Max', 'AJ Mitchell', 'Sigma', 'RANI']",7,dance pop
+406,SAYGRACE,pop,"['Tate McRae', 'G-Eazy']",2,dance pop
+407,Sam Smith,pop,"['Calvin Harris', 'Normani', 'Demi Lovato']",3,pop
+408,Sam Tsui,pop,"['Christina Grimmie', 'Kurt Hugo Schneider']",2,pop
+409,Sammie,pop,['Soulja Boy'],1,dance pop
+410,Sammy Adams,pop,"['Mike Posner', 'B.o.B']",2,pop
+411,Sandesh Shandilya,pop,['Sonu Nigam'],1,pop
+412,Sara Bareilles,pop,['Jason Mraz'],1,pop
+413,Sasha,pop,['Sean Paul'],1,pop
+414,Sassy,pop,['Tech N9ne'],1,pop
+415,Sean Garrett,pop,['Nicki Minaj'],1,pop
+416,Sean Kingston,pop,"['Chris Brown', 'Natasha Bedingfield', 'Wiz Khalifa', 'Nicki Minaj']",4,dance pop
+417,Sean Paul,pop,"['Clean Bandit', 'Lil Jon', 'Simple Plan', 'Farruko', 'Youngbloodz', 'Cherish', 'J Balvin', 'Enrique Iglesias', 'Keyshia Cole', 'Busta Rhymes', 'Blu Cantrell', 'Sasha', 'Pitbull', 'Anne-Marie', 'Little Mix', 'Rihanna', 'T-Pain']",17,dance pop
+418,SEUNGRI,pop,['Julie Bergan'],1,pop
+419,Ryan,pop,"['High School Musical Cast', 'Troy']",2,dance pop
+420,RAYE,pop,['Jax Jones'],1,dance pop
+421,Rex Orange County,pop,"['Benny Sings', 'Anna of the North']",2,pop
+422,RBD,pop,"['Anahí', 'Maite Perroni', 'Dulce María', 'Christian Chávez', 'Christopher von Uckermann']",5,pop
+423,REI AMI,pop,['Sub Urban'],1,pop
+424,RHODES,pop,['Birdy'],1,pop
+425,RKCB,pop,['gnash'],1,pop
+426,ROZES,pop,"['Logic', 'The Chainsmokers']",2,pop
+427,Ra Ra Riot,pop,['Rostam'],1,pop
+428,Rags Cast,pop,['MAX'],1,pop
+429,Rah Digga,pop,"['Mary J. Blige', 'Busta Rhymes']",2,pop
+430,Rauw Alejandro,pop,"['Arcangel', 'Lenny Tavárez', 'Nicky Jam', 'Yandel', 'Justin Quiles', 'Wisin & Yandel', 'Camilo', 'Ozuna', 'Sech', 'Noriel', 'Alex Rose', 'Cosculluela', 'Sebastian Yatra', 'J Balvin', 'Dalex', 'Darell', 'Nio Garcia', 'Tainy', 'Zion & Lennox', 'Farruko', 'Bryant Myers', 'Casper Magico', 'Lalo Ebratt', 'Dalmata', 'Randy', 'Anuel AA', 'Natti Natasha', 'Dímelo Flow']",28,pop
+431,Ray J,pop,['New Boyz'],1,pop
+432,Rayvon,pop,['Shaggy'],1,pop
+433,Ricky Martin,pop,"['Farruko', 'Daddy Yankee', 'Natalia Jiménez', 'Jennifer Lopez', 'Tommy Torres', 'Christina Aguilera', 'Wisin']",7,dance pop
+434,Ruelle,pop,['NF'],1,pop
+435,Rihanna,pop,"['Chris Brown', 'Wale', 'PARTYNEXTDOOR', 'N.E.R.D', 'T.I.', 'Jeezy', 'Kendrick Lamar', 'Bryson Tiller', 'Pharrell Williams', 'Britney Spears', 'SZA', 'Shakira', 'Nicki Minaj', 'Sean Paul', 'DJ Khaled', 'Mike WiLL Made-It']",16,pop
+436,Rita Ora,pop,"['Chris Brown', 'Jonas Blue', 'Iggy Azalea']",3,dance pop
+437,Robin Schulz,pop,"['Lilly Wood and The Prick', 'Mr. Probz', 'Francesco Yates', 'Jasmine Thompson', 'Alida']",5,dance pop
+438,Robin Thicke,pop,"['Flo Rida', 'Lil Wayne', 'T.I.', 'Pharrell Williams']",4,dance pop
+439,Robyn,pop,['Kleerup'],1,pop
+440,Romy Dya,pop,"['David Guetta', 'Jamie Scott']",2,pop
+441,Ross Lynch,pop,"['Jordan Fisher', 'R5']",2,pop
+442,Rostam,pop,['Ra Ra Riot'],1,pop
+443,Rotimi,pop,['Wale'],1,pop
+444,Rudimental,pop,"['Jess Glynne', 'Ella Eyre', 'Ed Sheeran', 'Macklemore']",4,dance pop
+445,Ruel,pop,['GRACEY'],1,pop
+446,GASHI,pop,['G-Eazy'],1,pop
+447,オメガトライブ,pop,['Kiyotaka Sugiyama'],1,pop
+448,Dan Black,pop,['Kid Cudi'],1,pop
+449,Wild Belle,pop,['Major Lazer'],1,pop
+450,Annie Lennox,pop,['Dave Stewart'],1,pop
+451,Annika Wells,pop,"['K/DA', 'TWICE', 'Jon Bellion']",3,pop
+452,Big Data,pop,"['Oliver', 'Joywave']",2,pop
+453,*NSYNC,pop,"['Lisa ""Left Eye"" Lopes', 'Gloria Estefan', 'Nelly']",3,dance pop
+454,(G)I-DLE,pop,"['Lexie Liu', 'Jaira Burns', 'Madison Beer', 'K/DA', 'Bea Miller']",5,pop
+455,Yera,pop,"['Skinny Happy', 'Lalo Ebratt']",2,pop
+456,Céline Dion,pop,['Il Divo'],1,pop
+457,Travis Mendes,pop,['Jon Bellion'],1,pop
+458,Ariana Grande,pop,"['Lizzo', 'Lady Gaga', 'Lil Wayne', 'Justin Bieber', 'Victoria Justice', 'Troye Sivan', '2 Chainz', 'Iggy Azalea', 'Big Sean', 'Lana Del Rey', 'Victorious Cast', 'Social House', 'Mac Miller', 'Ty Dolla $ign', 'Miley Cyrus', 'A$AP Ferg']",16,pop
+459,Thalía,pop,"['Natti Natasha', 'Pedro Capó']",2,dance pop
+460,DJ Felli Fel,pop,"['Diddy', 'Ludacris', 'Lil Jon', 'Fabolous', 'Jermaine Dupri', 'Akon']",6,pop
+461,DJ Friz,pop,['HEIZE'],1,pop
+462,DJ Khaled,pop,"['Ludacris', 'Lil Baby', 'Wiz Khalifa', 'Drake', 'Bryson Tiller', 'T-Pain', 'Jennifer Lopez', 'Chris Brown', 'Justin Bieber', 'Cardi B', '2 Chainz', '21 Savage', 'Nicki Minaj', 'Lil Wayne', 'J Balvin', 'JAY-Z', 'SZA', 'Quavo', 'Rihanna', 'Beyoncé', 'French Montana', 'Big Sean', 'T.I.', 'August Alsina']",24,dance pop
+463,TINI,pop,['Reik'],1,pop
+464,DJ Snake,pop,"['Lil Jon', 'Ozuna', 'Sech', 'J Balvin', 'Nicky Jam', 'Major Lazer', 'Cardi B', 'Justin Bieber', 'AlunaGeorge', 'Bipolar Sunshine', 'Darell', 'Tyga', 'Selena Gomez', 'Lauv', 'Natti Natasha']",15,dance pop
+465,Stephanie Poetri,pop,"['Jackson Wang', '88rising']",2,pop
+466,5 Seconds of Summer,pop,"['Julia Michaels', 'The Chainsmokers', 'Seeb']",3,dance pop
+467,Cuco,pop,['Clairo'],1,pop
+468,Crush,pop,['Jeff Bernat'],1,pop
+469,Anne-Marie,pop,"['Clean Bandit', 'James Arthur', 'Lauv', 'Sean Paul']",4,dance pop
+470,Cisco Adler,pop,['Shwayze'],1,pop
+471,City Girls,pop,"['Layton Greene', 'Lil Baby', 'Lil Wayne', 'Mulatto', 'Quality Control', 'Cardi B', 'DaBaby', 'French Montana', 'Quavo', 'Cousin Stizz', 'Jack Harlow']",11,pop
+472,Clairo,pop,"['Wallows', 'Cuco', 'Rejjie Snow']",3,pop
+473,Clean Bandit,pop,"['Jess Glynne', 'Louisa', 'Zara Larsson', 'Mabel', 'Julia Michaels', 'Anne-Marie', 'Demi Lovato', 'Sean Paul']",8,dance pop
+474,Big Wild,pop,"['Tove Styrke', 'Talib Kweli', 'GRiZ']",3,pop
+475,Big Time Rush,pop,"['Iyaz', 'Jordin Sparks']",2,dance pop
+476,Angela Chang,pop,['Christine Fan'],1,pop
+477,Anna Clendening,pop,['Kurt Hugo Schneider'],1,pop
+478,Cobra Starship,pop,['Leighton Meester'],1,dance pop
+479,Anna Margaret,pop,['Christopher Wilde'],1,pop
+480,Cody Simpson,pop,['Flo Rida'],1,pop
+481,Conor Maynard,pop,"['SHAUN', 'Sam Feldt']",2,dance pop
+482,Corbin Bleu,pop,"['Ashley Tisdale', 'Vanessa Hudgens', 'Lucas Grabeel', 'Hannah Montana', 'High School Musical Cast']",5,pop
+483,Coti,pop,"['Paulina Rubio', 'Julieta Venegas']",2,pop
+484,Anna of the North,pop,['Rex Orange County'],1,pop
+485,DNCE,pop,['Hailee Steinfeld'],1,dance pop
+486,Bhad Bhabie,pop,"['Tory Lanez', 'Lil Yachty', 'Lil Baby']",3,pop
+487,Becky G,pop,"['Myke Towers', 'Thutmose', 'Ozuna', 'Farruko', 'Sech', 'Nicky Jam', 'SOYEON of (G)I-DLE', 'Daddy Yankee', 'Keke Palmer', 'DJ Luian', 'Pitbull', 'j-hope', 'Cher Lloyd', 'Bad Bunny', 'Anuel AA', 'Guaynaa', 'will.i.am']",17,dance pop
+488,Demi Lovato,pop,"['Clean Bandit', 'Hot Chelle Rae', 'We The Kings', 'Meaghan Martin', 'Jonas Brothers', 'Luis Fonsi', 'Joe Jonas', 'Cheat Codes', 'Sam Smith', 'Selena Gomez', 'Cher Lloyd', 'Nick Jonas', 'The Vamps', 'Olly Murs']",14,dance pop
+489,Deborah Cox,pop,['Whitney Houston'],1,pop
+490,Au/Ra,pop,"['Tomine Harket', 'Jax Jones']",2,pop
+491,Belinda,pop,"['Juan Magán', 'Lalo Ebratt', 'The Cheetah Girls', 'Lapiz Conciente', 'Horacio Palencia']",5,dance pop
+492,Morgan St. Jean,pop,['Loud Luxury'],1,pop
+493,August Alsina,pop,"['Future', 'Lil Wayne', 'B.o.B', 'Curren$y', 'Nicki Minaj', 'Trey Songz', 'DJ Khaled', 'Trinidad James']",8,dance pop
+494,Morat,pop,"['Alejandro Fernández', 'Juanes']",2,pop
+495,Mohombi,pop,"['Shaggy', 'Costi']",2,dance pop
+496,Mike Bahía,pop,['Danny Ocean'],1,pop
+497,Arijit Singh,pop,['Shreya Ghoshal'],1,pop
+498,Desiigner,pop,"['2 Chainz', 'Big Sean', 'Gucci Mane', 'Quavo', 'BTS']",5,pop
+499,Devon Baldwin,pop,['G-Eazy'],1,pop
+500,Devvon Terrell,pop,"['Futuristic', 'Kid Quill', 'Mark Battles']",3,pop
+501,Majical Cloudz,pop,['Grimes'],1,pop
+502,Becky Hill,pop,['MK'],1,dance pop
+503,Diddy,pop,"['Ludacris', 'B2K', 'Jagged Edge', 'The LOX', 'DJ Felli Fel', 'Black Rob', 'Nicole Scherzinger', 'Mr. Cheeks', 'Usher', '50 Cent', 'Baby', 'Missy Elliott', 'Ginuwine', 'Cassie', 'Lil Jon', 'Fabolous', 'Jermaine Dupri', 'Pharrell Williams', 'Akon', 'Nipsey Hussle', 'Yung Joc', 'Keyshia Cole', 'Christina Aguilera']",23,dance pop
+504,Diddy - Dirty Money,pop,"['Nicki Minaj', 'T.I.']",2,pop
+505,Party Pupils,pop,"['Ashe', 'Hayley Kiyoko']",2,pop
+506,Quin,pop,['G-Eazy'],1,pop
+507,Daya,pop,"['Gryffin', 'The Chainsmokers']",2,dance pop
+508,Benny Sings,pop,['Rex Orange County'],1,pop
+509,Ashanti,pop,"['Fabolous', 'Fat Joe', 'Big Pun', 'DaBaby', 'T.I.', 'Ja Rule', 'Jagged Edge', 'Nelly', 'Akon', 'Charli Baltimore', 'Vita']",11,dance pop
+510,Ashe,pop,"['Niall Horan', 'MAX', 'Party Pupils']",3,pop
+511,Skinny Happy,pop,"['Yera', 'Lalo Ebratt']",2,pop
+512,Ashley Tisdale,pop,"['Vanessa Hudgens', 'Corbin Bleu', 'High School Musical Cast']",3,dance pop
+513,BloodPop®,pop,"['Justin Bieber', 'Hailee Steinfeld']",2,pop
+514,Dana Williams,pop,"['Aminé', 'Rejjie Snow']",2,pop
+515,Sammy,pop,"['Super Yei', 'Myke Towers', 'Lenny Tavárez']",3,pop
+516,DaniLeigh,pop,"['Chris Brown', 'Lil Baby', 'DaBaby', 'G-Eazy']",4,pop
+517,Beyoncé,pop,"['Childish Gambino', 'J. Cole', 'Justin Timberlake', 'Ed Sheeran', 'Arrow Benjamin', 'Lil Wayne', 'J Balvin', 'Bun B', 'Drake', 'Missy Elliott', 'Kendrick Lamar', 'Usher', 'André 3000', 'Shakira', 'DJ Khaled']",15,dance pop
+518,Daniel Blume,pop,['Cheat Codes'],1,pop
+519,Ashnikko,pop,"['Grimes', 'Kodie Shane']",2,pop
+520,Astrid S,pop,"['Matoma', 'NOTD']",2,dance pop
+521,Astronomyy,pop,['Billie Eilish'],1,pop
+522,Dave Stewart,pop,['Annie Lennox'],1,pop
+523,David Guetta,pop,"['Ludacris', 'Jamie Scott', 'Bebe Rexha', 'Kelly Rowland', 'Fergie', 'Justin Bieber', 'Loote', 'Daddy Yankee', 'LMFAO', 'Romy Dya', 'Akon', 'Nicki Minaj', 'Kid Cudi', 'Natti Natasha']",14,dance pop
+524,Ciara,pop,"['Ludacris', 'Justin Timberlake', 'Field Mob', 'Jazze Pha', 'T.I.', 'Jeezy', '50 Cent', 'Tiffany Evans', 'Bow Wow']",9,dance pop
+525,Billie Eilish,pop,"['GOLDHOUSE', 'Astronomyy', 'blackbear', 'Justin Bieber', 'Sofi Tukker', 'Vince Staples', 'Marian Hill']",7,pop
+526,Christopher von Uckermann,pop,"['Anahí', 'Maite Perroni', 'Dulce María', 'Christian Chávez', 'RBD']",5,pop
+527,Aluna,pop,['K/DA'],1,pop
+528,Alexander 23,pop,['Chelsea Cutler'],1,pop
+529,Blonde,pop,['Alex Newell'],1,pop
+530,BlocBoy JB,pop,"['88rising', 'A$AP Rocky', 'Drake']",3,pop
+531,By2,pop,['Silence Wang'],1,pop
+532,Alex Newell,pop,"['Jess Glynne', 'Blonde']",2,dance pop
+533,Akon,pop,"['Ludacris', 'Wisin & Yandel', 'DJ Felli Fel', 'Scarface', 'Eminem', 'Chris Brown', 'Zion', 'Obie Trice', 'Michael Jackson', 'Kardinal Offishall', '50 Cent', 'David Guetta', 'Lil Wayne', 'David Banner', 'Ashanti', 'The Notorious B.I.G.', 'Nelly', 'Styles P', 'Gwen Stefani', 'Diddy', 'Lil Jon', 'Flo Rida']",22,dance pop
+534,Aitana,pop,['Katy Perry'],1,pop
+535,AlunaGeorge,pop,['DJ Snake'],1,pop
+536,Christopher Wilde,pop,['Anna Margaret'],1,dance pop
+537,CVBZ,pop,['Cheat Codes'],1,pop
+538,Adriana Proenza,pop,['Kina'],1,pop
+539,Adrian Marcel,pop,['Sage The Gemini'],1,pop
+540,Calvin Harris,pop,"['Migos', 'Kelis', 'Ellie Goulding', 'Katy Perry', 'Example', 'Florence + The Machine', 'Ayah Marar', 'Future', 'Florence Welch', 'Lil Yachty', 'Sam Smith', 'Hurts', 'Kehlani', 'Dua Lipa', 'John Newman', 'SZA', 'HAIM', 'Big Sean', 'Pharrell Williams', 'Tinie Tempah']",20,dance pop
+541,Camila Cabello,pop,"['Ed Sheeran', 'Young Thug', 'J Balvin', 'Major Lazer', 'Daddy Yankee', 'DaBaby', 'Bazzi', 'Pitbull', 'Cardi B', 'Shawn Mendes', 'Machine Gun Kelly', 'Quavo', 'Mark Ronson']",13,dance pop
+542,Adina Howard,pop,['Jamie Fox'],1,pop
+543,Camilo,pop,"['Lunay', 'Ozuna', 'Farruko', 'Reik', 'Rauw Alejandro', 'Mau y Ricky', 'Shakira', 'Manuel Turizo', 'Pablo Alborán', 'Pedro Capó']",10,pop
+544,Bryce Vine,pop,"['Loud Luxury', 'Grady']",2,pop
+545,Bryce Fox,pop,['StayLoose'],1,pop
+546,Bruno Mars,pop,"['Ed Sheeran', 'Lil Wayne', 'Major Lazer', 'Wiz Khalifa', 'Tyga', 'Bad Meets Evil', 'Gucci Mane', 'Travie McCoy', 'CeeLo Green', 'Mark Ronson']",10,dance pop
+547,Brooke Valentine,pop,"['Big Boi', 'Lil Jon']",2,pop
+548,Alicia Keys,pop,"['Adam Levine', 'Drake', 'Usher', 'Maxwell', 'JAY-Z', 'Nicki Minaj', 'Miguel']",7,pop
+549,Blue Swede,pop,['Björn Skifs'],1,pop
+550,Bob Sinclar,pop,['Magic System'],1,dance pop
+551,Bobby Brown,pop,['Ja Rule'],1,dance pop
+552,Alice Chater,pop,['Iggy Azalea'],1,pop
+553,Bobby V.,pop,"['Lil Wayne', 'Ludacris', 'Timbaland']",3,dance pop
+554,Aloe Blacc,pop,['Young Bombs'],1,pop
+555,Ali,pop,['Nelly'],1,pop
+556,Bow Wow,pop,"['Chris Brown', 'Omarion', 'Ciara', 'Fabolous', 'Xscape', 'Dem Franchize Boyz', 'Jagged Edge', 'T-Pain']",8,dance pop
+557,Boy In Space,pop,['SHY Martin'],1,pop
+558,Brandi Carlile,pop,['Natalie Hemby'],1,pop
+559,Brando,pop,"['Pitbull', 'Nicky Jam', 'Loud Luxury']",3,dance pop
+560,Brandy,pop,"['Chris Brown', 'Queen Latifah', 'MC Lyte', 'Yo Yo']",4,dance pop
+561,Bridgit Mendler,pop,"['Hayley Kiyoko', 'Naomi Scott']",2,dance pop
+562,Britney Spears,pop,"['will.i.am', 'Pharrell Williams', 'Ying Yang Twins', 'Madonna', 'Rihanna', 'G-Eazy']",6,dance pop
+563,Blackstreet,pop,"['Mýa', 'Queen Pen']",2,dance pop
+564,Captain Cuts,pop,"['Felix Jaehn', 'NOTD', 'Georgia Ku']",3,pop
+565,Adam Levine,pop,"['Gym Class Heroes', 'Alicia Keys']",2,pop
+566,Cher Lloyd,pop,"['Demi Lovato', 'Becky G', 'T.I.']",3,dance pop
+567,Björn Skifs,pop,['Blue Swede'],1,pop
+568,Chinmayi,pop,['A.R. Rahman'],1,pop
+569,Birdy,pop,['RHODES'],1,pop
+570,Chris Brown,pop,"['DaniLeigh', 'Ludacris', 'Jordin Sparks', 'Young Thug', 'Sevyn Streeter', 'New Boyz', 'Busta Rhymes', 'Pitbull', 'Gucci Mane', 'Jacquees', 'Wisin & Yandel', 'Gunna', 'Bow Wow', 'Tee Grizzley', 'Omarion', 'Pia Mia', 'Future', 'Justin Bieber', 'Rita Ora', '2 Chainz', 'Usher', 'Brandy', 'Keri Hilson', 'Joyner Lucas', 'DJ Khaled', 'G-Eazy', '50 Cent', 'Meek Mill', 'Summer Walker', 'Lil Wayne', 'David Banner', 'Sean Kingston', 'Lil Mama', 'Kendrick Lamar', 'Kid Ink', 'André 3000', 'ZAYN', 'Ella Mai', 'Ink', 'Rihanna', 'Aaliyah', 'Miguel', 'London On Da Track', 'Akon', 'KYLE']",45,dance pop
+571,A7S,pop,['Lil Baby'],1,pop
+572,A.R. Rahman,pop,"['Nicole Scherzinger', 'Naresh Iyer', 'The Pussycat Dolls', 'Javed Ali', 'Mohit Chauhan', 'Chinmayi']",6,pop
+573,Bipolar Sunshine,pop,"['Gryffin', 'DJ Snake']",2,pop
+574,Chrisette Michele,pop,"['Musiq Soulchild', 'Drake']",2,pop
+575,Christian Chávez,pop,"['Anahí', 'Maite Perroni', 'Dulce María', 'Christopher von Uckermann', 'RBD']",5,pop
+576,Christina Aguilera,pop,"['Diddy', 'Maroon 5', 'Redman', 'Ricky Martin', 'Alejandro Fernández', 'P!nk', 'Luis Fonsi', 'Mýa', 'Pitbull']",9,dance pop
+577,Binomio de Oro de América,pop,['Jorge Celedón'],1,pop
+578,Christina Grimmie,pop,"['Sam Tsui', 'Kurt Hugo Schneider']",2,dance pop
+579,Christina Milian,pop,"['Fabolous', 'Ja Rule']",2,dance pop
+580,Christina Perri,pop,['Ed Sheeran'],1,dance pop
+581,Christine Fan,pop,['Angela Chang'],1,pop
+582,Chiddy Bang,pop,"['Wiz Khalifa', 'Big Sean', 'Icona Pop', 'Olly Murs']",4,pop
+583,Chelsea Cutler,pop,"['Alexander 23', 'Quinn XCII']",2,pop
+584,Cardi B,pop,"['Arcangel', 'Maroon 5', 'A$AP Rocky', 'Ed Sheeran', 'Camila Cabello', 'Jennifer Lopez', 'Ozuna', '21 Savage', 'DJ Snake', 'Nicki Minaj', 'DJ Khaled', 'Kehlani', 'G-Eazy', 'Meek Mill', 'Myke Towers', 'City Girls', 'Anuel', 'SZA', 'Selena Gomez', 'Bad Bunny', 'French Montana', 'BLACKPINK', 'Chris Jeday', 'Rvssian']",24,pop
+585,Cheat Codes,pop,"['Maggie Lindemann', 'CVBZ', 'Demi Lovato', 'Daniel Blume']",4,dance pop
+586,Amber Coffman,pop,"['J. Cole', 'Major Lazer']",2,pop
+587,Carl Thomas,pop,['Faith Evans'],1,dance pop
+588,Carly Rae Jepsen,pop,['Gryffin'],1,pop
+589,Cashmere Cat,pop,"['Ludacris', 'Wiz Khalifa']",2,dance pop
+590,Anahí,pop,"['Maite Perroni', 'Dulce María', 'Christian Chávez', 'Christopher von Uckermann', 'RBD']",5,dance pop
+591,Cassie,pop,"['Diddy', 'Machine Gun Kelly', 'Nicki Minaj', 'Yung Joc']",4,dance pop
+592,Aaliyah,pop,['Chris Brown'],1,dance pop
+593,AUGUST 08,pop,"['Higher Brothers', 'Rich Brian', '88rising']",3,pop
+594,AJ Mitchell,pop,"['Ava Max', 'Sam Feldt']",2,pop
+595,Charice,pop,['Iyaz'],1,dance pop
+596,Black Eyed Peas,pop,"['J Balvin', 'Ozuna']",2,dance pop
+597,Charlene Choi,pop,['JJ Lin'],1,pop
+598,Charli Baltimore,pop,"['Vita', 'Ashanti', 'Ja Rule']",3,pop
+599,Charli XCX,pop,"['Icona Pop', 'BTS', 'Troye Sivan']",3,pop
+600,Charlie Puth,pop,"['Meghan Trainor', 'blackbear', 'Lil Wayne', 'Wiz Khalifa', 'Lennon Stella', 'Little Mix', 'Selena Gomez', 'Kehlani']",8,dance pop
+601,Dido,pop,['Eminem'],1,dance pop
+602,Blu Cantrell,pop,"['Sean Paul', 'Foxy Brown']",2,pop
+603,Costi,pop,"['Shaggy', 'Mohombi']",2,pop
+604,Bazzi,pop,"['Camila Cabello', '21 Savage']",2,pop
+605,Elena Coats,pop,['We The Kings'],1,pop
+606,El Canto Del Loco,pop,['Natalia Lafourcade'],1,pop
+607,Edward Maya,pop,['Vika Jigulina'],1,pop
+608,Feid,pop,"['Lenny Tavárez', 'Cazzu', 'Rich Music LTD', 'J Balvin', 'Dalex', 'KHEA']",6,pop
+609,Ed Sheeran,pop,"['Future', 'Rudimental', 'Macklemore & Ryan Lewis', 'Justin Bieber', 'Cardi B', 'Bruno Mars', 'Christina Perri', 'Taylor Swift', 'Tori Kelly', 'Yebba', 'Beyoncé', 'Camila Cabello', '50 Cent']",13,pop
+610,Felix Jaehn,pop,"['Captain Cuts', 'Nea', 'Georgia Ku', 'NOTD', 'OMI']",5,dance pop
+611,Felly,pop,['MAX'],1,pop
+612,Fergie,pop,"['David Guetta', 'Ludacris', 'Q-Tip', 'Daddy Yankee', 'LMFAO', 'will.i.am']",6,dance pop
+613,Eason Chan,pop,['Faye Wong'],1,pop
+614,Avril Lavigne,pop,['Lil Mama'],1,pop
+615,EDEN,pop,['gnash'],1,pop
+616,Avant,pop,"['Nicole Scherzinger', 'Ying Yang Twins']",2,dance pop
+617,Ava Max,pop,"['AJ Mitchell', 'Sam Feldt', 'Witt Lowry']",3,dance pop
+618,Fifth Harmony,pop,"['Kid Ink', 'Ty Dolla $ign', 'Gucci Mane']",3,dance pop
+619,Horacio Palencia,pop,"['Belinda', 'Lalo Ebratt']",2,pop
+620,Bas,pop,"['Joey Bada$$', 'EARTHGANG', 'Dreamville', 'Kota the Friend', 'JID', 'A$AP Ferg', '50 Cent']",7,pop
+621,Dulce María,pop,"['Anahí', 'Maite Perroni', 'Christian Chávez', 'Christopher von Uckermann', 'RBD']",5,pop
+622,Chiddy,pop,['Hoodie Allen'],1,pop
+623,Chandler Kinney,pop,"['Meg Donnelly', 'Baby Ariel']",2,pop
+624,Bastille,pop,['Seeb'],1,pop
+625,Duke Dumont,pop,['Jax Jones'],1,dance pop
+626,Bryce Hall,pop,['Josh Richards'],1,pop
+627,Jake Miller,pop,['Travie McCoy'],1,dance pop
+628,Ella Eyre,pop,"['Sigala', 'Rudimental']",2,dance pop
+629,Faye Wong,pop,['Eason Chan'],1,pop
+630,Ella Henderson,pop,['Sam Feldt'],1,dance pop
+631,Enrique Iglesias,pop,"['Ludacris', 'Zion & Lennox', 'Nicky Jam', 'Yandel', 'Usher', 'Wisin & Yandel', 'Anuel AA', 'Sean Paul', 'Wisin']",9,dance pop
+632,Erin,pop,['Lyfe Jennings'],1,pop
+633,BENEE,pop,['Gus Dapperton'],1,pop
+634,B2K,pop,"['Fabolous', 'Diddy']",2,dance pop
+635,GRACEY,pop,['Ruel'],1,pop
+636,Louisa,pop,['Clean Bandit'],1,pop
+637,Example,pop,['Calvin Harris'],1,dance pop
+638,FRENSHIP,pop,['Emily Warren'],1,pop
+639,FRND,pop,['blackbear'],1,pop
+640,Fabolous,pop,"['B2K', 'Busta Rhymes', 'Jagged Edge', 'DJ Felli Fel', 'T-Pain', 'Bow Wow', 'DJ Clue', 'The Dream', 'Mariah Carey', 'Meek Mill', 'Lil Wayne', 'Ashanti', 'The Notorious B.I.G.', 'André 3000', 'Tory Lanez', 'Diddy', 'Lumidee', 'Jermaine Dupri', 'Christina Milian', 'T.I.', 'Anuel AA']",21,dance pop
+641,DreamDoll,pop,['G-Eazy'],1,pop
+642,En Vogue,pop,['Salt-N-Pepa'],1,dance pop
+643,Ella Mai,pop,"['Chris Brown', 'Usher', 'Ty Dolla $ign', 'Meek Mill']",4,pop
+644,Diane Coffee,pop,['Run The Jewels'],1,pop
+645,Grady,pop,['Bryce Vine'],1,pop
+646,DRAM,pop,"['Cousin Stizz', 'SZA', 'Lil Yachty']",3,pop
+647,Faith Evans,pop,"['112', 'Carl Thomas', 'Loon', 'Whitney Houston', 'Kelly Price', 'JAY-Z']",6,dance pop
+648,Emily Warren,pop,"['Lost Kings', 'The Chainsmokers', 'FRENSHIP']",3,pop
+649,Fantasia,pop,['Missy Elliott'],1,dance pop
+650,Emeli Sandé,pop,['Labrinth'],1,dance pop
+651,BLACKPINK,pop,"['Dua Lipa', 'Lady Gaga', 'Cardi B', 'Selena Gomez']",4,pop
+652,Ellie Goulding,pop,"['Calvin Harris', 'Major Lazer', 'blackbear']",3,dance pop
+653,Elley Duhé,pop,['Gryffin'],1,pop
+654,Duke,pop,['Young Thug'],1,dance pop
+655,Evaluna Montaner,pop,['Ricardo Montaner'],1,pop
+656,Florence Welch,pop,"['Calvin Harris', 'A$AP Rocky']",2,pop
+657,Dixie D’Amelio,pop,"['Liam Payne', 'blackbear']",2,pop
+658,Alkilados,pop,"['El Roockie', 'Nicky Jam', 'J Alvarez']",3,pop
+659,Andreas Moss,pop,['NF'],1,pop
+660,Leessang,pop,['Jung In'],1,pop
+661,Beck,pop,['Gorillaz'],1,dance pop
+662,Dru Hill,pop,"['Kool Moe Dee', 'Jermaine Dupri']",2,dance pop
+663,Bebe Rexha,pop,"['David Guetta', 'Lil Wayne', 'Kid Ink', 'Jax Jones', 'Machine Gun Kelly', 'Nicki Minaj', 'Ty Dolla $ign', 'Louis Tomlinson', 'Nico & Vinz']",9,dance pop
+664,Joshua Bassett,pop,['Olivia Rodrigo'],1,pop
+665,Austin Mahone,pop,"['Flo Rida', 'Pitbull']",2,dance pop
+666,Baby Ariel,pop,['Chandler Kinney'],1,pop
+667,Drax Project,pop,"['SIX60', 'Hailee Steinfeld']",2,pop
+668,BTS,pop,"['Jason Derulo', 'Jawsh 685', 'Charli XCX', 'Desiigner', 'Halsey']",5,pop
+669,Florence + The Machine,pop,['Calvin Harris'],1,pop
+670,Arrow Benjamin,pop,['Beyoncé'],1,pop
+671,Drake Bell,pop,['Miranda Cosgrove'],1,pop
+672,Jung In,pop,['Leessang'],1,pop
+673,Kyle,pop,"['Hoodie Allen', 'Marc E. Bassy', 'blackbear']",3,pop
+674,Dolly Parton,pop,['Mr. Probz'],1,pop
+675,Asian Doll,pop,['NLE Choppa'],1,pop
+676,Dove Cameron,pop,"['Luke Benward', 'Sofia Carson']",2,pop
+677,Donell Jones,pop,['Big Pun'],1,dance pop
+678,Ayah Marar,pop,['Calvin Harris'],1,pop
+679,Josh Richards,pop,['Bryce Hall'],1,pop
+680,Francesco Yates,pop,['Robin Schulz'],1,pop
+681,Dua Lipa,pop,"['Wale', 'Tainy', 'Calvin Harris', 'J Balvin', 'DaBaby', 'Major Lazer', 'Missy Elliott', 'Madonna', 'Bad Bunny', 'BLACKPINK', 'Miley Cyrus', 'BROCKHAMPTON', 'Mark Ronson']",13,dance pop
+682,Black Bear,pop,['G-Eazy'],1,pop
+683,Bea Miller,pop,"['Jeremy Zucker', '(G)I-DLE', 'K/DA', 'NOTD']",4,dance pop
+684,Flo Rida,pop,"['Robin Thicke', 'Taio Cruz', 'Lady Gaga', 'T-Pain', 'Austin Mahone', 'Wynter Gordon', 'Timbaland', 'Akon', 'Sage The Gemini', 'Cody Simpson', 'LunchMoney Lewis', 'will.i.am', 'Olly Murs']",13,dance pop
+685,Dubb,pop,['Nipsey Hussle'],1,pop
+686,"Héctor ""El Father""",latin,"['Zion', 'Jowell', 'DJ Nelson', 'Voltio', 'Daddy Yankee', 'Tego', 'Randy']",7,reggaeton
+687,Hector,latin,"['Zion', 'Luny Tunes', 'Daddy Yankee', 'Wisin & Yandel']",4,latin
+688,Reik,latin,"['Ozuna', 'Farruko', 'TINI', 'J Balvin', 'Nicky Jam', 'Lalo Ebratt', 'Camilo', 'Manuel Turizo', 'Sebastian Yatra', 'Wisin']",10,latin
+689,Magic,latin,['Youngbloodz'],1,reggaeton
+690,Casper Magico,latin,"['Lenny Tavárez', 'Bryant Myers', 'Ozuna', 'Noriel', 'Alex Rose', 'Nicky Jam', 'Miky Woodz', 'Jhay Cortez', 'Rauw Alejandro', 'Bad Bunny', 'Anuel AA', 'Nengo Flow']",12,reggaeton
+691,Redimi2,latin,['Tercer Cielo'],1,latin
+692,Ñengo Flow,latin,"['Yandel', 'Daddy Yankee', 'De La Ghetto']",3,reggaeton
+693,Chino & Nacho,latin,"['Farruko', 'Daddy Yankee']",2,latin
+694,Ana Torroja,latin,['Aleks Syntek'],1,latin
+695,Noel Schajris,latin,"['Franco De Vita', 'Luis Fonsi', 'Aleks Syntek', 'David Bisbal', 'Leonel García']",5,latin
+696,Gallego,latin,"['Zion & Lennox', 'Tego Calderon', 'Voltio', 'Johnny Prez', 'Daddy Yankee', 'Lennox', 'Ivy Queen', 'Eddie Dee', 'Wiso G']",9,reggaeton
+697,Fania All Stars,latin,"['José Feliciano', 'Adalberto Santiago', 'Ismael Miranda', 'Héctor Lavoe']",4,latin
+698,Chris Jeday,latin,"['Arcangel', 'Ozuna', 'Offset', 'J Balvin', 'Cardi B', 'Anuel']",6,reggaeton
+699,Mau y Ricky,latin,"['Lunay', 'Camilo', 'Manuel Turizo', 'Sebastian Yatra']",4,reggaeton
+700,Yuridia,latin,['Reyli Barba'],1,latin
+701,Hector & Tito,latin,"['Trebol Clan', 'Víctor Manuelle']",2,reggaeton
+702,Nicky Jam,latin,"['Lenny Tavárez', 'Reik', 'Yandel', 'Pitbull', 'J Alvarez', 'El Roockie', 'Shakira', 'Guaynaa', 'Manuel Turizo', 'Zion', 'Loud Luxury', 'Maná', 'Brytiago', 'DJ Snake', 'Cosculluela', 'De La Ghetto', 'Wisin', 'Myke Towers', 'Alkilados', 'Rauw Alejandro', 'Nio Garcia', 'Becky G', 'Enrique Iglesias', 'Casper Magico', 'Alex Gargolas', 'Dalex', 'Rvssian', 'Brando']",28,reggaeton
+703,Héctor & Tito,latin,['Trebol Clan'],1,reggaeton
+704,Ñejo & Dalmata,latin,"['Arcangel', 'J Alvarez']",2,reggaeton
+705,Marcos Brunet,latin,"['Marco Barrientos', 'Lucas Conslie', 'Toma Tu Lugar', 'Yvonne Muñoz']",4,latin
+706,Marco Barrientos,latin,"['Julio Melgar', 'Marcos Brunet', 'Marcela Gandara', 'Yvonne Muñoz']",4,latin
+707,Marcela Gandara,latin,"['Abel Zavala', 'Jesús Adrián Romero', 'Marco Barrientos']",3,latin
+708,Franco De Vita,latin,"['Alejandra Guzman', 'Sin Bandera', 'Kany Garcia', 'Noel Schajris', 'Leonel García']",5,latin
+709,Roberto Orellana,latin,['Blest'],1,latin
+710,Ñejo,latin,"['DJ Nelson', 'Dalmata', 'Bad Bunny']",3,reggaeton
+711,Nio Garcia,latin,"['Myke Towers', 'Lenny Tavárez', 'Ozuna', 'Nicky Jam', 'Bad Bunny', 'Rauw Alejandro', 'Anuel AA']",7,reggaeton
+712,Marc Anthony,latin,"['Pitbull', 'La Quinta Estacion', 'Bad Bunny']",3,latin
+713,Maná,latin,"['Shakira', 'Nicky Jam']",2,latin
+714,"Franco ""El Gorilla""",latin,"['Tego Calderon', 'Yandel', 'Alexis y Fido', 'Wisin & Yandel', 'Cosculluela', 'De La Ghetto']",6,reggaeton
+715,Héctor Lavoe,latin,"['José Feliciano', 'Adalberto Santiago', 'Ismael Miranda', 'Fania All Stars']",4,latin
+716,Yvonne Muñoz,latin,"['Marco Barrientos', 'Marcos Brunet']",2,latin
+717,El Roockie,latin,"['Nicky Jam', 'Alkilados', 'J Alvarez']",3,reggaeton
+718,Noriel,latin,"['Arcangel', 'Ozuna', 'Alex Rose', 'Brytiago', 'De La Ghetto', 'Wisin', 'Myke Towers', 'Lyan', 'Darkiel', 'Miky Woodz', 'Rauw Alejandro', 'Messiah', 'Darell', 'Bad Bunny', 'Nengo Flow', 'Baby Rasta', 'Juhn', 'Casper Magico', 'DJ Luian', 'Jhay Cortez']",20,reggaeton
+719,Abel Zavala,latin,"['Marcela Gandara', 'Jesús Adrián Romero']",2,latin
+720,Myke Towers,latin,"['DJ Nelson', 'Nicky Jam', 'Yandel', 'KAROL G', 'Tempo', 'Manuel Turizo', 'Zion', 'Lunay', 'Noriel', 'Alex Rose', 'Cardi B', 'Brytiago', 'Sammy', 'Wisin', 'Miky Woodz', 'Bad Bunny', 'Nio Garcia', 'Nengo Flow', 'Super Yei', 'Becky G', 'Bryant Myers', 'DJ Luian', 'Jhay Cortez']",23,latin
+721,Reyli Barba,latin,['Yuridia'],1,latin
+722,Alexis y Fido,latin,"['Baby Ranks', 'Franco ""El Gorilla""', 'Zion & Lennox']",3,reggaeton
+723,Sin Bandera,latin,['Franco De Vita'],1,latin
+724,Gringo,latin,"['Plan B', 'Baby Rasta']",2,reggaeton
+725,Ricardo Montaner,latin,"['Evaluna Montaner', 'Blest']",2,latin
+726,Alejandra Guzman,latin,['Franco De Vita'],1,latin
+727,Alejandro Fernández,latin,"['Morat', 'Christina Aguilera']",2,latin
+728,Aleks Syntek,latin,"['Luis Fonsi', 'Noel Schajris', 'David Bisbal', 'Ana Torroja']",4,latin
+729,Alex Gargolas,latin,"['R.K.M & Ken-Y', 'Zion & Lennox', 'Nicky Jam', 'Daddy Yankee', 'Randy']",5,reggaeton
+730,Adalberto Santiago,latin,"['José Feliciano', 'Ismael Miranda', 'Héctor Lavoe', 'Fania All Stars']",4,latin
+731,Natalia Jiménez,latin,['Ricky Martin'],1,latin
+732,Nova y Jory,latin,['Daddy Yankee'],1,reggaeton
+733,Brytiago,latin,"['Arcangel', 'Lenny Tavárez', 'Nicky Jam', 'Lunay', 'Noriel', 'Alex Rose', 'Lyanno', 'Cosculluela', 'Wisin', 'Myke Towers', 'Bad Bunny', 'Nengo Flow', 'Bryant Myers', 'Farruko', 'Baby Rasta', 'Daddy Yankee', 'DJ Luian', 'Dalex']",18,reggaeton
+734,Carlos Baute,latin,['Marta Sánchez'],1,latin
+735,Alex Ubago,latin,['Amaia Montero'],1,latin
+736,Nacho,latin,"['Sebastian Yatra', 'Wisin']",2,reggaeton
+737,Bun B,latin,"['Wale', 'Trouble', 'Big K.R.I.T.', 'Ludacris', 'Lil Wayne', 'Killer Mike', 'M.I.A.', 'Big Sean', 'Jeezy', 'T.I.', 'Drake', 'Beyoncé', 'Lil Jon & The East Side Boyz']",13,reggaeton
+738,Bunbury,latin,['Tulsa'],1,latin
+739,CNCO,latin,"['Yandel', 'Natti Natasha']",2,reggaeton
+740,Baby Ranks,latin,['Alexis y Fido'],1,reggaeton
+741,Blest,latin,"['Ricardo Montaner', 'Roberto Orellana']",2,latin
+742,Gilberto Santa Rosa,latin,['Vico C'],1,latin
+743,Farruko,latin,"['Reik', 'Jay Wheeler', 'Baby Rasta & Gringo', 'Camilo', 'Tempo', 'Manuel Turizo', 'Zion', 'Lunay', 'Sabrina Carpenter', 'Brytiago', 'Sean Paul', 'Chino & Nacho', 'Wisin', 'Rauw Alejandro', 'Darell', 'Kendo', 'Becky G', 'Jadiel', 'Bryant Myers', 'Ricky Martin', 'José Feliciano', 'DJ Luian', 'Dímelo Flow', 'Pedro Capó']",24,reggaeton
+744,Nelly Furtado,latin,"['Juanes', 'Justin Timberlake']",2,latin
+745,Micro TDH,latin,['Piso 21'],1,reggaeton
+746,Zion,latin,"['DJ Nelson', 'Lenny Tavárez', 'Luny Tunes', 'Nicky Jam', 'Yandel', 'Justin Quiles', 'Ken-Y', 'Eddie Dee', 'Wisin & Yandel', 'Jory Boy', 'Sech', 'Héctor ""El Father""', 'Hector', 'Tego', 'Lennox', 'De La Ghetto', 'Myke Towers', 'J Balvin', 'Don Omar', 'Dalex', 'Dyland & Lenny', 'Farruko', 'Voltio', 'Daddy Yankee', 'Akon', 'Anuel AA', 'Natti Natasha']",27,reggaeton
+747,Alex Rose,latin,"['Lenny Tavárez', 'Cazzu', 'Myke Towers', 'Lunay', 'Bryant Myers', 'Noriel', 'Casper Magico', 'Miky Woodz', 'Brytiago', 'Rauw Alejandro', 'Jhay Cortez', 'Anuel AA', 'Nengo Flow']",13,reggaeton
+748,Miguel Bosé,latin,"['Ximena Sariñana', 'Julieta Venegas']",2,latin
+749,Sech,latin,"['Arcangel', 'Becky G', 'Zion', 'Lunay', 'Rich Music LTD', 'Cazzu', 'DJ Snake', 'Bad Bunny', 'Rauw Alejandro', 'Jay Wheeler', 'Natti Natasha', 'Wisin & Yandel', 'Tempo', 'Guaynaa', 'KHEA']",15,reggaeton
+750,Snow Tha Product,latin,"['Wrekonize', 'Tech N9ne', 'Twisted Insane']",3,latin
+751,Miky Woodz,latin,"['Myke Towers', 'Bryant Myers', 'Noriel', 'Alex Rose', 'Justin Quiles', 'Casper Magico', 'Nengo Flow', 'Jhay Cortez', 'Natti Natasha']",9,reggaeton
+752,Natti Natasha,latin,"['Pitbull', 'Manuel Turizo', 'Zion', 'Thalía', 'Lunay', 'Ozuna', 'Sech', 'DJ Snake', 'David Guetta', 'J Balvin', 'Miky Woodz', 'Don Omar', 'Darell', 'Rauw Alejandro', 'Bad Bunny', 'Daddy Yankee', 'DJ Luian', 'CNCO', 'Anuel AA']",19,reggaeton
+753,Amaia Montero,latin,['Alex Ubago'],1,latin
+754,Zion & Lennox,latin,"['Luny Tunes', 'Yandel', 'Johnny Prez', 'Ivy Queen', 'Eddie Dee', 'Alexis y Fido', 'Wisin', 'Noriega', 'Plan B', 'Gallego', 'Don Omar', 'Rauw Alejandro', 'Bad Bunny', 'Wiso G', 'Enrique Iglesias', 'Tego Calderon', 'Voltio', 'Daddy Yankee', 'Alex Gargolas', 'Anuel AA']",20,reggaeton
+755,Calle 13,latin,"['Café Tacvba', 'Rubén Blades', 'Orishas', 'Shakira']",4,reggaeton
+756,Guaynaa,latin,"['Becky G', 'Sech', 'Nicky Jam', 'Ghetto Kids', 'Lele Pons', 'Sebastian Yatra']",6,reggaeton
+757,Gigolo Y La Exce,latin,['Bad Bunny'],1,reggaeton
+758,Bryant Myers,latin,"['Arcangel', 'Myke Towers', 'Farruko', 'Baby Rasta', 'Alex Rose', 'Lyanno', 'Juhn', 'Casper Magico', 'DJ Luian', 'Miky Woodz', 'Brytiago', 'Jhay Cortez', 'Rauw Alejandro', 'Dalex', 'Tempo', 'Nengo Flow', 'Kevin Roldan']",17,reggaeton
+759,Café Tacvba,latin,['Calle 13'],1,latin
+760,Luigi 21 Plus,latin,"['Ozuna', 'DJ Luian']",2,reggaeton
+761,Lyan,latin,"['Baby Rasta', 'Noriel', 'Darkiel', 'Messiah']",4,reggaeton
+762,Super Yei,latin,"['Myke Towers', 'Sammy', 'Lenny Tavárez']",3,reggaeton
+763,Dyland & Lenny,latin,"['Zion', 'Arcangel', 'Luny Tunes']",3,reggaeton
+764,Kevin Roldan,latin,"['Lyanno', 'Bryant Myers']",2,reggaeton
+765,Danna Paola,latin,['Sebastian Yatra'],1,latin
+766,Trebol Clan,latin,"['Noriega', 'Hector & Tito', 'Luny Tunes', 'Don Omar', 'Héctor & Tito']",5,reggaeton
+767,Jhay Cortez,latin,"['Myke Towers', 'Bryant Myers', 'Noriel', 'Alex Rose', 'J Balvin', 'Kali Uchis', 'Casper Magico', 'Miky Woodz', 'Anuel AA', 'Nengo Flow']",10,reggaeton
+768,Jesús Adrián Romero,latin,"['Abel Zavala', 'Marcela Gandara']",2,latin
+769,Dalmata,latin,"['Lalo Ebratt', 'Ñejo', 'Rauw Alejandro', 'Cosculluela', 'Manuel Turizo', 'Sebastian Yatra']",6,reggaeton
+770,Jesse & Joy,latin,['Pablo Alborán'],1,latin
+771,Dalex,latin,"['Zion', 'Lenny Tavárez', 'Rich Music LTD', 'Bryant Myers', 'Nicky Jam', 'Lyanno', 'Feid', 'Juhn', 'Brytiago', 'Rauw Alejandro', 'Anuel AA', 'Dímelo Flow', 'KHEA']",13,reggaeton
+772,Daddy Yankee,latin,"['Arcangel', 'Fergie', 'Yandel', 'Justin Quiles', 'Johnny Prez', 'Kendo Kaponi', 'Ivy Queen', 'Katy Perry', 'KAROL G', 'Eddie Dee', 'Baby Rasta & Gringo', 'Camila Cabello', 'Zion', 'Lunay', 'Héctor ""El Father""', 'Justin Bieber', 'Hector', 'Tego', 'Brytiago', 'Lennox', 'Cosculluela', 'Chino & Nacho', 'David Guetta', 'Nina Sky', 'Gallego', 'Darell', 'Wiso G', 'Nengo Flow', 'Kendo', 'Becky G', 'Lil Jon', 'Nova y Jory', 'Zion & Lennox', 'Tego Calderon', 'Ñengo Flow', 'Voltio', 'Luis Fonsi', 'Ricky Martin', 'Alex Gargolas', 'Randy', 'Natti Natasha']",41,reggaeton
+773,Wisin,latin,"['Arcangel', 'Reik', 'Nicky Jam', 'Nacho', 'Jennifer Lopez', 'Noriel', 'Brytiago', 'Sebastian Yatra', 'De La Ghetto', 'Myke Towers', 'J Balvin', 'Don Omar', 'Bad Bunny', 'Zion & Lennox', 'Farruko', 'Enrique Iglesias', 'Ricky Martin', 'Anuel AA']",18,reggaeton
+774,Wisin & Yandel,latin,"['Luny Tunes', 'T-Pain', 'Jennifer Lopez', 'Zion', 'Chris Brown', 'Sech', 'Hector', 'Tego', 'Cosculluela', '50 Cent', 'De La Ghetto', 'Franco ""El Gorilla""', 'Rauw Alejandro', 'Bad Bunny', 'Enrique Iglesias', 'Tego Calderon', 'Voltio', 'Akon']",18,reggaeton
+775,Tony Dize,latin,"['Arcangel', 'Yandel', 'Ken-Y', 'Don Omar']",4,reggaeton
+776,Darell,latin,"['Arcangel', 'Lenny Tavárez', 'Farruko', 'Noriel', 'J Balvin', 'Daddy Yankee', 'DJ Luian', 'DJ Snake', 'Rauw Alejandro', 'Natti Natasha', 'Nengo Flow']",11,reggaeton
+777,Dímelo Flow,latin,"['Arcangel', 'Lenny Tavárez', 'Farruko', 'Justin Quiles', 'Juhn', 'Rauw Alejandro', 'Anuel AA', 'Dalex']",8,reggaeton
+778,Tommy Torres,latin,['Ricky Martin'],1,latin
+779,La Quinta Estacion,latin,['Marc Anthony'],1,latin
+780,Rubén Blades,latin,['Calle 13'],1,latin
+781,Toma Tu Lugar,latin,"['Lucas Conslie', 'Marcos Brunet']",2,latin
+782,"Tito ""El Bambino""",latin,"['Randy', 'Noriega', 'Luny Tunes']",3,reggaeton
+783,DJ Nelson,latin,"['Zion', 'Arcangel', 'Myke Towers', 'Héctor ""El Father""', 'Ñejo', 'Jay Wheeler', 'Bad Bunny']",7,reggaeton
+784,DJ Luian,latin,"['Becky G', 'Myke Towers', 'Manuel Turizo', 'Bryant Myers', 'Farruko', 'Baby Rasta', 'Natti Natasha', 'J Balvin', 'Noriel', 'Luigi 21 Plus', 'Brytiago', 'Darell', 'Bad Bunny', 'Anuel AA', 'Nengo Flow', 'De La Ghetto']",16,reggaeton
+785,Jay Wheeler,latin,"['DJ Nelson', 'Farruko', 'Sech', 'Tempo']",4,reggaeton
+786,Plan B,latin,"['Zion & Lennox', 'Baby Rasta', 'Tego Calderon', 'Gringo', 'Don Omar']",5,reggaeton
+787,Arcangel,latin,"['DJ Nelson', 'Offset', 'Luny Tunes', 'Yandel', 'Ken-Y', 'Kendo Kaponi', 'J Alvarez', 'Baby Rasta & Gringo', 'Yaga & Mackie', 'Tony Dize', 'Sech', 'Noriel', 'Cardi B', 'Ñejo & Dalmata', 'Brytiago', 'Dímelo Flow', 'Cosculluela', 'Wisin', 'J Balvin', 'Don Omar', 'Rauw Alejandro', 'Anuel', 'Darell', 'Kendo', 'Dyland & Lenny', 'Bryant Myers', 'Baby Rasta', 'Daddy Yankee', 'Randy', 'Anuel AA', 'Chris Jeday', 'Rvssian']",32,reggaeton
+788,Danny Ocean,latin,['Mike Bahía'],1,reggaeton
+789,Kendo Kaponi,latin,"['Arcangel', 'Yandel', 'Daddy Yankee', 'Bad Bunny', 'Anuel AA', 'Nengo Flow']",6,reggaeton
+790,Ximena Sariñana,latin,['Miguel Bosé'],1,latin
+791,Vico C,latin,['Gilberto Santa Rosa'],1,reggaeton
+792,Diego Torres,latin,['Julieta Venegas'],1,latin
+793,Divino,latin,['Ivy Queen'],1,reggaeton
+794,Juhn,latin,"['Lenny Tavárez', 'Bryant Myers', 'Noriel', 'Dalex', 'Dímelo Flow']",5,reggaeton
+795,Jowell & Randy,latin,"['Kiko el Crazy', 'Kali Uchis', 'Cultura Profética', 'Bad Bunny', 'Nengo Flow', 'De La Ghetto']",6,reggaeton
+796,Jowell,latin,"['Héctor ""El Father""', 'Randy']",2,reggaeton
+797,Julieta Venegas,latin,"['Coti', 'Paulina Rubio', 'Cartel De Santa', 'Diego Torres', 'Miguel Bosé']",5,latin
+798,Julio Melgar,latin,['Marco Barrientos'],1,latin
+799,R.K.M & Ken-Y,latin,"['Alex Gargolas', 'Ken-Y']",2,reggaeton
+800,Jory Boy,latin,"['Zion', 'Ken-Y', 'Bad Bunny']",3,reggaeton
+801,Justin Quiles,latin,"['Zion', 'Rich Music LTD', 'J Balvin', 'Daddy Yankee', 'Miky Woodz', 'Rauw Alejandro', 'Anuel AA', 'Dímelo Flow']",8,reggaeton
+802,Voltio,latin,"['Zion', 'Zion & Lennox', 'Tego Calderon', 'Héctor ""El Father""', 'Johnny Prez', 'Daddy Yankee', 'Lennox', 'Gallego', 'Don Omar', 'Tego', 'Ivy Queen', 'Wiso G', 'Eddie Dee', 'Wisin & Yandel']",14,reggaeton
+803,Víctor Manuelle,latin,['Hector & Tito'],1,latin
+804,Kendo,latin,"['Arcangel', 'Farruko', 'Daddy Yankee', 'Nengo Flow', 'Baby Rasta & Gringo', 'De La Ghetto']",6,reggaeton
+805,KAROL G,latin,"['Myke Towers', 'Migos', 'Jonas Brothers', 'J Balvin', 'Daddy Yankee', 'Quavo', 'Bad Bunny', 'Nicki Minaj']",8,reggaeton
+806,Don Omar,latin,"['Arcangel', 'Noriega', 'Zion', 'Plan B', 'Zion & Lennox', 'Luny Tunes', 'Tego Calderon', 'Voltio', 'Yandel', 'Juan Magán', 'Ken-Y', 'Tego', 'Trebol Clan', 'Bad Bunny', 'Natti Natasha', 'Tony Dize', 'Wisin']",17,reggaeton
+807,Nengo Flow,latin,"['Yandel', 'Kendo Kaponi', 'Baby Rasta & Gringo', 'Ozuna', 'Noriel', 'Alex Rose', 'Brytiago', 'De La Ghetto', 'Myke Towers', 'Miky Woodz', 'Jowell & Randy', 'Darell', 'Bad Bunny', 'Kendo', 'Bryant Myers', 'Daddy Yankee', 'Casper Magico', 'DJ Luian', 'Jhay Cortez', 'Anuel AA']",20,reggaeton
+808,Johnny Prez,latin,"['Zion & Lennox', 'Tego Calderon', 'Voltio', 'Daddy Yankee', 'Lennox', 'Gallego', 'Ivy Queen', 'Eddie Dee', 'Wiso G']",9,reggaeton
+809,Tulsa,latin,['Bunbury'],1,latin
+810,Kany Garcia,latin,['Franco De Vita'],1,latin
+811,De La Ghetto,latin,"['Luny Tunes', 'Nicky Jam', 'Baby Rasta & Gringo', 'Wisin & Yandel', 'Yaga & Mackie', 'Zion', 'Noriel', 'Cosculluela', 'Wisin', 'Franco ""El Gorilla""', 'J Balvin', 'Jowell & Randy', 'Bad Bunny', 'Kendo', 'Nengo Flow', 'Jason Derulo', 'Tego Calderon', 'Ñengo Flow', 'DJ Luian', 'Anuel AA', 'Sofia Reyes']",21,reggaeton
+812,David Bisbal,latin,"['Luis Fonsi', 'Noel Schajris', 'Aleks Syntek']",3,latin
+813,Rvssian,latin,"['Arcangel', 'Nicky Jam', 'J Balvin', 'Cardi B', 'French Montana', 'Bad Bunny', 'Anuel AA']",7,reggaeton
+814,Darkiel,latin,"['Baby Rasta', 'Noriel', 'Lyan', 'Messiah']",4,reggaeton
+815,Ken-Y,latin,"['Arcangel', 'Zion', 'Rakim', 'R.K.M & Ken-Y', 'Jory Boy', 'Don Omar', 'Tony Dize']",7,reggaeton
+816,Baby Rasta,latin,"['Arcangel', 'Plan B', 'Bryant Myers', 'Noriel', 'Lyan', 'Darkiel', 'Gringo', 'DJ Luian', 'Brytiago', 'Messiah', 'Bad Bunny']",11,reggaeton
+817,Natalia Lafourcade,latin,"['Miguel', 'El Canto Del Loco']",2,latin
+818,Lennox,latin,"['Zion', 'Tego Calderon', 'Voltio', 'Johnny Prez', 'Daddy Yankee', 'Gallego', 'Ivy Queen', 'Wiso G', 'Eddie Dee']",9,reggaeton
+819,Yandel,latin,"['Arcangel', 'Nicky Jam', 'Pitbull', 'Kendo Kaponi', 'Tony Dize', 'Zion', 'Myke Towers', 'Franco ""El Gorilla""', 'J Balvin', 'Don Omar', 'Rauw Alejandro', 'Bad Bunny', 'Nengo Flow', 'Zion & Lennox', 'Enrique Iglesias', 'Ñengo Flow', 'Daddy Yankee', 'CNCO', 'Anuel AA']",19,reggaeton
+820,Jadiel,latin,['Farruko'],1,reggaeton
+821,G-Nine,latin,['NLE Choppa'],1,reggaeton
+822,Lucas Conslie,latin,"['Toma Tu Lugar', 'Marcos Brunet']",2,latin
+823,Bad Bunny,latin,"['DJ Nelson', 'Yandel', 'Ivy Queen', 'Kendo Kaponi', 'KAROL G', 'Wisin & Yandel', 'Cazzu', 'PARTYNEXTDOOR', 'Jory Boy', 'Lunay', 'Sech', 'Noriel', 'Cardi B', 'Gigolo Y La Exce', 'Brytiago', 'Ñejo', 'Residente', 'KHEA', 'De La Ghetto', 'Wisin', 'Dua Lipa', 'Myke Towers', 'Don Omar', 'Jowell & Randy', 'Yaviah', 'Marc Anthony', 'Nio Garcia', 'Quavo', 'Nengo Flow', 'Becky G', 'Zion & Lennox', 'Baby Rasta', 'DJ Luian', 'Casper Magico', 'Natti Natasha', 'Rvssian', 'Duki']",37,reggaeton
+824,J Alvarez,latin,"['Arcangel', 'Nicky Jam', 'Ñejo & Dalmata', 'Alkilados', 'El Roockie']",5,reggaeton
+825,Lenny Tavárez,latin,"['Rich Music LTD', 'Nicky Jam', 'Feid', 'Zion', 'Cazzu', 'Alex Rose', 'Lyanno', 'Brytiago', 'Sammy', 'KHEA', 'Dalex', 'Rauw Alejandro', 'Darell', 'Nio Garcia', 'Super Yei', 'Juhn', 'Casper Magico', 'Anuel AA', 'Dímelo Flow']",19,reggaeton
+826,Yaga & Mackie,latin,"['Arcangel', 'De La Ghetto']",2,reggaeton
+827,Luis Fonsi,latin,"['Ozuna', 'Justin Bieber', 'Daddy Yankee', 'Aleks Syntek', 'Noel Schajris', 'David Bisbal', 'Demi Lovato', 'Christina Aguilera']",8,latin
+828,Yaviah,latin,['Bad Bunny'],1,reggaeton
+829,Ivy Queen,latin,"['Lil Jon', 'Zion & Lennox', 'Tego Calderon', 'Voltio', 'Johnny Prez', 'Daddy Yankee', 'Lennox', 'Pitbull', 'Gallego', 'Wiso G', 'Eddie Dee', 'Bad Bunny', 'Divino']",13,reggaeton
+830,Ozuna,latin,"['Offset', 'Reik', 'Camilo', 'Manuel Turizo', 'Black Eyed Peas', 'Noriel', 'Cardi B', 'DJ Snake', 'Cosculluela', 'Rauw Alejandro', 'Anuel', 'Nio Garcia', 'Selena Gomez', 'Nengo Flow', 'Luigi 21 Plus', 'Becky G', 'Tainy', 'Luis Fonsi', 'Casper Magico', 'Tyga', 'Chris Jeday', 'Natti Natasha']",22,reggaeton
+831,J Balvin,latin,"['Arcangel', 'Offset', 'Lil Baby', 'Reik', 'Yandel', 'Justin Quiles', 'Feid', 'Pitbull', 'KAROL G', 'Camila Cabello', 'Black Eyed Peas', 'Zion', 'Future', 'Justin Bieber', 'Major Lazer', 'DJ Snake', 'DJ Khaled', 'Sean Paul', 'De La Ghetto', 'Wisin', 'Meek Mill', 'Dua Lipa', 'Rauw Alejandro', 'Anuel', 'Darell', 'Selena Gomez', 'Beyoncé', 'Juan Magán', 'DJ Luian', 'Lalo Ebratt', 'Pharrell Williams', 'Tyga', 'Jhay Cortez', 'benny blanco', 'Chris Jeday', 'Natti Natasha', 'Rvssian']",37,reggaeton
+832,Lunay,latin,"['Myke Towers', 'Farruko', 'Sech', 'Alex Rose', 'Lyanno', 'Daddy Yankee', 'Brytiago', 'Mau y Ricky', 'Bad Bunny', 'Camilo', 'Natti Natasha']",11,reggaeton
+833,Pablo Alborán,latin,"['Camilo', 'Jesse & Joy']",2,latin
+834,Luny Tunes,latin,"['Zion', 'Noriega', 'Arcangel', 'Zion & Lennox', 'Tego Calderon', 'Hector', 'Don Omar', 'De La Ghetto', 'Trebol Clan', 'Wisin & Yandel', 'Guanabanas', 'Dyland & Lenny', 'Tito ""El Bambino""']",13,reggaeton
+835,Angel Lopez,latin,['Big Boy'],1,reggaeton
+836,Lyanno,latin,"['Lenny Tavárez', 'Cazzu', 'Lunay', 'Bryant Myers', 'Brytiago', 'Dalex', 'Anuel AA', 'Kevin Roldan']",8,reggaeton
+837,Randy,latin,"['Arcangel', 'Jowell', 'Héctor ""El Father""', 'Daddy Yankee', 'Alex Gargolas', 'Rauw Alejandro', 'Tito ""El Bambino""']",7,reggaeton
+838,Tainy,latin,"['Dua Lipa', 'Ozuna', 'benny blanco', 'Rauw Alejandro', 'Selena Gomez', 'Anuel AA']",6,reggaeton
+839,Tego,latin,"['Zion', 'Héctor ""El Father""', 'Voltio', 'Daddy Yankee', 'Don Omar', 'Wisin & Yandel']",6,reggaeton
+840,Ismael Miranda,latin,"['José Feliciano', 'Adalberto Santiago', 'Héctor Lavoe', 'Fania All Stars']",4,latin
+841,Pedro Capó,latin,"['Thalía', 'Farruko', 'Shakira', 'Camilo']",4,latin
+842,Leonel García,latin,"['Franco De Vita', 'Noel Schajris']",2,latin
+843,Big Boy,latin,['Angel Lopez'],1,reggaeton
+844,Eddie Dee,latin,"['Zion', 'Zion & Lennox', 'Tego Calderon', 'Voltio', 'Johnny Prez', 'Daddy Yankee', 'La Secta AllStar', 'Gallego', 'Ivy Queen', 'Lennox', 'Wiso G']",11,reggaeton
+845,Anuel AA,latin,"['Arcangel', 'Lenny Tavárez', 'Yandel', 'Justin Quiles', 'Kendo Kaponi', 'Rvssian', 'Shakira', 'Tempo', 'Manuel Turizo', 'Gunna', 'Zion', 'Alex Rose', 'Lyanno', 'Cosculluela', 'Nicki Minaj', 'De La Ghetto', 'Wisin', 'Meek Mill', 'Haze', 'Lil Wayne', 'Rauw Alejandro', 'Nio Garcia', 'Nengo Flow', 'NAV', 'Becky G', 'Internet Money', 'Fabolous', 'Tainy', 'Zion & Lennox', 'Enrique Iglesias', 'Tego Calderon', 'DJ Luian', 'Casper Magico', 'Jhay Cortez', 'Dalex', 'Natti Natasha', 'Dímelo Flow']",37,reggaeton
+846,Anuel,latin,"['Arcangel', 'Ozuna', 'Offset', 'J Balvin', 'Cardi B', 'Chris Jeday']",6,reggaeton
+847,El Cata,latin,"['Shakira', 'Juan Magán', 'Pitbull']",3,latin
+848,Baby Rasta & Gringo,latin,"['Arcangel', 'Farruko', 'Kendo', 'Daddy Yankee', 'Nengo Flow', 'De La Ghetto']",6,reggaeton
+849,Tego Calderon,latin,"['Luny Tunes', 'Johnny Prez', 'Ivy Queen', 'Eddie Dee', 'Wisin & Yandel', 'Lennox', 'Cosculluela', 'De La Ghetto', 'Noriega', 'Plan B', 'Franco ""El Gorilla""', 'Gallego', 'Don Omar', 'Wiso G', 'Zion & Lennox', 'Voltio', 'Daddy Yankee', 'Anuel AA']",18,reggaeton
+850,Annette Moreno,latin,['Tercer Cielo'],1,latin
+851,Cultura Profética,latin,['Jowell & Randy'],1,latin
+852,Elvis Crespo,latin,['Pitbull'],1,latin
+853,Rich Music LTD,latin,"['Lenny Tavárez', 'Sech', 'Justin Quiles', 'Feid', 'Dalex']",5,reggaeton
+854,Tercer Cielo,latin,"['Redimi2', 'Annette Moreno']",2,latin
+855,Tempo,latin,"['Myke Towers', 'Bryant Myers', 'Farruko', 'Sech', 'Mexicano 777', 'Jay Wheeler', 'Anuel AA']",7,reggaeton
+856,Cosculluela,latin,"['Arcangel', 'Franco ""El Gorilla""', 'Ozuna', 'Tego Calderon', 'Nicky Jam', 'Daddy Yankee', 'Lalo Ebratt', 'Brytiago', 'Rauw Alejandro', 'Anuel AA', 'Dalmata', 'Wisin & Yandel', 'Manuel Turizo', 'Sebastian Yatra', 'De La Ghetto']",15,reggaeton
+857,Saudi,hip hop,['2 Chainz'],1,hip hop
+858,André 3000,hip hop,"['Chris Brown', 'Fabolous', 'Lil Wayne', 'Big Boi', 'Kelis', 'Raekwon', 'T.I.', 'Drake', 'Jeezy', 'JAY-Z', 'Nelly', 'Beyoncé']",12,atl hip hop
+859,Andre Benjamin,hip hop,['Kid Cudi'],1,atl hip hop
+860,BIG30,hip hop,"['Gucci Mane', 'Pooh Shiesty']",2,hip hop
+861,Scar,hip hop,"['OutKast', 'Sleepy Brown']",2,hip hop
+862,Scarface,hip hop,"['Ruff Ryders', 'The Notorious B.I.G.', 'Yung Wun', 'Akon']",4,hip hop
+863,Andy Mineo,hip hop,['KB'],1,hip hop
+864,Rocko,hip hop,"['OJ Da Juiceman', 'Gucci Mane', 'Shawty Lo', 'Nicki Minaj']",4,atl hip hop
+865,Ruff Ryders,hip hop,"['Drag-On', 'Yung Wun', 'Scarface']",3,hip hop
+866,Run The Jewels,hip hop,"['DJ Shadow', 'DJ Premier', 'Big Boi', 'Diane Coffee', 'Zack De La Rocha', 'Danny Brown']",6,hip hop
+867,Russ,hip hop,"['Ab-Soul', 'Benny The Butcher', 'DJ Premier', 'Paulina', 'Black Thought', 'Busta Rhymes', 'Kehlani']",7,hip hop
+868,Rittz,hip hop,"['Tech N9ne', 'Mike Posner', 'CES Cru', 'B.o.B', 'Stevie Stone']",5,atl hip hop
+869,B.o.B,hip hop,"['August Alsina', 'Rittz', 'Tech N9ne', 'Ludacris', 'Mike Posner', 'Sammy Adams', 'Lil Wayne', 'Wiz Khalifa', 'Taylor Swift', 'Kendrick Lamar', 'Nicki Minaj', 'Ty Dolla $ign', 'CeeLo Green', 'T-Pain', 'Eminem']",15,atl hip hop
+870,Ronnie Flex,hip hop,['Lil Kleine'],1,hip hop
+871,Roscoe Dash,hip hop,"['Wale', 'Soulja Boy', 'Big Sean']",3,atl hip hop
+872,Aminé,hip hop,"['Young Thug', 'Dana Williams', 'Gucci Mane', 'Kehlani', 'Rejjie Snow']",5,hip hop
+873,Sean Price,hip hop,"['Mac Miller', 'Statik Selektah']",2,alternative hip hop
+874,Salaam Remi,hip hop,"['A$AP Ferg', 'J. Cole', 'Miguel']",3,hip hop
+875,Archie Eversole,hip hop,['Bubba Sparxxx'],1,atl hip hop
+876,BROCKHAMPTON,hip hop,['Dua Lipa'],1,hip hop
+877,Termanology,hip hop,"['Mac Miller', 'Statik Selektah']",2,alternative hip hop
+878,Allday,hip hop,['Troye Sivan'],1,hip hop
+879,Toosii,hip hop,['DaBaby'],1,hip hop
+880,Willie The Kid,hip hop,"['Lil Wayne', 'Freeway', 'T.I.']",3,alternative hip hop
+881,Joell Ortiz,hip hop,['Eminem'],1,alternative hip hop
+882,Westside Gunn,hip hop,"['Joey Bada$$', 'Billie Essco']",2,alternative hip hop
+883,Wayne,hip hop,"['Fat Joe', 'Baby']",2,hip hop
+884,Lentra,hip hop,"['bbno$', 'BAINS.', 'So Loki']",3,hip hop
+885,Lexii Alijai,hip hop,['Kehlani'],1,hip hop
+886,Vince Staples,hip hop,"['Billie Eilish', 'Gorillaz', 'Casey Veggies', 'Earl Sweatshirt']",4,hip hop
+887,Viktor Vaughn,hip hop,['Madvillain'],1,alternative hip hop
+888,Mark Battles,hip hop,"['Kid Quill', 'Devvon Terrell']",2,hip hop
+889,Usher,hip hop,"['Young Thug', 'Pitbull', 'Gucci Mane', 'will.i.am', 'Chris Brown', 'Justin Bieber', 'Loon', 'Jeezy', 'Nicki Minaj', 'Summer Walker', 'Lil Wayne', 'Kid Ink', 'JAY-Z', 'ZAYN', 'Ella Mai', 'Beyoncé', 'Wale', 'Lil Jon', 'Diddy', 'Enrique Iglesias', 'Jermaine Dupri', 'T.I.', 'Tyga', 'Alicia Keys']",24,atl hip hop
+890,Ty Dolla $ign,hip hop,"['Bebe Rexha', 'Quality Control', 'Drake', 'Musiq Soulchild', 'Dreamville', 'Rae Sremmurd', 'Gucci Mane', 'Jacquees', 'B.o.B', 'Gunna', 'J. Cole', 'Future', 'KIDS SEE GHOSTS', '2 Chainz', 'Lil Duval', '21 Savage', 'Raury', 'James Arthur', 'Joyner Lucas', 'Kid Cudi', 'Kehlani', 'G-Eazy', 'Jamie Foxx', 'Meek Mill', 'Fifth Harmony', 'The-Dream', 'TK Kravitz', 'SZA', 'Ella Mai', 'Tory Lanez', 'Mac Miller', 'Quavo', 'Jason Derulo', 'The Chainsmokers', 'bülow', 'French Montana', 'Big Sean', 'Pharrell Williams', 'Tyga', 'Logic', 'Nick Jonas', 'Ariana Grande']",42,hip hop
+891,Twisted Insane,hip hop,"['Snow Tha Product', 'Wrekonize', 'Tech N9ne']",3,hip hop
+892,Quin Nfn,hip hop,['NLE Choppa'],1,hip hop
+893,Rasco,hip hop,['Planet Asia'],1,alternative hip hop
+894,Trouble,hip hop,"['Migos', 'YFN Lucci', 'T.I.', 'Bun B', 'Killer Mike']",5,atl hip hop
+895,Trizz,hip hop,['Chuuwee'],1,hip hop
+896,Trinidad James,hip hop,"['A$AP Rocky', 'French Montana', '2 Chainz', 'Jeezy', 'T.I.', 'August Alsina', 'A$AP Ferg']",7,atl hip hop
+897,Rasheed,hip hop,['Nelly'],1,atl hip hop
+898,Trillville,hip hop,"['Lil Jon', 'Jazze Pha', 'Lil Scrappy', 'Lil Jon & The East Side Boyz']",4,atl hip hop
+899,Royce Rizzy,hip hop,['MadeinTYO'],1,hip hop
+900,Travis Porter,hip hop,"['Bankroll Fresh', 'Tyga']",2,atl hip hop
+901,Sir Michael Rocks,hip hop,['Mac Miller'],1,alternative hip hop
+902,Tory Lanez,hip hop,"['Rich The Kid', 'Fabolous', 'Bhad Bhabie', 'T-Pain', 'DaBaby', 'French Montana', 'Trey Songz', 'Tyga', 'Jack Harlow', 'JoJo', 'Ty Dolla $ign', 'G-Eazy', 'Kehlani', 'Meek Mill']",14,hip hop
+903,Wiso G,hip hop,"['Zion & Lennox', 'Tego Calderon', 'Voltio', 'Johnny Prez', 'Daddy Yankee', 'Lennox', 'Gallego', 'Ivy Queen', 'Eddie Dee']",9,hip hop
+904,Wiz Khalifa,hip hop,"['Maroon 5', 'Ludacris', 'Young Thug', 'Iggy Azalea', 'Chiddy Bang', 'Charlie Puth', 'Gucci Mane', 'B.o.B', 'T-Pain', 'Future', 'Lily Allen', 'DJ Khaled', '50 Cent', 'Meek Mill', 'Big K.R.I.T.', 'Ghost Loft', 'YFN Lucci', 'Sean Kingston', 'Lil Wayne', 'Bruno Mars', 'K CAMP', 'Mac Miller', 'JoJo', 'Quavo', 'Tech N9ne', 'French Montana', 'T.I.', 'Lost Kings', 'Tyga', 'Social House', 'Cashmere Cat']",31,hip hop
+905,Wrekonize,hip hop,"['Snow Tha Product', 'Tech N9ne', 'Twisted Insane']",3,hip hop
+906,Youngbloodz,hip hop,"['Nivea', 'Sean Paul', 'Magic']",3,atl hip hop
+907,BAINS.,hip hop,"['bbno$', 'Lentra']",2,hip hop
+908,bbno$,hip hop,"['So Loki', 'Y2K', 'BAINS.', 'Lentra']",4,hip hop
+909,Conway the Machine,hip hop,"['Freddie Gibbs', 'The Alchemist']",2,alternative hip hop
+910,Zion I,hip hop,"['The Grouch', 'K.Flay']",2,alternative hip hop
+911,Zimple,hip hop,"['Don Aero', 'C-Kan']",2,hip hop
+912,Danger Doom,hip hop,"['CeeLo Green', 'MF DOOM']",2,alternative hip hop
+913,Zack De La Rocha,hip hop,"['Run The Jewels', 'KRS-One']",2,hip hop
+914,Yung Wun,hip hop,"['Ruff Ryders', 'DMX', 'David Banner', 'Scarface']",4,atl hip hop
+915,Yung L.A.,hip hop,"['Young Dro', 'T.I.']",2,atl hip hop
+916,Yung Joc,hip hop,"['Diddy', 'Marques Houston', 'David Banner', 'Gorilla Zoe', 'T-Pain', 'Cassie']",6,atl hip hop
+917,Young Thug,hip hop,"['Playboi Carti', 'A$AP Rocky', 'Offset', 'Migos', 'EARTHGANG', 'M.I.A.', 'Wiz Khalifa', 'Drake', 'Rae Sremmurd', 'Gucci Mane', 'Jacquees', 'Camila Cabello', 'Metro Boomin', 'Chris Brown', 'Reese LAFLARE', 'J. Cole', 'Jaden', 'Justin Bieber', '2 Chainz', 'Usher', 'Joyner Lucas', 'Machine Gun Kelly', 'Meek Mill', 'Freddie Gibbs', 'A$AP Ferg', 'NAV', 'Aminé', 'Duke', 'T.I.', 'Tyga']",30,atl hip hop
+918,Wu-Tang Clan,hip hop,"['RZA', 'Del The Funky Homosapien', 'Aesop Rock', 'MF DOOM']",4,hip hop
+919,Young M.A,hip hop,"['T-Pain', 'Eminem']",2,hip hop
+920,Young Dro,hip hop,"['P$C', 'Yung L.A.']",2,atl hip hop
+921,Yo Yo,hip hop,"['Brandy', 'Queen Latifah', 'MC Lyte']",3,atl hip hop
+922,Ying Yang Twins,hip hop,"['Lil Jon', 'Fat Joe', 'Mr. Collipark', 'Britney Spears', 'Bubba Sparxxx', 'Jacki-O', 'Avant']",7,atl hip hop
+923,Ghostface,hip hop,['Keith Murray'],1,alternative hip hop
+924,YN Jay,hip hop,['Louie Ray'],1,hip hop
+925,YFN Lucci,hip hop,"['Trouble', 'Migos', 'Wiz Khalifa', 'Lil Yachty']",4,hip hop
+926,Xzibit,hip hop,"['Erick Sermon', 'DJ Premier']",2,hip hop
+927,Xscape,hip hop,['Bow Wow'],1,atl hip hop
+928,Grandmaster Caz,hip hop,"['Grandmaster Melle Mel', 'Kool Moe Dee', 'Macklemore & Ryan Lewis']",3,hip hop
+929,So Loki,hip hop,"['bbno$', 'Lentra']",2,hip hop
+930,Tony Yayo,hip hop,"['Obie Trice', '50 Cent', 'Eminem']",3,hip hop
+931,Ali Gatie,hip hop,['Tate McRae'],1,hip hop
+932,Sonny Digital,hip hop,['50 Cent'],1,atl hip hop
+933,T.I.,hip hop,"['Ludacris', 'A$AP Rocky', 'Young Thug', 'Lil Baby', 'Big Boi', 'Wiz Khalifa', 'Busta Rhymes', 'Bun B', 'Iggy Azalea', 'Mario', 'Cher Lloyd', 'Trinidad James', 'T-Pain', 'Willie The Kid', 'Eminem', 'P$C', 'Trouble', 'Rich The Kid', 'Yung L.A.', 'Future', 'Usher', 'Trey Songz', 'DJ Khaled', 'Kid Cudi', 'Meek Mill', 'Robin Thicke', 'Ciara', 'Bone Crusher', 'Ashanti', 'Kendrick Lamar', 'Diddy - Dirty Money', 'Nelly', 'André 3000', 'Quavo', 'Rihanna', 'Killer Mike', 'Lil Jon', 'Fabolous', 'Jazze Pha', 'French Montana', 'MERCE', 'Lil Scrappy', 'Memphis Bleek', 'Pharrell Williams', 'Freeway']",45,atl hip hop
+934,A$AP Rocky,hip hop,"['Young Thug', 'M.I.A.', 'Drake', 'BlocBoy JB', 'Action Bronson', 'Danny Brown', 'Trinidad James', 'A$AP Twelvyy', 'Florence Welch', 'Cardi B', '2 Chainz', 'Lil Yachty', 'Mike WiLL Made-It', 'Nicki Minaj', 'G-Eazy', 'Big K.R.I.T.', 'Lil Wayne', 'King Chip', 'Belly', 'Kendrick Lamar', 'Lana Del Rey', 'Selena Gomez', 'A$AP NAST', 'Quavo', 'Miguel', 'Mark Ronson', 'Joey Bada$$', 'A$AP Mob', 'KEY!', 'French Montana', 'Big Sean', 'Joe Fox', 'T.I.', 'Tyga']",34,hip hop
+935,A$AP Twelvyy,hip hop,"['Playboi Carti', 'A$AP Mob', 'A$AP Rocky', 'KEY!']",4,hip hop
+936,Styles P,hip hop,"['Sheek', 'Pharoahe Monch', 'Sheek Louch', 'J-Hood', 'Akon', 'Jennifer Lopez', 'Lil Jon & The East Side Boyz', 'Eminem']",8,alternative hip hop
+937,Stunna 4 Vegas,hip hop,"['Offset', 'Lil Baby', 'NLE Choppa', 'Mike WiLL Made-It']",4,hip hop
+938,Sticky Fingaz,hip hop,['Eminem'],1,hip hop
+939,Stevie Stone,hip hop,"['CES Cru', 'Tech N9ne', 'Rittz']",3,hip hop
+940,Statik Selektah,hip hop,"['Action Bronson', 'Sean Price', 'Nina Sky', 'Mac Miller', 'Termanology']",5,alternative hip hop
+941,Spillage Village,hip hop,"['EARTHGANG', 'JID', 'Quentin Miller']",3,hip hop
+942,Spark Master Tape,hip hop,['mansionz'],1,hip hop
+943,Soulja Boy,hip hop,"['Sammie', 'Jermaine Dupri', 'Lil Wayne', 'Vistoso Bosses', 'Roscoe Dash']",5,atl hip hop
+944,Ab-Soul,hip hop,"['Rapsody', 'Russ', 'Earl Sweatshirt', 'Jay Rock']",4,alternative hip hop
+945,Action Bronson,hip hop,"['Mac Miller', 'Joey Bada$$', 'Big K.R.I.T.', 'A$AP Rocky', 'Statik Selektah', 'Nina Sky', 'Kendrick Lamar', 'Danny Brown']",8,alternative hip hop
+946,Snug Brim,hip hop,"['Tech N9ne', 'Kutt Calhoun']",2,hip hop
+947,Sleepy Brown,hip hop,"['Ludacris', 'Jazze Pha', 'Scar', 'Big Rube']",4,atl hip hop
+948,Slaughterhouse,hip hop,['Eminem'],1,hip hop
+949,Ski Mask The Slump God,hip hop,['Jacquees'],1,hip hop
+950,Skatterman,hip hop,"['Tech N9ne', 'Kutt Calhoun']",2,hip hop
+951,Aesop Rock,hip hop,"['Wu-Tang Clan', 'Del The Funky Homosapien', 'Molemen', 'MF DOOM']",4,hip hop
+952,Shop Boyz,hip hop,['Lil Wayne'],1,atl hip hop
+953,Sheek Louch,hip hop,"['Styles P', 'J-Hood']",2,hip hop
+954,Sheek,hip hop,"['Styles P', 'Eminem']",2,hip hop
+955,Shawty Lo,hip hop,"['OJ Da Juiceman', 'Rocko', 'Gucci Mane', 'Nicki Minaj']",4,atl hip hop
+956,A$AP NAST,hip hop,"['A$AP Mob', 'A$AP ANT', 'A$AP Rocky', 'Playboi Carti', 'Method Man']",5,hip hop
+957,TLC,hip hop,['J. Cole'],1,atl hip hop
+958,A$AP Mob,hip hop,"['Playboi Carti', 'A$AP Rocky', 'A$AP Twelvyy', 'A$AP ANT', 'KEY!', 'Big Sean', 'Method Man', 'A$AP NAST', 'Quavo', 'A$AP Ferg']",10,hip hop
+959,21 Savage,hip hop,"['Childish Gambino', 'Ink', 'Future', 'DJ Khaled', 'Cardi B', 'Big Sean', 'Bazzi', 'Quavo', 'Ty Dolla $ign', 'Mike WiLL Made-It', 'Summer Walker', 'Meek Mill']",12,atl hip hop
+960,Swarmz,hip hop,['KSI'],1,hip hop
+961,Thutmose,hip hop,"['Becky G', 'NoMBe', 'SOYEON of (G)I-DLE', 'Keke Palmer']",4,hip hop
+962,Trademark Da Skydiver,hip hop,['Curren$y'],1,alternative hip hop
+963,The Roots,hip hop,"['Common', 'Melanie Fiona', 'Musiq Soulchild']",3,alternative hip hop
+964,The Notorious B.I.G.,hip hop,"['Fabolous', '112', 'Ja Rule', 'The LOX', 'Jagged Edge', 'JAY-Z', 'Akon', 'Nelly', 'Junior M.A.F.I.A.', 'Matoma', 'Mary J. Blige', 'Scarface', '50 Cent', 'Eminem']",14,hip hop
+965,The LOX,hip hop,"['Diddy', 'Drag-On', 'The Notorious B.I.G.']",3,hip hop
+966,The Kid LAROI,hip hop,"['Machine Gun Kelly', 'Y2K', 'blackbear']",3,hip hop
+967,The Grouch,hip hop,['Zion I'],1,hip hop
+968,112,hip hop,"['Faith Evans', 'Mobb Deep', 'The Notorious B.I.G.']",3,atl hip hop
+969,2 Chainz,hip hop,"['Ludacris', 'Migos', 'Young Thug', 'Offset', 'A$AP Rocky', 'DaBaby', 'I-20', 'Desiigner', 'Saudi', 'Trinidad James', 'Chris Brown', 'Rich The Kid', 'Lil Duval', 'Machine Gun Kelly', 'DJ Khaled', 'Kendrick Lamar', 'K CAMP', 'Kid Ink', 'Quavo', 'Ty Dolla $ign', 'MadeinTYO', 'Lil Jon', 'Tech N9ne', 'Jason Derulo', 'Mulatto', 'Curren$y', 'Pharrell Williams', 'Tyga', 'Ariana Grande']",29,atl hip hop
+970,The Beatnuts,hip hop,['Big Pun'],1,alternative hip hop
+971,A$AP Ferg,hip hop,"['Playboi Carti', 'Young Thug', 'Dumbfoundead', 'Trinidad James', 'Rich The Kid', 'Future', 'Nicki Minaj', 'Mike WiLL Made-It', 'G-Eazy', 'Freddie Gibbs', 'Bas', 'Quavo', 'Salaam Remi', 'A$AP Mob', 'French Montana', 'Big Sean', 'Tyga', 'Ariana Grande']",18,hip hop
+972,The Alchemist,hip hop,"['Freddie Gibbs', 'Benny The Butcher', 'Chali 2na', 'Earl Sweatshirt', 'Conway the Machine']",5,alternative hip hop
+973,Terror Squad,hip hop,"['Fat Joe', 'Remy Ma']",2,hip hop
+974,Tee Grizzley,hip hop,"['Chris Brown', 'Queen Naija', 'Lil Yachty']",3,hip hop
+975,Tech N9ne,hip hop,"['Snow Tha Product', 'Wiz Khalifa', 'Busta Rhymes', 'Kutt Calhoun', 'Dalima', 'Sassy', 'B.o.B', 'T-Pain', 'Eminem', 'Stevie Stone', 'Wrekonize', 'Twisted Insane', '2 Chainz', 'Joyner Lucas', 'Machine Gun Kelly', 'Skatterman', 'Snug Brim', 'Rittz', 'Lil Wayne', 'CES Cru', 'Logic']",21,hip hop
+976,50 Cent,hip hop,"['Ed Sheeran', 'Wiz Khalifa', 'Busta Rhymes', 'Timbaland', 'Wisin & Yandel', 'Chris Brown', 'J. Cole', 'Nicole Scherzinger', 'Obie Trice', 'Justin Timberlake', 'Ciara', 'Bas', 'Olivia', 'The Notorious B.I.G.', 'Diddy', 'Sonny Digital', 'Akon', 'Nipsey Hussle', 'Tony Yayo', 'Mobb Deep']",20,hip hop
+977,88-Keys,hip hop,['Mac Miller'],1,alternative hip hop
+978,88rising,hip hop,"['Jackson Wang', 'Rich Brian', 'BlocBoy JB', 'Stephanie Poetri', 'AUGUST 08', 'Higher Brothers']",6,hip hop
+979,A$AP ANT,hip hop,"['A$AP NAST', 'A$AP Mob', 'Playboi Carti']",3,hip hop
+980,Talib Kweli,hip hop,"['Big Wild', 'GRiZ', 'Common', 'Mary J. Blige', 'Hi-Tek']",5,alternative hip hop
+981,Takeoff,hip hop,"['Rich The Kid', 'Lil Wayne', 'Tyga', 'Quavo']",4,atl hip hop
+982,Rich The Kid,hip hop,"['Offset', 'Lil Baby', 'Lil Wayne', 'Takeoff', '2 Chainz', 'PRETTYMUCH', 'T.I.', 'Jeezy', 'Kendrick Lamar', 'K CAMP', 'Tyga', 'Tory Lanez', 'Quavo', 'A$AP Ferg', 'KYLE']",15,atl hip hop
+983,Freeway,hip hop,"['Lil Wayne', 'Mos Def', 'T.I.', 'Memphis Bleek', 'Nelly', 'Willie The Kid']",6,alternative hip hop
+984,Rich Homie Quan,hip hop,"['Wale', 'Lil Wayne', 'Jeezy', 'Kid Ink', 'Tyga', 'Nicki Minaj', 'Meek Mill']",7,atl hip hop
+985,KHEA,hip hop,"['Lenny Tavárez', 'Cazzu', 'Sech', 'Feid', 'Bad Bunny', 'Dalex', 'Duki']",7,hip hop
+986,Kendrick Lamar,hip hop,"['Maroon 5', 'A$AP Rocky', 'Busta Rhymes', 'Bilal', 'Rae Sremmurd', 'Gucci Mane', 'Action Bronson', 'B.o.B', 'Mary J. Blige', 'Eminem', 'Chris Brown', 'Jidenna', 'Rich The Kid', 'J. Cole', '2 Chainz', 'Jeezy', 'Tank', 'Mike WiLL Made-It', 'Kid Cudi', 'Earl Sweatshirt', 'Isaiah Rashad', 'Big K.R.I.T.', 'Murs', 'Lil Wayne', 'JAY-Z', 'Mac Miller', 'Rihanna', 'Beyoncé', 'Joey Bada$$', 'Rapsody', 'T.I.', 'Nipsey Hussle']",32,hip hop
+987,Kelly Rowland,hip hop,"['David Guetta', 'Trina', 'Future', 'Lil Wayne', 'Nelly']",5,atl hip hop
+988,Das EFX,hip hop,['Ice Cube'],1,hip hop
+989,David Banner,hip hop,"['Chris Brown', 'DMX', 'Lil Wayne', 'Busta Rhymes', 'Akon', 'Yung Wun', 'Yung Joc']",7,hip hop
+990,Keith Murray,hip hop,['Ghostface'],1,alternative hip hop
+991,Dax,hip hop,['Hopsin'],1,hip hop
+992,Kash Doll,hip hop,"['Big Sean', 'Summer Walker', 'Metro Boomin']",3,hip hop
+993,Kap G,hip hop,['Gunna'],1,atl hip hop
+994,De La Soul,hip hop,['MF DOOM'],1,alternative hip hop
+995,DeJ Loaf,hip hop,"['Future', 'Lil Wayne', 'Big Sean', 'Kid Ink', 'Casey Veggies']",5,hip hop
+996,KSI,hip hop,"['Swarmz', 'Offset', 'Lil Baby']",3,hip hop
+997,KRS-One,hip hop,['Zack De La Rocha'],1,alternative hip hop
+998,Del The Funky Homosapien,hip hop,"['Wu-Tang Clan', 'Aesop Rock']",2,alternative hip hop
+999,KIDS SEE GHOSTS,hip hop,['Ty Dolla $ign'],1,hip hop
+1000,Dem Franchize Boyz,hip hop,"['Monica', 'Jermaine Dupri', 'Bow Wow']",3,atl hip hop
+1001,Kid Cudi,hip hop,"['David Guetta', 'St. Vincent', 'Mary J. Blige', 'Chip Tha Ripper', 'Ty Dolla $ign', 'King Chip', 'T.I.', 'Kendrick Lamar', 'Pharrell Williams', 'Dan Black', 'JAY-Z', 'Andre Benjamin', 'Nicole Wray', 'Common', 'CeeLo Green', 'Eminem']",16,hip hop
+1002,KB,hip hop,"['Derek Minor', 'Andy Mineo']",2,hip hop
+1003,Derek Minor,hip hop,['KB'],1,hip hop
+1004,K CAMP,hip hop,"['Rich The Kid', 'Wiz Khalifa', '2 Chainz', 'Jacquees', 'Quavo', 'KYLE']",6,atl hip hop
+1005,Jurassic 5,hip hop,"['Big Daddy Kane', 'Percy P']",2,alternative hip hop
+1006,Junior M.A.F.I.A.,hip hop,['The Notorious B.I.G.'],1,hip hop
+1007,Diabolic,hip hop,"['C-Rayz Walz', 'Poison Pen', 'Immortal Technique']",3,hip hop
+1008,Dilated Peoples,hip hop,['Planet Asia'],1,alternative hip hop
+1009,Disturbing Tha Peace,hip hop,"['Ludacris', 'I-20']",2,atl hip hop
+1010,Joyner Lucas,hip hop,"['Chris Brown', 'Tech N9ne', 'Young Thug', 'French Montana', 'Ty Dolla $ign', 'Eminem']",6,hip hop
+1011,Dizzy Wright,hip hop,"['Futuristic', 'Layzie Bone']",2,hip hop
+1012,Doe Boy,hip hop,"['Future', 'Meek Mill']",2,atl hip hop
+1013,Dolla,hip hop,['T-Pain'],1,hip hop
+1014,Domo Genesis,hip hop,"['Freddie Gibbs', 'Madlib', 'Odd Future', 'Mac Miller']",4,alternative hip hop
+1015,Don Aero,hip hop,"['Zimple', 'C-Kan']",2,hip hop
+1016,Danny Brown,hip hop,"['Joey Bada$$', 'Big K.R.I.T.', 'A$AP Rocky', 'Freddie Gibbs', 'Run The Jewels', 'Madlib', 'Purity Ring', 'Action Bronson', 'Earl Sweatshirt']",9,alternative hip hop
+1017,Kid Quill,hip hop,"['Mark Battles', 'Devvon Terrell']",2,hip hop
+1018,Drake,hip hop,"['Lloyd', 'Playboi Carti', 'A$AP Rocky', 'Offset', 'Young Thug', 'Migos', 'Jorja Smith', 'Timbaland', 'Gucci Mane', 'BlocBoy JB', 'Bryson Tiller', 'Mary J. Blige', 'Gunna', 'Metro Boomin', 'Omarion', 'The Dream', 'OB OBrien', 'Lil Yachty', 'Jeezy', 'Michael Jackson', 'DJ Khaled', 'Lykke Li', 'Jamie Foxx', 'Meek Mill', 'Summer Walker', 'Headie One', 'N.E.R.D', 'Chrisette Michele', 'The-Dream', 'ILOVEMAKONNEN', 'André 3000', 'Ty Dolla $ign', 'Beyoncé', 'Wale', 'Nipsey Hussle', 'Bun B', 'Alicia Keys']",37,hip hop
+1019,Layzie Bone,hip hop,"['Futuristic', 'Dizzy Wright']",2,hip hop
+1020,Lil Wayne,hip hop,"['OutKast', 'Lloyd', 'Ludacris', 'A$AP Rocky', 'Bebe Rexha', 'Mike Posner', 'DaBaby', 'Wiz Khalifa', 'Busta Rhymes', 'DeJ Loaf', 'Bun B', 'Charlie Puth', 'Anuel AA', 'Gucci Mane', 'B.o.B', 'Jennifer Lopez', 'Willie The Kid', 'Chris Brown', 'Eminem', 'Rich The Kid', 'Justin Bieber', 'Takeoff', 'Jay Sean', 'Jeezy', 'Usher', 'Gorilla Zoe', 'Trey Songz', 'Keri Hilson', 'Soulja Boy', 'Mike WiLL Made-It', 'DJ Khaled', 'Rich Homie Quan', 'Meek Mill', 'Robin Thicke', 'City Girls', 'David Banner', 'Bruno Mars', 'Shop Boyz', 'The-Dream', 'Kendrick Lamar', 'André 3000', 'Nelly', 'Quavo', 'Mac Miller', 'Beyoncé', 'Wale', 'Tech N9ne', 'Fabolous', 'Lil Jon', 'Kelly Rowland', 'Curren$y', 'French Montana', 'Logic', 'Akon', 'Bobby V.', 'August Alsina', 'Kevin Rudolf', 'Freeway', 'Ariana Grande']",59,hip hop
+1021,Lil Scrappy,hip hop,"['Lil Jon', 'Crime Mob', 'T.I.', 'Jeezy', 'Trillville', 'Lil Jon & The East Side Boyz']",6,atl hip hop
+1022,CyHi The Prynce,hip hop,"['JAY-Z', 'RZA']",2,atl hip hop
+1023,Lil Kleine,hip hop,['Ronnie Flex'],1,hip hop
+1024,Lil Keed,hip hop,"['Gunna', 'Lil Yachty', 'NAV']",3,hip hop
+1025,Lil Jon & The East Side Boyz,hip hop,"['Pastor Troy', 'Lil Scrappy', 'Trillville', 'Styles P', 'Bun B']",5,atl hip hop
+1026,Lil Jon,hip hop,"['Offset', 'Big Boi', 'Ivy Queen', 'Trillville', 'DJ Felli Fel', 'Eminem', '2 Chainz', 'Usher', 'LMFAO', 'DJ Snake', 'Remy Ma', 'Machine Gun Kelly', 'Brooke Valentine', 'Sean Paul', 'Ice Cube', 'Noriega', 'Lil Wayne', 'Nivea', 'Diddy', 'Daddy Yankee', 'T.I.', 'Lil Scrappy', 'Akon', 'Ying Yang Twins', 'Tyga', 'Jacki-O']",26,atl hip hop
+1027,Lil Duval,hip hop,"['Ty Dolla $ign', '2 Chainz']",2,hip hop
+1028,Lil Baby,hip hop,"['DaniLeigh', 'Offset', 'Quality Control', 'Gucci Mane', 'Jacquees', 'Rich The Kid', 'Lil Yachty', 'Flipp Dinero', 'DJ Khaled', 'City Girls', 'Stunna 4 Vegas', 'J Balvin', 'A7S', 'Blac Youngsta', 'Quavo', 'Bhad Bhabie', 'Layton Greene', 'KSI', 'T.I.', 'Big Sean', 'NLE Choppa']",21,atl hip hop
+1029,Lil B,hip hop,['Mac Miller'],1,atl hip hop
+1030,D.I.T.C.,hip hop,['O.C.'],1,alternative hip hop
+1031,D12,hip hop,['Eminem'],1,hip hop
+1032,DJ Babu,hip hop,"['Pharoahe Monch', 'Evidence']",2,alternative hip hop
+1033,DJ Clue,hip hop,"['Fabolous', 'Mariah Carey', 'Busta Rhymes', 'Mary J. Blige']",4,hip hop
+1034,DJ ESCO,hip hop,['Future'],1,atl hip hop
+1035,Killer Mike,hip hop,"['OutKast', 'Trouble', 'Trina', 'Bone Crusher', 'T.I.', 'Jeezy', 'JAY-Z', 'Bun B']",8,alternative hip hop
+1036,DJ Kool,hip hop,['Redman'],1,hip hop
+1037,Lalo Ebratt,hip hop,"['Belinda', 'Yera', 'Skinny Happy', 'Manuel Turizo', 'Reik', 'J Balvin', 'Rauw Alejandro', 'Dalmata', 'Cosculluela', 'Horacio Palencia', 'Sebastian Yatra']",11,hip hop
+1038,DJ Premier,hip hop,"['Run The Jewels', 'Russ', 'Xzibit']",3,alternative hip hop
+1039,DJ Shadow,hip hop,"['Run The Jewels', 'Mos Def']",2,alternative hip hop
+1040,DMX,hip hop,"['Drag-On', 'Redman', 'David Banner', 'Busta Rhymes', 'Ja Rule', 'Missy Elliott', 'Sisqo', 'Yung Wun', 'Mary J. Blige', 'Monica']",10,hip hop
+1041,LL Cool J,hip hop,['Funkmaster Flex'],1,hip hop
+1042,L-Boy,hip hop,['Lucas.'],1,atl hip hop
+1043,Kutt Calhoun,hip hop,"['Skatterman', 'Tech N9ne', 'Snug Brim']",3,hip hop
+1044,DaBaby,hip hop,"['DaniLeigh', 'Migos', 'Quality Control', 'Dreamville', 'Gucci Mane', 'Camila Cabello', 'Gunna', 'J. Cole', 'Lil Yachty', '2 Chainz', 'Nicki Minaj', 'Lute', 'Meek Mill', 'Dua Lipa', 'City Girls', 'Lil Wayne', 'Ashanti', 'Tory Lanez', 'Quavo', 'MadeinTYO', 'London On Da Track', 'Toosii']",22,hip hop
+1045,Kota the Friend,hip hop,"['Joey Bada$$', 'Bas']",2,hip hop
+1046,Kool Moe Dee,hip hop,"['Dru Hill', 'Grandmaster Caz', 'Macklemore & Ryan Lewis', 'Grandmaster Melle Mel']",4,hip hop
+1047,Kodie Shane,hip hop,['Ashnikko'],1,atl hip hop
+1048,Dalima,hip hop,['Tech N9ne'],1,hip hop
+1049,King Chip,hip hop,"['Kid Cudi', 'A$AP Rocky']",2,hip hop
+1050,Drag-On,hip hop,"['Ruff Ryders', 'The LOX', 'DMX']",3,hip hop
+1051,Joey Bada$$,hip hop,"['Big K.R.I.T.', 'A$AP Rocky', 'Capital Steez', 'CJ Fly', 'Bas', 'Kendrick Lamar', 'Westside Gunn', 'Beast Coast', 'Kota the Friend', 'Erick the Architect', 'Action Bronson', 'Danny Brown', 'Billie Essco', 'Powers Pleasant']",14,hip hop
+1052,Rich Brian,hip hop,"['Higher Brothers', 'AUGUST 08', '88rising']",3,hip hop
+1053,Flame,hip hop,['NF'],1,atl hip hop
+1054,ILOVEMAKONNEN,hip hop,['Drake'],1,atl hip hop
+1055,I-20,hip hop,"['Ludacris', 'Disturbing Tha Peace', '2 Chainz']",3,atl hip hop
+1056,Hopsin,hip hop,['Dax'],1,hip hop
+1057,HoodRich Pablo Juan,hip hop,['Gucci Mane'],1,atl hip hop
+1058,Higher Brothers,hip hop,"['Rich Brian', 'AUGUST 08', '88rising']",3,hip hop
+1059,Factor Chandelier,hip hop,"['Myka 9', 'Evil Ebenezer']",2,hip hop
+1060,Hi-Tek,hip hop,['Talib Kweli'],1,alternative hip hop
+1061,Headie One,hip hop,['Drake'],1,hip hop
+1062,Far East Movement,hip hop,['Justin Bieber'],1,hip hop
+1063,Fat Joe,hip hop,"['Lumidee', 'Nina Sky', 'Baby', 'French Montana', 'Ashanti', 'Ja Rule', 'Pitbull', 'Terror Squad', 'JAY-Z', 'Wayne', 'Ying Yang Twins', 'Nelly', 'Remy Ma', 'Jacki-O', 'Jennifer Lopez', 'Eminem']",16,hip hop
+1064,Gunna,hip hop,"['Chris Brown', 'Internet Money', 'Offset', 'Future', 'Quality Control', 'DaBaby', 'Drake', 'TK Kravitz', 'Kap G', 'Lil Keed', 'Gucci Mane', 'Jacquees', 'Anuel AA', 'Ty Dolla $ign', 'London On Da Track']",15,atl hip hop
+1065,Gucci Mane,hip hop,"['Ludacris', 'Young Thug', 'Offset', 'Boo', 'Lil Baby', 'DaBaby', 'Wiz Khalifa', 'Drake', 'Desiigner', 'Pooh Shiesty', 'Shawty Lo', 'Bryson Tiller', 'BIG30', 'Gunna', 'Chris Brown', 'blackbear', 'Jeezy', 'Usher', 'Gorilla Zoe', 'Trey Songz', 'Nicki Minaj', 'Mike WiLL Made-It', 'Fifth Harmony', 'Lil Wayne', 'Bruno Mars', 'Kendrick Lamar', 'Rocko', 'HoodRich Pablo Juan', 'Selena Gomez', 'Quavo', 'Ty Dolla $ign', 'London On Da Track', 'Aminé', 'Mulatto', 'Big Sean', 'Logic']",36,atl hip hop
+1066,Guanabanas,hip hop,"['Noriega', 'Luny Tunes']",2,hip hop
+1067,Field Mob,hip hop,['Ciara'],1,atl hip hop
+1068,Flipmode Squad,hip hop,"['Mariah Carey', 'Busta Rhymes']",2,hip hop
+1069,Evil Ebenezer,hip hop,"['Myka 9', 'Factor Chandelier']",2,hip hop
+1070,Grandmaster Melle Mel,hip hop,"['Grandmaster Caz', 'Kool Moe Dee', 'Macklemore & Ryan Lewis']",3,hip hop
+1071,Gorillaz,hip hop,"['Gruff Rhys', 'Mos Def', 'Kali Uchis', 'Vince Staples', 'Beck']",5,alternative hip hop
+1072,Gorilla Zoe,hip hop,"['OJ Da Juiceman', 'Lil Wayne', 'Gucci Mane', 'Yung Joc']",4,atl hip hop
+1073,Flipp Dinero,hip hop,['Lil Baby'],1,hip hop
+1074,Gift Of Gab,hip hop,"['Lyrics Born', 'Blackalicious']",2,hip hop
+1075,Ghostface Killah,hip hop,"['RZA', 'Redman', 'Raekwon', 'Masta Killa', 'Method Man', 'GZA', 'Cappadonna', 'Mark Ronson']",8,alternative hip hop
+1076,Foxy Brown,hip hop,"['Trina', 'Ludacris', 'Blu Cantrell']",3,hip hop
+1077,GZA,hip hop,"['Ghostface Killah', 'Raekwon', 'Masta Killa', 'Cappadonna']",4,alternative hip hop
+1078,GRiZ,hip hop,"['Big Wild', 'Talib Kweli']",2,hip hop
+1079,Freddie Gibbs,hip hop,"['Danny Brown', 'Benny The Butcher', 'The Alchemist', 'Young Thug', 'Domo Genesis', 'Big Sean', 'Madlib', 'A$AP Ferg', 'Earl Sweatshirt', 'Conway the Machine']",10,alternative hip hop
+1080,G-Eazy,hip hop,"['DaniLeigh', 'A$AP Rocky', 'Jez Dior', 'SAYGRACE', 'Olivver the Kid', 'Chris Brown', 'Pia Mia', 'Zoe Nash', 'Quin', 'Cardi B', 'Halsey', 'Macklemore', 'Black Bear', 'GASHI', 'Kehlani', 'Devon Baldwin', 'Lukas Graham', 'Belly', 'Skizzy Mars', 'Tory Lanez', 'Ty Dolla $ign', 'A$AP Ferg', 'Jack Harlow', 'Hoodie Allen', 'French Montana', 'Big Sean', 'MOD SUN', 'Tyga', 'Britney Spears', 'DreamDoll']",30,hip hop
+1081,Futuristic,hip hop,"['Dizzy Wright', 'NF', 'Devvon Terrell', 'Layzie Bone']",4,hip hop
+1082,Future,hip hop,"['Calvin Harris', 'Maroon 5', 'Ed Sheeran', 'Offset', 'M.I.A.', 'Wiz Khalifa', 'DeJ Loaf', 'DJ ESCO', 'Rae Sremmurd', 'Gunna', 'Doe Boy', 'Metro Boomin', 'Chris Brown', 'Preme', 'Lil Yachty', 'Jeezy', '21 Savage', 'Halsey', 'J Balvin', 'Tamar Braxton', 'Taylor Swift', 'Mac Miller', 'A$AP Ferg', 'Sage The Gemini', 'Ty Dolla $ign', 'NAV', 'Jay Rock', 'Kelly Rowland', 'French Montana', 'Juan Magán', 'Joe Fox', 'T.I.', 'Pharrell Williams', 'August Alsina']",34,atl hip hop
+1083,Funkmaster Flex,hip hop,['LL Cool J'],1,hip hop
+1084,Ice Cube,hip hop,"['Das EFX', 'Lil Jon']",2,hip hop
+1085,Iggy Azalea,hip hop,"['Rita Ora', 'Wiz Khalifa', 'T.I.', 'Tyga', 'Alice Chater', 'Ariana Grande']",6,hip hop
+1086,Dreamville,hip hop,"['Cozz', 'J. Cole', 'EARTHGANG', 'DaBaby', 'Bas', 'JID', 'Lute', 'Ty Dolla $ign']",8,hip hop
+1087,Jagged Edge,hip hop,"['Diddy', 'Ludacris', 'Fabolous', 'Ashanti', 'The Notorious B.I.G.', 'RUN', 'Nelly', 'Bow Wow']",8,atl hip hop
+1088,Joe Fox,hip hop,"['M.I.A.', 'A$AP Rocky', 'Future']",3,hip hop
+1089,Jidenna,hip hop,['Kendrick Lamar'],1,hip hop
+1090,Jhorrmountain,hip hop,"['Adje', 'Puri']",2,hip hop
+1091,Jez Dior,hip hop,['G-Eazy'],1,hip hop
+1092,Duki,hip hop,"['Cazzu', 'KHEA', 'Bad Bunny']",3,hip hop
+1093,Jermaine Dupri,hip hop,"['Dru Hill', 'Trina', 'Ludacris', 'Fabolous', 'Diddy', 'Mariah Carey', 'Dem Franchize Boyz', 'Usher', 'Soulja Boy', 'DJ Felli Fel']",10,atl hip hop
+1094,Dumbfoundead,hip hop,['A$AP Ferg'],1,hip hop
+1095,Jeezy,hip hop,"['Lloyd', 'Ludacris', 'Boo', 'Big Boi', 'Drake', 'Timbaland', 'Gucci Mane', 'Trinidad James', 'Bankroll Fresh', 'Rich The Kid', 'J. Cole', 'Future', 'Usher', 'Trey Songz', 'Machine Gun Kelly', 'Rich Homie Quan', 'Ciara', 'Lil Wayne', 'Kendrick Lamar', 'André 3000', 'Rihanna', 'Killer Mike', 'Big Sean', 'Lil Scrappy', 'Bun B']",25,atl hip hop
+1096,Jedi Mind Tricks,hip hop,['R.A. The Rugged Man'],1,hip hop
+1097,Jean Grae,hip hop,['Immortal Technique'],1,alternative hip hop
+1098,Jazze Pha,hip hop,"['OutKast', 'Ciara', 'T.I.', 'Trillville', 'Sleepy Brown']",5,atl hip hop
+1099,EARTHGANG,hip hop,"['Young Thug', 'Bas', 'Spillage Village', 'Dreamville']",4,atl hip hop
+1100,Jay Rock,hip hop,"['Isaiah Rashad', 'J. Cole', 'Ab-Soul', 'Future']",4,hip hop
+1101,Earl Sweatshirt,hip hop,"['Freddie Gibbs', 'Ab-Soul', 'Vince Staples', 'The Alchemist', 'Madlib', 'Kendrick Lamar', 'Casey Veggies', 'Mac Miller', 'Danny Brown', 'RZA']",10,alternative hip hop
+1102,Jaden,hip hop,"['Childish Gambino', 'Logic', 'Young Thug']",3,hip hop
+1103,Evidence,hip hop,"['Pharoahe Monch', 'DJ Babu']",2,alternative hip hop
+1104,Jacquees,hip hop,"['Chris Brown', 'Young Thug', 'Ski Mask The Slump God', 'Lil Baby', 'TK Kravitz', 'K CAMP', 'Quavo', 'Ty Dolla $ign', 'Gunna']",9,atl hip hop
+1105,Jackson Wang,hip hop,"['Stephanie Poetri', '88rising']",2,hip hop
+1106,Eminem,hip hop,"['Sheek', 'Dido', 'Skylar Grey', 'B.o.B', 'Young M.A', 'Fat Joe', 'P!nk', 'Black Thought', 'Remy Ma', 'Joyner Lucas', 'Nicki Minaj', 'Kid Cudi', 'Joell Ortiz', 'D12', 'Lil Wayne', 'Kendrick Lamar', 'The Notorious B.I.G.', 'Styles P', 'Gwen Stefani', 'Lil Jon', 'Q-Tip', 'Tech N9ne', 'Sticky Fingaz', 'T.I.', 'Big Sean', 'Bobby Creekwater', 'Logic', 'Akon', 'Tony Yayo', 'Slaughterhouse']",30,hip hop
+1107,Jack Harlow,hip hop,"['City Girls', 'G-Eazy', 'French Montana', 'Bryson Tiller', 'Tory Lanez', 'Quavo']",6,hip hop
+1108,Erick Sermon,hip hop,"['Xzibit', 'Redman']",2,alternative hip hop
+1109,JID,hip hop,"['J. Cole', 'Bas', 'Spillage Village', 'Dreamville', 'Quentin Miller']",5,hip hop
+1110,JAY-Z,hip hop,"['CyHi The Prynce', 'Rakim', 'Boo', 'Big Boi', 'Faith Evans', 'Fat Joe', 'Mýa', 'Usher', 'Remy Ma', 'DJ Khaled', 'Kid Cudi', 'RZA', 'M.O.P.', 'Meek Mill', 'The-Dream', 'The Notorious B.I.G.', 'Kendrick Lamar', 'André 3000', 'Killer Mike', 'Truth Hurts', 'French Montana', 'Big Sean', 'Alicia Keys']",23,hip hop
+1111,J. Cole,hip hop,"['Cozz', 'Wale', 'Amber Coffman', 'Young Thug', 'Ty Dolla $ign', 'DaBaby', 'Jeezy', 'Kendrick Lamar', '50 Cent', 'Melanie Fiona', 'Dreamville', 'TLC', 'Lute', 'JID', 'Beyoncé', 'Salaam Remi', 'Jay Rock']",17,hip hop
+1112,J-Hood,hip hop,"['Styles P', 'Sheek Louch']",2,atl hip hop
+1113,J Dilla,hip hop,"['Common', 'MF DOOM']",2,alternative hip hop
+1114,Erick the Architect,hip hop,"['Joey Bada$$', 'Beast Coast', 'Powers Pleasant']",3,hip hop
+1115,Isaiah Rashad,hip hop,"['Jay Rock', 'Kendrick Lamar']",2,hip hop
+1116,Ethereal,hip hop,['Playboi Carti'],1,hip hop
+1117,Immortal Technique,hip hop,"['Jean Grae', 'Diabolic', 'Poison Pen', 'C-Rayz Walz']",4,hip hop
+1118,Lil Yachty,hip hop,"['Playboi Carti', 'Calvin Harris', 'A$AP Rocky', 'Offset', 'DRAM', 'Lil Baby', 'Quality Control', 'DaBaby', 'Drake', 'Lil Keed', 'T-Pain', 'Tee Grizzley', 'Future', 'Macklemore', 'Mike WiLL Made-It', 'Kehlani', 'YFN Lucci', 'Murda Beatz', 'Bhad Bhabie', 'Social House', 'KYLE']",21,atl hip hop
+1119,Curren$y,hip hop,"['Big K.R.I.T.', 'Lil Wayne', '2 Chainz', 'Trademark Da Skydiver', 'August Alsina']",5,alternative hip hop
+1120,Crime Mob,hip hop,['Lil Scrappy'],1,atl hip hop
+1121,Blac Youngsta,hip hop,['Lil Baby'],1,hip hop
+1122,Big Gipp,hip hop,['OutKast'],1,atl hip hop
+1123,Big K.R.I.T.,hip hop,"['Joey Bada$$', 'A$AP Rocky', 'Ludacris', 'Curren$y', 'Wiz Khalifa', 'Kendrick Lamar', 'Action Bronson', 'Danny Brown', 'Bun B']",9,alternative hip hop
+1124,Pharoahe Monch,hip hop,"['Mos Def', 'DJ Babu', 'Evidence', 'Styles P']",4,alternative hip hop
+1125,Big Noyd,hip hop,['Mobb Deep'],1,hip hop
+1126,Peanut Butter Wolf,hip hop,['Charizma'],1,alternative hip hop
+1127,Big Pun,hip hop,"['Donell Jones', 'The Beatnuts', 'Ashanti']",3,hip hop
+1128,Big Rube,hip hop,"['OutKast', 'Sleepy Brown']",2,atl hip hop
+1129,Pastor Troy,hip hop,['Lil Jon & The East Side Boyz'],1,atl hip hop
+1130,Big Sean,hip hop,"['Playboi Carti', 'Calvin Harris', 'A$AP Rocky', 'Migos', 'Lil Baby', 'Mike Posner', 'DeJ Loaf', 'Chiddy Bang', 'Desiigner', 'Katy Perry', 'Gucci Mane', 'Eminem', 'Metro Boomin', 'Justin Bieber', 'Jeezy', '21 Savage', 'Halsey', 'Nicki Minaj', 'DJ Khaled', 'G-Eazy', 'Meek Mill', 'Freddie Gibbs', 'JAY-Z', 'Roscoe Dash', 'Quavo', 'Ty Dolla $ign', 'A$AP Ferg', 'MadeinTYO', 'A$AP Mob', 'NLE Choppa', 'Pharrell Williams', 'Kash Doll', 'Bun B', 'Ariana Grande']",34,hip hop
+1131,Bilal,hip hop,"['Mos Def', 'Kendrick Lamar', 'Mac Miller', 'Jill Scott']",4,hip hop
+1132,P$C,hip hop,"['CeeLo Green', 'Young Dro', 'T.I.']",3,atl hip hop
+1133,Billie Essco,hip hop,"['Westside Gunn', 'Joey Bada$$']",2,hip hop
+1134,OutKast,hip hop,"['Big Rube', 'Lil Wayne', 'Jazze Pha', 'Kelis', 'Scar', 'Big Gipp', 'C-Bone', 'CeeLo Green', 'Killer Mike']",9,atl hip hop
+1135,Orishas,hip hop,['Calle 13'],1,hip hop
+1136,Black Rob,hip hop,['Diddy'],1,hip hop
+1137,Big Daddy Kane,hip hop,"['Jurassic 5', 'Percy P']",2,hip hop
+1138,Black Thought,hip hop,"['Q-Tip', 'Benny The Butcher', 'Russ', 'Eminem']",4,alternative hip hop
+1139,Oliver,hip hop,"['Big Data', 'Joywave']",2,alternative hip hop
+1140,Blackalicious,hip hop,"['Lyrics Born', 'Gift Of Gab']",2,alternative hip hop
+1141,Offset,hip hop,"['Arcangel', 'Young Thug', 'Lil Baby', 'Quality Control', 'Drake', 'Madison Beer', 'Gucci Mane', 'Gunna', 'Rich The Kid', 'Future', 'Ozuna', 'Lil Yachty', '2 Chainz', 'Stunna 4 Vegas', 'J Balvin', 'Murda Beatz', 'Anuel', 'NAV', 'Lil Jon', 'KSI', 'Tyga', 'Chris Jeday']",22,atl hip hop
+1142,Odd Future,hip hop,['Domo Genesis'],1,hip hop
+1143,Obie Trice,hip hop,"['Bobby Creekwater', 'Akon', 'Tony Yayo', '50 Cent']",4,hip hop
+1144,OJ Da Juiceman,hip hop,"['Gorilla Zoe', 'Rocko', 'Shawty Lo', 'Nicki Minaj']",4,atl hip hop
+1145,O.C.,hip hop,['D.I.T.C.'],1,alternative hip hop
+1146,O.C,hip hop,['Lord Finesse'],1,alternative hip hop
+1147,Noriega,hip hop,"['Lil Jon', 'Zion & Lennox', 'Luny Tunes', 'Tego Calderon', 'Pitbull', 'Don Omar', 'Trebol Clan', 'Guanabanas', 'Tito ""El Bambino""']",9,hip hop
+1148,Nivea,hip hop,"['Lil Jon', 'Youngbloodz']",2,atl hip hop
+1149,Nipsey Hussle,hip hop,"['Diddy', 'Stacy Barthe', 'Belly', 'Dubb', 'Drake', 'Kendrick Lamar', '50 Cent']",7,hip hop
+1150,Bobby Creekwater,hip hop,"['Obie Trice', 'Eminem']",2,atl hip hop
+1151,Bone Crusher,hip hop,"['Busta Rhymes', 'T.I.', 'Killer Mike']",3,atl hip hop
+1152,Phora,hip hop,['Kehlani'],1,hip hop
+1153,Big Boi,hip hop,"['Lil Jon', 'Raekwon', 'T.I.', 'Jeezy', 'JAY-Z', 'André 3000', 'Run The Jewels', 'Brooke Valentine', 'CeeLo Green']",9,atl hip hop
+1154,Cozz,hip hop,"['Dreamville', 'J. Cole']",2,hip hop
+1155,RUN,hip hop,['Jagged Edge'],1,hip hop
+1156,Baby,hip hop,"['Diddy', 'Fat Joe', 'Clipse', 'Wayne']",4,atl hip hop
+1157,Residente,hip hop,['Bad Bunny'],1,hip hop
+1158,Remy Ma,hip hop,"['Lil Jon', 'Fat Joe', 'French Montana', 'JAY-Z', 'Terror Squad', 'Eminem']",6,hip hop
+1159,Rejjie Snow,hip hop,"['Clairo', 'Aminé', 'Dana Williams']",3,hip hop
+1160,Reese LAFLARE,hip hop,['Young Thug'],1,hip hop
+1161,Redman,hip hop,"['DMX', 'Ghostface Killah', 'Erick Sermon', 'DJ Kool', 'Cappadonna', 'Christina Aguilera']",6,alternative hip hop
+1162,Raury,hip hop,['Ty Dolla $ign'],1,hip hop
+1163,Rapsody,hip hop,"['Mac Miller', 'Ab-Soul', 'Kendrick Lamar']",3,alternative hip hop
+1164,Rakim,hip hop,"['JAY-Z', 'Truth Hurts', 'Ken-Y']",3,hip hop
+1165,Bad Meets Evil,hip hop,['Bruno Mars'],1,hip hop
+1166,Raekwon,hip hop,"['Ghostface Killah', 'Big Boi', 'Masta Killa', 'GZA', 'André 3000', 'Cappadonna']",6,alternative hip hop
+1167,Rae Sremmurd,hip hop,"['Migos', 'Young Thug', 'Future', 'Kendrick Lamar', 'Nicki Minaj', 'Ty Dolla $ign', 'Mike WiLL Made-It']",7,hip hop
+1168,Bankroll Fresh,hip hop,"['Travis Porter', 'Jeezy']",2,atl hip hop
+1169,RZA,hip hop,"['Wu-Tang Clan', 'CyHi The Prynce', 'Ghostface Killah', 'JAY-Z', 'Earl Sweatshirt', 'MF DOOM']",6,alternative hip hop
+1170,Beast Coast,hip hop,"['Powers Pleasant', 'Erick the Architect', 'Joey Bada$$']",3,hip hop
+1171,Planet Asia,hip hop,"['Dilated Peoples', 'Rasco']",2,alternative hip hop
+1172,R.A. The Rugged Man,hip hop,['Jedi Mind Tricks'],1,alternative hip hop
+1173,Quentin Miller,hip hop,"['Spillage Village', 'JID']",2,atl hip hop
+1174,Belly,hip hop,"['A$AP Rocky', 'French Montana', 'Nipsey Hussle', 'G-Eazy']",4,hip hop
+1175,Queen Latifah,hip hop,"['Zac Efron', 'MC Lyte', 'Yo Yo', 'Brandy']",4,hip hop
+1176,Quavo,hip hop,"['Playboi Carti', 'A$AP Rocky', 'Lil Baby', 'Quality Control', 'DaBaby', 'Wiz Khalifa', 'Desiigner', 'KAROL G', 'Gucci Mane', 'Jacquees', 'Camila Cabello', 'Metro Boomin', 'Rich The Kid', 'Justin Bieber', 'Takeoff', 'Major Lazer', '2 Chainz', '21 Savage', 'Liam Payne', 'DJ Khaled', 'Meek Mill', 'City Girls', 'Lil Wayne', 'K CAMP', 'Bad Bunny', 'Ty Dolla $ign', 'A$AP Ferg', 'Jack Harlow', 'NAV', 'A$AP Mob', 'Big Sean', 'T.I.']",32,atl hip hop
+1177,Quasimoto,hip hop,"['Madvillain', 'Madlib']",2,alternative hip hop
+1178,Quality Control,hip hop,"['Playboi Carti', 'Migos', 'Offset', 'Layton Greene', 'Lil Baby', 'City Girls', 'DaBaby', 'Lil Yachty', 'Quavo', 'Ty Dolla $ign', 'Gunna']",11,hip hop
+1179,Q-Tip,hip hop,"['Fergie', 'Mos Def', 'Black Thought', 'Eminem']",4,alternative hip hop
+1180,Benny The Butcher,hip hop,"['Freddie Gibbs', 'The Alchemist', 'Russ', 'Black Thought']",4,alternative hip hop
+1181,Preme,hip hop,"['OB OBrien', 'Future']",2,hip hop
+1182,Powers Pleasant,hip hop,"['Beast Coast', 'Erick the Architect', 'Joey Bada$$']",3,hip hop
+1183,Pooh Shiesty,hip hop,"['BIG30', 'Gucci Mane']",2,hip hop
+1184,Poison Pen,hip hop,"['Diabolic', 'C-Rayz Walz', 'Immortal Technique']",3,hip hop
+1185,Playboi Carti,hip hop,"['A$AP Mob', 'A$AP Twelvyy', 'Young Thug', 'A$AP ANT', 'Metro Boomin', 'Quality Control', 'Lil Yachty', 'Big Sean', 'Drake', 'Bryson Tiller', 'Nicki Minaj', 'Lana Del Rey', 'A$AP NAST', 'Quavo', 'A$AP Ferg', 'Ethereal', 'NAV']",17,atl hip hop
+1186,Boo,hip hop,"['Jeezy', 'JAY-Z', 'Gucci Mane']",3,hip hop
+1187,French Montana,hip hop,"['A$AP Rocky', 'Wiz Khalifa', 'Trinidad James', 'Omarion', 'Fat Joe', 'Future', 'Cardi B', 'Zhavia Ward', 'Joyner Lucas', 'Machine Gun Kelly', 'Remy Ma', 'DJ Khaled', 'Miley Cyrus', 'G-Eazy', 'City Girls', 'Lil Wayne', 'Belly', 'Kid Ink', 'JAY-Z', 'Tory Lanez', 'Ty Dolla $ign', 'A$AP Ferg', 'Jack Harlow', 'Jonn Hart', 'Jason Derulo', 'T.I.', 'Rvssian']",27,hip hop
+1188,Bryson Tiller,hip hop,"['Wale', 'Playboi Carti', 'Rihanna', 'Drake', 'Gucci Mane', 'DJ Khaled', 'Jack Harlow', 'Summer Walker']",8,hip hop
+1189,MC Lyte,hip hop,"['Yo Yo', 'Brandy', 'Queen Latifah']",3,hip hop
+1190,Masta Killa,hip hop,"['Ghostface Killah', 'Raekwon', 'GZA', 'Cappadonna']",4,alternative hip hop
+1191,Chali 2na,hip hop,['The Alchemist'],1,alternative hip hop
+1192,Charizma,hip hop,['Peanut Butter Wolf'],1,alternative hip hop
+1193,Cherish,hip hop,['Sean Paul'],1,atl hip hop
+1194,Childish Gambino,hip hop,"['Jaden', '21 Savage', 'Logic', 'Ink', 'Beyoncé']",5,atl hip hop
+1195,Chip Tha Ripper,hip hop,"['Kid Cudi', 'Nicole Wray']",2,hip hop
+1196,Maejor,hip hop,"['Justin Bieber', 'Hot Chelle Rae']",2,hip hop
+1197,Madvillain,hip hop,"['Madlib', 'Quasimoto', 'Viktor Vaughn', 'MF DOOM']",4,alternative hip hop
+1198,Madlib,hip hop,"['Freddie Gibbs', 'Domo Genesis', 'Quasimoto', 'Danny Brown', 'Earl Sweatshirt', 'MF DOOM', 'Madvillain']",7,alternative hip hop
+1199,MadeinTYO,hip hop,"['Royce Rizzy', 'DaBaby', '2 Chainz', 'Big Sean', 'Nicki Minaj']",5,atl hip hop
+1200,Machine Gun Kelly,hip hop,"['Young Thug', 'Bebe Rexha', 'The Kid LAROI', 'Naomi Wild', 'Sleeping With Sirens', 'Camila Cabello', '2 Chainz', 'Jeezy', 'Little Mix', 'Halsey', 'Meek Mill', 'Kid Ink', 'Hailee Steinfeld', 'Cassie', 'Lil Jon', 'Tech N9ne', 'French Montana', 'MOD SUN']",18,hip hop
+1201,Mac Miller,hip hop,"['Sean Price', 'Wiz Khalifa', 'Bilal', 'Casey Veggies', 'Action Bronson', '88-Keys', 'Statik Selektah', 'Future', 'Domo Genesis', 'CeeLo Green', 'Earl Sweatshirt', 'Lil Wayne', 'Kendrick Lamar', 'Sir Michael Rocks', 'Ty Dolla $ign', 'Lil B', 'Miguel', 'Rapsody', 'Termanology', 'Ariana Grande']",20,hip hop
+1202,MF Grimm,hip hop,['MF DOOM'],1,alternative hip hop
+1203,MF DOOM,hip hop,"['J Dilla', 'Wu-Tang Clan', 'Danger Doom', 'RZA', 'Aesop Rock', 'Molemen', 'MF Grimm', 'Madlib', 'De La Soul', 'Madvillain']",10,alternative hip hop
+1204,M.O.P.,hip hop,"['Busta Rhymes', 'JAY-Z']",2,alternative hip hop
+1205,Bubba Sparxxx,hip hop,"['Archie Eversole', 'Ying Yang Twins', 'Mr. Collipark']",3,atl hip hop
+1206,Chuuwee,hip hop,['Trizz'],1,hip hop
+1207,Lyrics Born,hip hop,"['Blackalicious', 'Gift Of Gab']",2,alternative hip hop
+1208,Lute,hip hop,"['Dreamville', 'DaBaby', 'J. Cole']",3,hip hop
+1209,LunchMoney Lewis,hip hop,"['Nicki Minaj', 'Flo Rida', 'Pitbull']",3,hip hop
+1210,Ludacris,hip hop,"['Taio Cruz', 'Fergie', 'Wiz Khalifa', 'Jagged Edge', 'I-20', 'Gucci Mane', 'B.o.B', 'DJ Felli Fel', 'Chris Brown', 'Foxy Brown', 'Jesse McCartney', 'Justin Bieber', 'Mariah Carey', '2 Chainz', 'Jeezy', 'Trey Songz', 'Nicki Minaj', 'DJ Khaled', 'CeeLo Green', 'Jamie Foxx', 'David Guetta', 'Big K.R.I.T.', 'Ciara', 'Lil Wayne', 'Missy Elliott', 'Sleepy Brown', 'Miguel', 'Diddy', 'Jermaine Dupri', 'Disturbing Tha Peace', 'Enrique Iglesias', 'T.I.', 'Pharrell Williams', 'Akon', 'Cashmere Cat', 'Bobby V.', 'Bun B']",37,atl hip hop
+1211,Clipse,hip hop,"['Pharrell Williams', 'Baby']",2,alternative hip hop
+1212,Lucas.,hip hop,['L-Boy'],1,hip hop
+1213,Clue,hip hop,['Mariah Carey'],1,hip hop
+1214,Louie Ray,hip hop,['YN Jay'],1,hip hop
+1215,Common,hip hop,"['J Dilla', 'The Roots', 'Mos Def', 'Melanie Fiona', 'Kid Cudi', 'Jill Scott', 'Mary J. Blige', 'Talib Kweli']",8,alternative hip hop
+1216,Lord Finesse,hip hop,['O.C'],1,alternative hip hop
+1217,London On Da Track,hip hop,"['Chris Brown', 'DaBaby', 'Gucci Mane', 'Gunna', 'Summer Walker']",5,atl hip hop
+1218,Logic,hip hop,"['Childish Gambino', 'Tech N9ne', 'Jaden', 'Lil Wayne', 'OneRepublic', 'Quinn XCII', 'Gucci Mane', 'Ty Dolla $ign', 'ROZES', 'Eminem']",10,hip hop
+1219,Cousin Stizz,hip hop,"['DRAM', 'City Girls']",2,hip hop
+1220,CeeLo Green,hip hop,"['OutKast', 'P$C', 'Ludacris', 'Danger Doom', 'Big Boi', 'B.o.B', 'Bruno Mars', 'Timbaland', 'Mac Miller', 'Kid Cudi']",10,atl hip hop
+1221,Cazzu,hip hop,"['Lenny Tavárez', 'Sech', 'Alex Rose', 'Lyanno', 'Feid', 'Bad Bunny', 'Duki', 'KHEA']",8,hip hop
+1222,Meek Mill,hip hop,"['Young Thug', 'DaBaby', 'Wiz Khalifa', 'Drake', 'T-Pain', 'Doe Boy', 'Chris Brown', 'Cardi B', '21 Savage', 'Machine Gun Kelly', 'Nicki Minaj', 'Rich Homie Quan', 'Justin Timberlake', 'Lil Wayne', 'J Balvin', 'JAY-Z', 'Ella Mai', 'Tory Lanez', 'Quavo', 'Ty Dolla $ign', 'NAV', 'Wale', 'Fabolous', 'T.I.', 'Big Sean', 'Anuel AA']",26,hip hop
+1223,Casey Veggies,hip hop,"['Vince Staples', 'DeJ Loaf', 'Mac Miller', 'Earl Sweatshirt']",4,hip hop
+1224,NLE Choppa,hip hop,"['Stunna 4 Vegas', 'Lil Baby', 'Asian Doll', 'Big Sean', 'Quin Nfn', 'G-Nine', 'Mike WiLL Made-It']",7,hip hop
+1225,NF,hip hop,"['Futuristic', 'Ruelle', 'Flame', 'Andreas Moss']",4,hip hop
+1226,Busdriver,hip hop,['Milo'],1,hip hop
+1227,Busta Rhymes,hip hop,"['DMX', 'Rah Digga', 'Method Man', 'Mary J. Blige', 'Chris Brown', 'DJ Clue', 'Justin Bieber', 'Russ', 'The Pussycat Dolls', 'Sean Paul', 'M.O.P.', '50 Cent', 'Bone Crusher', 'Lil Wayne', 'Kat Deluna', 'David Banner', 'Kendrick Lamar', 'Missy Elliott', 'Flipmode Squad', 'Lumidee', 'Fabolous', 'Tech N9ne', 'T.I.', 'Pharrell Williams']",24,hip hop
+1228,NAV,hip hop,"['Internet Money', 'Playboi Carti', 'Metro Boomin', 'Future', 'Young Thug', 'Meek Mill', 'Offset', 'Lil Keed', 'Quavo', 'Anuel AA']",10,hip hop
+1229,N.E.R.D,hip hop,"['Drake', 'Pharrell Williams', 'Vita', 'Rihanna']",4,hip hop
+1230,C-Bone,hip hop,['OutKast'],1,atl hip hop
+1231,Myka 9,hip hop,"['Factor Chandelier', 'Evil Ebenezer']",2,hip hop
+1232,C-Kan,hip hop,"['Zimple', 'Don Aero']",2,hip hop
+1233,C-Rayz Walz,hip hop,"['Diabolic', 'Poison Pen', 'Immortal Technique']",3,hip hop
+1234,Murda Beatz,hip hop,"['Nicki Minaj', 'Lil Yachty', 'Offset']",3,hip hop
+1235,CES Cru,hip hop,"['Tech N9ne', 'Rittz', 'Stevie Stone']",3,hip hop
+1236,CJ Fly,hip hop,['Joey Bada$$'],1,hip hop
+1237,Mr. Lif,hip hop,['The Polish Ambassador'],1,hip hop
+1238,Mr. Collipark,hip hop,"['Ying Yang Twins', 'Bubba Sparxxx']",2,atl hip hop
+1239,Mos Def,hip hop,"['DJ Shadow', 'Pharoahe Monch', 'Q-Tip', 'Gorillaz', 'Bilal', 'Common', 'Jill Scott', 'Freeway']",8,alternative hip hop
+1240,Molemen,hip hop,"['MF DOOM', 'Aesop Rock']",2,hip hop
+1241,Mobb Deep,hip hop,"['50 Cent', 'Big Noyd', '112']",3,hip hop
+1242,Cam Meekins,hip hop,['Skizzy Mars'],1,hip hop
+1243,Millonario,hip hop,['Cartel De Santa'],1,hip hop
+1244,Capital Steez,hip hop,['Joey Bada$$'],1,hip hop
+1245,Mike WiLL Made-It,hip hop,"['Migos', 'A$AP Rocky', 'Stunna 4 Vegas', 'Lil Wayne', 'Lil Yachty', 'Kendrick Lamar', '21 Savage', 'NLE Choppa', 'Rae Sremmurd', 'Gucci Mane', 'Rihanna', 'A$AP Ferg']",12,atl hip hop
+1246,Cappadonna,hip hop,"['Redman', 'Ghostface Killah', 'Raekwon', 'Masta Killa', 'Method Man', 'GZA']",6,hip hop
+1247,Migos,hip hop,"['Trouble', 'Calvin Harris', 'Young Thug', 'YFN Lucci', 'Quality Control', 'DaBaby', '2 Chainz', 'Big Sean', 'Drake', 'KAROL G', 'Rae Sremmurd', 'Katy Perry', 'Nicki Minaj', 'Mike WiLL Made-It']",14,atl hip hop
+1248,Mexicano 777,hip hop,['Tempo'],1,hip hop
+1249,Metro Boomin,hip hop,"['Playboi Carti', 'Young Thug', 'Future', 'Big Sean', 'Drake', 'NAV', 'Quavo', 'Kash Doll']",8,hip hop
+1250,Method Man,hip hop,"['A$AP Mob', 'Ghostface Killah', 'Busta Rhymes', 'Ja Rule', 'A$AP NAST', 'Mary J. Blige', 'Cappadonna']",7,hip hop
+1251,Memphis Bleek,hip hop,"['Freeway', 'T.I.', 'Missy Elliott']",3,hip hop
+1252,Cartel De Santa,hip hop,"['Millonario', 'Julieta Venegas']",2,hip hop
+1253,Adje,hip hop,"['Jhorrmountain', 'Puri']",2,hip hop

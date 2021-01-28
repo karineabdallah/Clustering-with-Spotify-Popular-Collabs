@@ -1,0 +1,739 @@
+---
+title: "Magistère 3 - Projet théorie des réseaux et modélisation"
+subtitle: "Les collaborations musicales 2000-2020 les plus écoutées sur Spotify"
+author: "Karine ABDALLAH"
+output:
+  html_document:
+    toc: yes
+    toc_depth: 6
+    toc_float: TRUE
+    theme: united
+    df_print: paged
+    encoding: 'UTF-8'
+---
+
+<style>
+  body {
+    text-align: justify
+  }
+  
+  h1, h2, h3{
+    color: #009999;
+  }
+  
+  #header > h3{
+    color: #7F7F7F;
+  }
+  
+  #header > h1{
+    color: #DD4814;
+  }
+  
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+L'objectif de ce projet est d'étudier un graphe social et d'analyser les liens entre les individus qui constituent le réseau.  
+
+J'ai choisi de m'intéresser aux collaborations musicales des années 2000 à 2020 les plus écoutées sur Spotify. Les données ont été trouvées sur [Kaggle (fichiers data.csv et data_w_genres.csv)](https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks) où sont recensées les chansons les plus écoutées sur Spotify depuis 1921. Les différentes bases de données utilisées dans ce projet ont été créées à l'aide d'un script Python.  
+Chaque individu, ou noeud, représente un artiste. Chaque artiste est caractérisé par son genre : pop, hip hop ou latin (musique latine). Au sein d'un même genre se trouvent plusieurs sous-genres : nous avons retenu pour chaque genre, le ou les sous-genres les plus représentés.   
+Un lien, ou arête, entre un noeud A et un noeud B, existe si les artistes A et B ont collaboré dans une chanson. Dans les graphes non orientés présentés, une arête reliant deux artistes, est d'autant plus marquée que le nombre de collaborations est élevé. 
+
+Les bases de données à notre disposition sont :  
+
+* les noeuds représentant les artistes : nom, genre, sous-genre, liste d'artistes avec lesquels l'artiste a collaboré, degré représentant le nombre de collaborations avec des artistes différents  
+
+* les arêtes représentant les liens non orientés entre artistes : artiste A, artiste B, liste et nombre de chansons en commun. 
+
+Nous disposons également de métadonnées sur les artistes : nom, popularité, année médiane des chansons où il collabore, et caractéristiques musicales.  
+
+Les caractéristiques musicales sont des indicateurs calculés par Spotify, permettant de "quantifier" un artiste ou une musique. Par exemple, une chanson dansante aura une note élevée sur le critère "danceability". Un artiste qui prête une attention particulière aux paroles de ses chansons aura une note élevée de "speechiness" ("speech" signifiant discours).   
+
+Après avoir étudié le graphe de base, nous allons étudier les sous-graphes fondés sur le genre musical ou encore le degré des noeuds. Ensuite, nous allons analyser les mesures de centralité afin d'identifier des noeuds importants. Nous terminerons sur la détection de communautés à travers des méthodes de clustering.   
+
+```{r warning=FALSE, message=FALSE, error=FALSE}
+library(visNetwork)
+library(tidyverse)
+library(igraph)
+library(stringr)
+library(RColorBrewer)
+library(questionr)
+library(ggplot2)
+library(FactoMineR)
+```
+
+```{r}
+nodes_brut <- read.csv2('nodes.csv', header = TRUE, sep=",", encoding='UTF-8', row.names = 1)
+edges_brut <- read.csv2('edges.csv', header = TRUE, sep=",", encoding='UTF-8', row.names = 1)
+artists <- read.csv2('artists.csv', header = TRUE, sep=",", encoding='UTF-8', row.names = 1)
+```
+
+```{r}
+# Fonctions utiles
+
+# Distribution des genres musicaux
+distrib_genre <- function(myNodes){
+  d <- data.frame(table(myNodes$genre), round(table(myNodes$genre) / nrow(myNodes),2))
+  d <- d[,-3] ; colnames(d) <- c("Genre", "Nombre", "Fréquence")
+  return(d)
+}
+
+# Conversion d'une chaîne de caractères en liste 
+str_to_list <- function(str){
+  return(as.list(strsplit(str_remove_all(str, "[(\\[)(\\')(\\])]"), ",")[[1]]))
+}
+
+# Tracé du graphe
+plot_graph <- function(myGraph, put_label = FALSE, sous_genre = FALSE){
+  if (sous_genre == TRUE){
+    my_color <- coul[as.numeric(as.factor(V(myGraph)$sous_genre))]
+  }
+  
+  else {
+    my_color <- coul[as.numeric(as.factor(V(myGraph)$genre))]
+  }
+  
+  if (put_label==TRUE){
+    plot(myGraph, edge.width = E(myGraph)$nb_collab, 
+    vertex.size = 9, edge.color = "#696969",
+    main = "Graphe des collaborations entre artistes", 
+    vertex.color=my_color) 
+  }
+  
+  else {
+    plot(myGraph, edge.width = E(myGraph)$nb_collab, 
+    vertex.size = 9, edge.color = "#696969",
+    main = "Graphe des collaborations entre artistes", 
+    vertex.color=my_color, vertex.label=NA) 
+  }
+  
+  if (sous_genre == TRUE){
+    legend("left", legend=levels(as.factor(V(myGraph)$sous_genre)), col = coul, pch = 16, bty='n', text.col=coul) 
+  }
+  
+  else {
+    legend("left", legend=levels(as.factor(V(myGraph)$genre)), col = coul, pch = 16, bty='n', text.col=coul)
+  }
+    
+}
+
+# Nombre de noeuds et nombre de liens
+nbs <- function(myGraph){
+  return(tibble('-' = c('Nombre', 'Fréquence'),
+                'Noeuds' = c(as.integer(gorder(myGraph)), round(gorder(myGraph) / gorder(graphe_base), 2)),
+                'Liens' = c(as.integer(gsize(myGraph)), round(gsize(myGraph) / gsize(graphe_base), 2))
+                )
+         )
+}
+
+# Sous-graphe à partir d'une condition sur les noeuds
+nodes_edges <- function(old_nodes, old_edges, condition){
+  new_nodes <- subset(old_nodes, condition)
+  new_edges <- subset(old_edges, old_edges$from %in% new_nodes$artist
+                       & old_edges$to %in% new_nodes$artist)
+  return(graph_from_data_frame(d=new_edges, vertices=new_nodes, directed=F))
+}
+
+# Tracé du graphe circulaire
+circular <- function(myGraph){
+  my_color <- coul[as.numeric(as.factor(V(myGraph)$genre))]
+  plot(myGraph, layout=layout.circle, edge.width = E(myGraph)$nb_collab, vertex.color = my_color, main = "Graphe circulaire")
+  legend("left", legend=levels(as.factor(V(myGraph)$genre)), col = coul, pch = 16, bty='n', text.col=coul)
+}
+
+# Nombre de liens par genre
+nb_genre_collab <- function(myNodes, myEdges, weighted = FALSE){
+  
+  get_genre <- function(myArtist){
+    return(myNodes[myNodes$artist == myArtist,]$genre)
+  }
+  
+  myEdges$from_genre = apply(data.frame(myEdges$from), 1, get_genre)
+  myEdges$to_genre = apply(data.frame(myEdges$to), 1, get_genre)
+  
+  if (weighted == TRUE){
+    t <- wtd.table(myEdges$from_genre, myEdges$to_genre, weights=myEdges$nb_collab)
+  }
+  else {
+    t <- table(myEdges$from_genre, myEdges$to_genre)
+  }
+  
+  return(tibble(
+  'Nombre de collaborations par genre' = c('Hip hop', 'Latin', 'Pop'),
+  'Hip hop' = c(t[1,1], t[1,2]+t[2,1], t[1,3]+t[3,1]),
+  'Latin' = c("", t[2,2], t[2,3]+t[3,2]),
+  'Pop' = c("", "", t[3,3])
+  ))
+}
+
+# Genre des artistes avec lesquels un artiste donné a collaboré
+genre_collab_artist <- function(artist_name){
+  list_collab_artist <- nodes_brut[nodes_brut$artist == artist_name,3][[1]]
+  genres_collab_artist <- c()
+  for (i in 1:length(list_collab_artist)){
+    if (length(as.character(nodes_brut[nodes_brut$artist == trimws(list_collab_artist[[i]]),2]))==0){
+      genres_collab_artist[i] <- NA
+    } else {
+      genres_collab_artist[i] <- as.character(nodes_brut[nodes_brut$artist == trimws(list_collab_artist[[i]]),2])
+    }
+}
+  return(table(genres_collab_artist))
+}
+```
+
+```{r}
+head(nodes_brut)
+```
+
+
+```{r}
+head(edges_brut)
+```
+
+```{r}
+# Conversions colonnes
+nodes_brut$degree <- as.numeric(nodes_brut$degree)
+nodes_brut$artists_collab <- apply(as.data.frame(
+  nodes_brut$artists_collab), 1, str_to_list)
+
+artists[-1] <- apply(artists[-1], 2, FUN = as.numeric)
+
+# Création du graphe
+graphe_base <- graph_from_data_frame(d=edges_brut, vertices=nodes_brut, directed=F)
+
+# Variable globale : couleur
+coul  <- brewer.pal(9, "Set1")
+```
+
+```{r echo=FALSE, message=FALSE, error=FALSE}
+knitr::opts_chunk$set(fig.width=9, fig.height=7, fig.align='center')
+```
+
+Tout d'abord, étudions la distribution des effectifs et pourcentages des genres musicaux.
+
+```{r}
+# Distribution des genres musicaux
+distrib_genre(nodes_brut)
+```
+
+La distribution des genres musicaux est représentative de la musique populaire écoutée sur la plateforme Spotify.  
+
+À présent, traçons le graphe des collaborations entre tous les artistes.
+
+```{r}
+# Tracé du graphe pour tous les artistes
+plot_graph(graphe_base)
+```
+
+On constate deux structures distinctes :  
+
+* un grand groupe d'artistes au centre 
+* un cercle d'artistes, plus marginaux, qui entoure la première structure.  
+
+Notons qu'un lien ne désigne pas une chanson, en réalité les liens sont plus nombreux que les chansons. Par exemple, une chanson où collaborent trois artistes A, B, C, génère 3 liens : (A, B), (B, C) et (A, C).
+
+```{r}
+# Nombres de noeuds et de liens
+nbs(graphe_base)
+```
+
+Notre réseau est constitué de 1 254 artistes, que 2 886 liens relient.  
+
+Nous cherchons maintenant des structures de graphe particulières, chez les différents genres des artistes. 
+
+# I. Collaborations par genre
+
+Le genre pop est le genre le plus représenté dans notre réseau, avec 686 artistes qui composent 55% des données.  
+Il faut comprendre que le genre pop est hétéroclite : il contient différents sous-genres, souvent définis par l'origine géographique des artistes. Mais la plupart des artistes pop connus sont en réalité des artistes de "dance pop", ou pop dansante, étant d'ailleurs réputée commerciale.  
+Ainsi, on a conservé deux modalités de sous-genre pour le genre pop : "dance pop", et "pop" qui regroupe tous les autres sous-genres de la pop.
+
+```{r}
+graphe_pop <- nodes_edges(nodes_brut, edges_brut, nodes_brut$genre == "pop")
+plot_graph(graphe_pop, sous_genre = TRUE)
+```
+
+On observe deux structures distinctes :  
+
+* un grand hub où collaborent la plupart des artistes de dance pop ;
+* une autre structure (croissant de lune) où l'on trouve des artistes pop d'autres sous-genres.  
+
+Étudions à présent les collaborations entre les artistes hip hop.  
+Les deux sous-genres les plus représentés sont :  
+
+* "atl hip hop", ou hip hop d'Atlanta, la ville d'Atlanta étant surnommée "le centre de gravité du hip hop"
+* "alternative hip hop", à l'origine éloigné du hip hop mainstream, qui connaît plus tard un certain succès commercial.  
+Les autres sous-genres sont rangés simplement dans la catégorie "hip hop".
+
+```{r}
+graphe_hip_hop <- nodes_edges(nodes_brut, edges_brut, nodes_brut$genre == "hip hop")
+plot_graph(graphe_hip_hop, sous_genre = TRUE)
+```
+
+On observe trois structures différentes :  
+
+* une niche influente composée des artistes hip hop d'Atlanta, historiquement connus
+* les artistes alternatifs qui viennent se greffer au groupe précédent  
+* quelques artistes plus isolés.  
+
+Enfin, nous regardons les collaborations chez les artistes de musique latine. Originaires des Caraïbes et d'Amérique latine, ces artistes se sont imposés à l'international notamment à travers le reggaeton.
+
+```{r}
+graphe_latin <- nodes_edges(nodes_brut, edges_brut, nodes_brut$genre == "latin")
+plot_graph(graphe_latin, sous_genre = TRUE)
+```
+
+L'immense majorité des artistes connectés sont des artistes de reggaeton, les autres artistes étant plus marginaux (musique traditionnelle...). Parmi ces derniers, on note quelques artistes qui s'attachent au reste du groupe.  
+
+Il semble qu'au sein d'un même genre musical, le réseau soit construit par les sous-genres des artistes. 
+
+# II. Collaborations des artistes les plus connectés
+
+Nous souhaitons identifier les caractéristiques du réseau des artistes de degré élevé, qui ont collaboré avec beaucoup d'artistes différents.  
+
+Examinons le graphe des artistes qui ont collaboré avec au moins 15 artistes différents. 
+
+```{r}
+graphe_social15 <- nodes_edges(nodes_brut, edges_brut, nodes_brut$degree >= 15)
+plot_graph(graphe_social15)
+```
+
+Visualisons en parallèle le tableau du nombre de noeuds et de liens du graphe, ainsi que les pourcentages par rapport au graphe de base.
+
+```{r}
+nbs(graphe_social15)
+```
+
+Le tableau indique que 7% des artistes ont collaboré avec plus de 15 artistes différents et représentent 18% des liens du réseau.  
+Au niveau du réseau, on remarque deux groupes séparés : le groupe des artistes latino et le groupe des artistes hip hop et pop.  
+Notons qu'une dizaine d'artistes pop et latino relient les deux groupes, ces artistes vont ressortir dans la mesure de centralité d'intermédiarité. Nous présenterons les mesures de centralité ultérieurement.  
+
+À présent, nous réduisons le cercle d'artistes à ceux qui ont collaboré avec plus de 25 artistes différents. Le graphe est suffisamment lisible pour afficher les noms des artistes.  
+
+```{r}
+graphe_social25 <- nodes_edges(nodes_brut, edges_brut, nodes_brut$degree >= 25)
+plot_graph(graphe_social25, TRUE)
+```
+
+```{r}
+nbs(graphe_social25)
+```
+
+Seuls 3% des artistes sont représentés, il s'agit des artistes les plus connus dans leurs genres respectifs (Daddy Yankee pour la musique latine, Eminem pour le hip hop, Nicki Minaj pour la pop...).  
+De plus, le nombre de collaborations est élevé entre les artistes d'un même genre.  
+
+Le graphe circulaire permet d'examiner l'intensité des liens entre les artistes, notamment entre deux artistes de genre différents.
+
+```{r}
+circular(graphe_social25)
+```
+
+On remarque certains liens forts entre des artistes pop et des artistes hip hop, comme par exemple Chris Brown - Lil Wayne.  
+
+Regardons le tableau des collaborations par genre.
+
+```{r}
+# Nombre de collaboration par genre
+nb_genre_collab(nodes_brut, edges_brut)
+```
+
+On remarque que 598 liens concernent un artiste pop et un artiste hip hop, ce qui confirme que les artistes pop et hip hop collaborent souvent entre eux, en comparaison avec les artistes latino-américains. Cela pourrait s'expliquer par le fait que les chansons pop et hip hop sont majoritairement en anglais, alors que la musique latine est plutôt de langue espagnole.   
+
+Nous allons voir s'il existe des changements si l'on pondère ce tableau par le nombre de fois que les artistes ont collaboré. 
+
+```{r}
+# Nombre de collaboration par genre, pondéré par le nombre de collaborations
+nb_genre_collab(nodes_brut, edges_brut, TRUE)
+```
+
+Un changement intéressant est que le nombre de liens monte à 1 307 pour les artistes pop, ce qui indique que certains artistes pop collaborent plusieurs fois entre eux.  
+On note également le faible nombre de liens entre les artistes latino-américains et les artistes hip hop. En effet, les artistes hispanophones ont davantage intérêt à collaborer avec des artistes pop (littéralement "popular"), afin d'élargir leur audience et de séduire un public de masse.  
+
+
+# III. Mesures de centralité
+
+Nous allons identifier les 10 artistes qui se distinguent, selon différentes mesures de centralité.  
+
+Tout d'abord, la centralité de degré indique les artistes qui ont collaboré avec le plus d'artistes différents.
+
+```{r}
+# centralité de degré
+df_degree <- nodes_brut %>%  
+  top_n(10, degree) 
+ggplot(df_degree, aes(x= reorder(artist,-degree),degree, fill=genre)) + 
+  geom_bar(stat="identity")
+```
+
+On constate que les artistes avec le degré le plus élevé sont les artistes les plus influents dans leurs genres respectifs. Par exemple, on trouve la rappeuse américaine Nicki Minaj qui a collaboré avec 45 artistes de tous genres. En hip hop, c’est Lil Wayne qui s’impose avec presque 60 relations différentes. Et celui qu’on surnomme le roi du reggaeton, Daddy Yankee, représente les artistes latino-américains. 
+
+Visualisons à présent la distribution des degrés par noeud.
+
+```{r}
+plot(degree_distribution(graphe_base, mode = "all", loops = FALSE),
+     type = "h",
+     main = "Distribution des degrés par noeud",
+     ylab = "Fréquence",
+     xlab = "Degré")
+```
+
+Plus de 40% des artistes ont effectué des collaborations ponctuelles, aussi on peut suggérer que la distribution des degrés suit une loi exponentielle.  
+
+Intéressons-nous à la centralité de proximité des artistes, mesure biaisée quand le graphe est peu connecté.   
+Nous avons ainsi sélectionné en amont les artistes qui ont un degré supérieur ou égal à 15.
+
+```{r}
+nodes_social <- nodes_brut[nodes_brut$degree >=15,]
+df_closeness <- nodes_social %>% 
+  mutate(Centralite = closeness(graphe_social15)) %>% 
+  top_n(10, Centralite) 
+ggplot(df_closeness, aes(x= reorder(artist,-Centralite),Centralite, fill=genre)) + 
+  geom_bar(stat="identity")
+```
+
+Certains artistes hip hop ou latino très influents disparaissent du classement. En effet, la centralité de proximité met en avant les artistes pop, qui sont au coeur du réseau de collaborations.  
+
+Comparons ces résultats avec ceux de la centralité d'intermédiarité, où nous avons encore une fois sélectionné les artistes selon leur degré.
+
+```{r}
+# centralités d'intermédiarité
+nodes_social <- nodes_brut[nodes_brut$degree >=15,]
+df_inter <- nodes_social %>% 
+  mutate(Centralite = betweenness(graphe_social15)) %>% 
+  top_n(10, Centralite)
+ggplot(df_inter, aes(x= reorder(artist,-Centralite),Centralite, fill=genre)) + 
+  geom_bar(stat="identity")
+```
+
+On retrouve sur le podium des artistes latino-américains connus comme J Balvin. Ce chanteur de reggaeton colombien a reçu des récompenses pour avoir contribué à la diffusion de la musique latine dans le monde entier. Nous allons à cet effet, étudier la distribution des genres des artistes avec lesquels J Balvin a collaboré.
+
+```{r}
+# Genre des artistes avec lesquels J Balvin a collaboré
+genre_collab_artist("J Balvin")
+```
+
+J Balvin a collaboré avec beaucoup d'artistes pop et plusieurs artistes hip hop, ce qui explique sa place dans la centralité d'intermédiarité.
+
+Finalement, nous remarquons que certains artistes se démarquent par leur influence, leur pouvoir de connexion ou encore leur ouverture aux autres genres.
+
+
+# IV. Détection et analyse de communautés
+
+L'objet de cette section est d'appliquer des algorithmes de clustering sur nos données et d'identifier les critères de création des groupes. Pour des raisons de visibilité des graphes, nous restreignons le graphe à celui des artistes de degré supérieur ou égal à 15. Notre graphe d'étude contient donc 89 noeuds reliés par 519 arêtes.
+
+
+## 1. Clustering spectral
+
+Commençons par analyser les résultats du clustering spectral.  
+Dans la méthode spectrale, le partitionnement des individus est effectué sur la matrice contenant les $K$ plus petites valeurs propres de la matrice Laplacienne du graphe. Cette dernière est évaluée à partir des degrés et des adjacences dans le graphe.
+
+Sous `R`, nous utilisons la fonction `cluster_leading_eigen`.
+
+```{r}
+set.seed(45)
+res_cluster_meth_spectR <- cluster_leading_eigen(graphe_social15, weights = E(graphe_social15)$nb_collab)
+groupes_meth_spectR <- res_cluster_meth_spectR$membership
+plot(res_cluster_meth_spectR, graphe_social15, edge.width = E(graphe_social15)$nb_collab,
+     main = 'Résultat du clustering spectral',
+     sub = 'Avec zones de couleurs', vertex.label = NA)
+```
+
+L'algorithme a identifié 3 groupes : le groupe bleu est bien distinct, tandis que les groupes orange et vert se chevauchent. Nous émettons l'hypothèse que ces groupes correspondent aux genres musicaux des artistes. Pour le savoir, nous représentons le même graphe, mais avec les couleurs relatives aux genres.
+
+```{r}
+set.seed(45)
+coul  <- brewer.pal(3, "Set1")
+res_cluster_meth_spectR <- cluster_leading_eigen(graphe_social15, weights = E(graphe_social15)$nb_collab)
+groupes_meth_spectR <- res_cluster_meth_spectR$membership
+plot(res_cluster_meth_spectR, graphe_social15, edge.width = E(graphe_social15)$nb_collab,
+     main = 'Résultat du clustering spectral',
+     sub = 'Avec zones de couleurs',
+     col = coul, vertex.label = NA) 
+     
+legend("left", legend=levels(as.factor(V(graphe_social15)$genre)), col = coul, pch = 16, bty='n', text.col=coul) 
+```
+
+Examinons les genres des artistes pour chaque groupe obtenu par clustering spectral.  
+
+```{r}
+nodes_social15 <- nodes_brut[nodes_brut$degree >= 15,]
+nodes_social15$groupe_CS <- groupes_meth_spectR
+
+artists_social15 <- merge(nodes_social15, artists, by.x = "artist", by.y="artists")
+```
+
+Commençons par le groupe 3.
+
+```{r}
+cs3 <- artists_social15[artists_social15$groupe_CS==3,]
+table(cs3$genre)
+```
+
+La majorité des artistes du groupe 3 sont des artistes hip hop ; intéressons-nous aux artistes pop de ce groupe.
+
+```{r}
+cs3[cs3$genre=="pop",]
+```
+
+Les artistes pop du groupe 3 ont collaboré plusieurs fois avec des artistes hip hop. Prenons l'exemple de la rappeuse américaine Nicki Minaj, qui fait principalement de la dance pop.
+
+```{r}
+genre_collab_artist("Nicki Minaj")
+```
+
+On constate que le groupe 3 est composé d'artistes hip hop, ou d'artistes pop qui collaborent souvent avec des artistes hip hop.  
+
+Sur le même principe, le groupe 2 est composé des artistes reggaeton, ou d'artistes pop qui ont collaboré plusieurs fois avec des artistes reggaeton.
+
+```{r}
+cs2 <- artists_social15[artists_social15$groupe_CS==2,]
+table(cs2$genre)
+```
+
+```{r}
+cs2[cs2$genre=="pop",]
+```
+
+La chanteuse américaine d'origine mexicaine Becky G, a commencé par chanter de la pop en anglais au début des années 2010. Elle connaît actuellement un succès avec des chansons en espagnol à sonorité reggaeton. 
+
+```{r}
+genre_collab_artist("Becky G")
+```
+
+Bien qu'elle soit une chanteuse de genre pop, Becky G a collaboré avec 10 artistes de reggaeton, ce qui explique sa place dans le groupe 2.  
+
+Comme le montre le boxplot de l'année médiane des artistes par groupe de clustering spectral, le 1er groupe rassemble les artistes qui étaient diffusés pendant les années 2000 jusqu'au début des années 2010. 
+
+```{r}
+boxplot(artists_social15$median_year~artists_social15$groupe_CS)
+abline(h=mean(artists_social15$median_year), col="green")
+```
+
+Finalement, l'algorithme de clustering spectral a permis d'identifier trois communautés :  
+
+* les artistes des années 2000 
+* les artistes reggaeton et les artistes pop qui collaborent fréquemment avec eux
+* les artistes hip hop et les artistes pop qui collaborent fréquemment avec eux.
+
+
+## 2. Algorithme de GIRVAN-NEWMAN
+
+L'algorithme de GIRVAN-NEWMAN utilise la notion d'intermédiarité. Elle procède par itérations en retirant les arrêtes les plus centrales et en calculant la modularité.
+
+```{r}
+set.seed(45)
+res_cluster_GN <- cluster_edge_betweenness(graphe_social15, directed = FALSE)
+groupes_GN <- res_cluster_GN$membership
+plot(graphe_social15, vertex.color = groupes_GN, edge.width = E(graphe_social15)$nb_collab,
+     main = "Résultat de l'algorithme de GIRVAN-NEWMAN", vertex.label = NA)
+```
+
+Contrairement au clustering spectral, l'algorithme de GIRVAN-NEWMAN identifie deux groupes distincts. L'un des groupes est deux fois plus grand que l'autre. 
+
+```{r}
+table(groupes_GN)
+```
+
+Les deux groupes se distinguent par leur mesure de centralité de proximité. En effet, le groupe le plus nombreux rassemble les artistes qui ont un pouvoir de connexion élevé.
+
+```{r}
+artists_social15$closeness <- closeness(graphe_social15)
+artists_social15$groupe_GN <- groupes_GN
+boxplot(artists_social15$closeness~artists_social15$groupe_GN)
+abline(h=mean(artists_social15$closeness), col="green")
+```
+
+Les autres mesures de centralité ne permettent pas de distinguer les deux groupes. De même pour les genres ou les sous-genres.
+
+
+## 3. Méthode de CLAUSET et NEWMAN 
+
+Cette méthode est qualifiée de "gloutonne" puisqu'elle agrège au fur et à mesure les nœuds.
+
+```{r}
+set.seed(45)
+res_cluster_CN <- cluster_fast_greedy(graphe_social15)
+groupes_CN <- res_cluster_CN$membership
+plot(graphe_social15, vertex.color = groupes_CN, edge.width = E(graphe_social15)$nb_collab,
+     main = 'Résultat de la méthode de CLAUSET et NEWMAN', vertex.label = NA)
+```
+
+La méthode de CLAUSET et NEWMAN identifie trois groupes, mais l'un d'eux n'est composé que de quelques artistes. 
+
+```{r}
+artists_social15$groupe_CN <- groupes_CN
+table(artists_social15$groupe_CN)
+```
+
+```{r}
+cn1 <- artists_social15[artists_social15$groupe_CN == 1,]
+table(cn1$genre)
+```
+
+```{r}
+cn2 <- artists_social15[artists_social15$groupe_CN == 2,]
+cn2
+```
+
+```{r}
+boxplot(artists_social15$closeness~artists_social15$groupe_CN)
+abline(h=mean(artists_social15$closeness), col="green")
+```
+
+Les artistes du 3ème groupe ont une forte centralité de proximité, en contraste avec leurs homologues du 1er groupe. Les artistes hip hop sont les plus présents dans le groupe 1. Le groupe 2, très réduit, est composé de 5 artistes hip hop et 1 artiste de reggaeton. Par ailleurs, les mesures de centralité ne départagent pas les groupes et les genres sont très distribués au sein du groupe 3. Les informations dont nous disposons ne nous permettent pas d'identifier une communauté à partir du groupe 2.  
+
+Néanmoins, certains groupes des algorithmes CLAUSET-NEWMAN (CN) et GIRVAN-NEWMAN (GN) se chevauchent :  
+
+* le groupe 2 de GN est inclus dans le groupe 1 de CN
+* il existe beaucoup d'artistes en commun entre le groupe 1 de GN et le groupe 3 de CN
+* le groupe 2 de CN est inclus dans le groupe 1 de GN.  
+
+Ces algorithmes semblent donner des résultats proches.  
+
+
+## 4. Algorithme de LOUVAIN
+
+L'objectif de l'algorithme de LOUVAIN est de maximiser la modularité locale.
+
+```{r}
+set.seed(45)
+res_cluster_louv <- cluster_louvain(graphe_social15, weights = E(graphe_social15)$nb_collab)
+groupes_louv <- res_cluster_louv$membership
+plot(graphe_social15, vertex.color = groupes_louv, edge.width = E(graphe_social15)$nb_collab,
+     main = "Résultat de l'algorithme de LOUVAIN", vertex.label = NA)
+```
+
+```{r}
+artists_social15$groupe_L <- groupes_louv
+table(artists_social15$groupe_L)
+```
+
+L'algorithme de LOUVAIN (L) produit trois groupes déséquilibrés. Ces groupes présentent des similarités avec ceux des algorithmes CN et GN.  
+
+* Le groupe 1 de L est inclus dans les groupes 1 de CN et 2 de GN
+* le groupe 2 de L est inclus dans le groupe 1 de GN.
+
+
+## 5. Méthode par marche aléatoire
+
+La méthode par marche aléatoire se base sur la théorie des chaines de Markov. Pour le clustering la méthode consiste a créé une marche aléatoire d’un sommet vers un autre. Au départ, tous les sommets sont seuls dans un cluster puis ils sont regroupés pour n’en former qu’un. La mesure de la modularité pour chaque itération permet ensuite de sélectionner le nombre de clusters retenus, à partir d'un dendrogramme.
+
+```{r}
+set.seed(45)
+res_cluster_MA <- cluster_walktrap(graphe_social15, weights = E(graphe_social15)$nb_collab)
+groupes_MA <- res_cluster_MA$membership
+plot(graphe_social15, vertex.color = groupes_MA, edge.width = E(graphe_social15)$nb_collab,
+     main = 'Résultat de la méthode par marche aléatoire', vertex.label = NA)
+```
+
+La méthode par marche aléatoire identifie quatre groupes et met en évidence les artistes qui lient les deux grands groupes. 
+
+```{r}
+artists_social15$groupe_MA <- groupes_MA
+table(artists_social15$groupe_MA)
+```
+
+```{r}
+boxplot(artists_social15$closeness~artists_social15$groupe_MA)
+abline(h=mean(artists_social15$closeness), col="green")
+```
+
+Le groupe 4 comporte 6 artistes mais ils sont tous différents de ceux du 2ème groupe de CN. Ils ont des degrés faibles, en comparaison aux autres groupes où les degrés sont plus étalés.  
+Le 3ème groupe a une majorité d'artistes hip hop et une centralité de proximité faible par rapport aux autres groupes.  
+Le 1er groupe a des artistes de tous genres et sous-genres, de même que le groupe 2.  
+
+
+## 6. Méthode optimale
+
+La méthode optimale construit l'ensemble des combinaisons de clusters possibles, pour chaque taille de cluster. Pour des raisons liées au temps d'exécution, nous avons sélectionné le graphe des artistes ayant un degré supérieur ou égal à 25. On se retrouve avec un graphe à 34 noeuds et 134 liens.
+
+
+```{r}
+set.seed(45)
+res_cluster_optimal <- cluster_optimal(graphe_social25, weights = E(graphe_social25)$nb_collab)
+groupes_MO <- res_cluster_optimal$membership
+plot(res_cluster_optimal, graphe_social25, edge.width = E(graphe_social25)$nb_collab,
+     main = 'Résultat de la méthode optimale', vertex.label = NA)
+```
+
+```{r}
+nodes_social25 <- nodes_brut[nodes_brut$degree >= 25,]
+artists_social25 <- merge(nodes_social25, artists, by.x = "artist", by.y="artists")
+artists_social25$groupe_MO <- groupes_MO
+table(artists_social25$groupe_MO)
+```
+
+```{r}
+boxplot(artists_social25$median_year~artists_social25$groupe_MO)
+abline(h=mean(artists_social25$median_year), col="green")
+```
+
+Les groupes identifiés par la méthode optimale sont équilibrés.  
+Le 3ème groupe comporte des artistes avec une faible centralité de proximité et relativement concentrés dans le temps (2015-2017).  
+
+```{r}
+artists_social25$closeness <- closeness(graphe_social25)
+boxplot(artists_social25$closeness~artists_social25$groupe_MO)
+abline(h=mean(artists_social25$closeness), col="green")
+```
+
+Le 4ème groupe est caractérisé par une acousticité et une instrumentalité très faibles, en comparaison avec les autres groupes.  
+
+```{r}
+boxplot(artists_social25$acousticness~artists_social25$groupe_MO)
+abline(h=mean(artists_social25$acousticness), col="green")
+```
+
+```{r}
+boxplot(artists_social25$instrumentalness~artists_social25$groupe_MO)
+abline(h=mean(artists_social25$instrumentalness), col="green")
+```
+
+Tous les artistes des groupes 1 et 4 ont le point commun de rapper dans leurs chansons. Néanmoins, les artistes du groupe 1 s'inscrivent dans un genre "urbain", alors que ceux du groupe 4 font plutôt de la dance pop. On peut creuser la piste des communautés fondées sur l’univers artistique.   
+Les informations dont nous disposons ne permettent pas d'identifier de communauté à partir du groupe 2.
+
+## Évaluation des algorithmes de clustering 
+
+Pour évaluer les algorithmes sur nos données, on peut utiliser la modularité d'un graphe. Une modularité élevée indique que les groupes sont bien délimités et que les noeuds sont très connectés au sein d'un même groupe. Le tableau suivant affiche la modularité maximale de chacun des algorithmes que nous avons appliqués.
+
+```{r}
+# Récapitulatif des modularités
+tibble("Algorithme" = c("Spectral", "GIRVAN-NEWMAN", "CLAUSET-NEWMAN", "LOUVAIN", "Marche aléatoire", "Méthode optimale"),
+       "Modularité" = c(modularity(graphe_social15, groupes_meth_spectR), modularity(graphe_social15, groupes_GN), modularity(graphe_social15, groupes_CN), modularity(graphe_social15, groupes_louv), modularity(graphe_social15, groupes_MA), modularity(graphe_social25, groupes_MO)))
+```
+
+L'algorithme avec la modularité la plus élevée est l'algorithme du clustering spectral, suivi de l'algorithme de Louvain.  
+La méthode optimale a été réalisée à partir d'un graphe restreint donc on ne peut pas comparer sa modularité aux autres.  
+Globalement, les algorithmes ont tous une modularité entre 0.36 et 0.39.
+
+## ACP
+
+Nous terminons les algorithmes de clustering par une ACP. Le but est d'identifier les caractéristiques musicales relatives aux différents genres. Nous allons colorer les individus par les groupes obtenus par clustering spectral.
+
+```{r}
+artists_pca <- artists_social15[-c(1,2,3,5,20,21,22,23,24,25)]
+res_pca <- PCA(artists_pca, scale.unit=TRUE, graph=T)
+```
+
+```{r}
+plot.PCA(res_pca, habillage = 2)
+```
+
+Les artistes séduisent un grand public, tout en conservant leur style d'origine. Le hip hop est caractérisé par des paroles très présentes et un tempo marqué.  
+Le reggaeton est un sous-genre à l'origine créé pour la danse et le divertissement. Ces traits se retrouvent dans la positivité, l'énergie et la dançabilité de ce genre unique.  
+Les artistes pop ont su réinventer le genre pour qu'il conserve sa place de musique populaire par excellence. Originaire des États-Unis, la pop a inspiré des artistes du monde entier qui y incorporent des sonorités locales.
+
+
+# Conclusion
+
+L'objet de notre étude était d'analyser les collaborations des artistes des années 2000 à 2020. Actuellement, la musique la plus écoutée sur Spotify est soit de la dance pop, soit du reggaeton, alors que les années 2000 mettaient à l'honneur le hip hop et le R&B. Les artistes hip hop se sont fait connaître du grand public en collaborant avec des artistes pop, les artistes latino-américains l'ont bien compris et sont en train de se faire une place sur le marché international.  
+
+Au sein d'un même genre, le réseau est construit autour d'un ou deux sous-genres qui dominent le marché.  
+
+Les différentes mesures de centralité ont permis de mettre en relief les artistes influents, moteurs de connexion ou faisant le pont entre leur genre et les autres genres.  
+
+Certains algorithmes de clustering ont permis de détecter des communautés autour du genre musical, des mesures de centralité ou encore à l'échelle temporelle.  
+
+En croisant ces informations avec celles des mesures quantitatives des artistes, nous avons pu mettre en évidence les caractéristiques musicales propres à chaque genre. 
+
+Si le temps l'avait permis, j'aurais approfondi la détection de communautés et étudié les caractéristiques musicales des chansons afin de faire le rapprochement avec le genre des artistes.
