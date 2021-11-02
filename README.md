@@ -1,4 +1,4 @@
-# Spotify_most_listened_collabs
+# Graphes et clustering avec R pour l'étude des collaborations entre artistes
 
 Magistère 3 - Projet théorie des réseaux et modélisation
 
