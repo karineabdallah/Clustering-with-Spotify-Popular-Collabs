@@ -4,7 +4,7 @@ Karine ABDALLAH
 
 The objective of this project is to study some social graphs and to analyze the links between the individuals that constitute the network. I chose to focus on the most listened musical collaborations from 2000 to 2020 on Spotify. 
 
-The databases at our disposal are :
+After processing the data with Python (see IPYNB file), the databases at our disposal are :
 
 - nodes representing the artists: name, genre, sub-genre, list of artists with whom the artist has collaborated, degree representing the number of collaborations with different artists
 
