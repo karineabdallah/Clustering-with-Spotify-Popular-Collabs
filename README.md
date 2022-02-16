@@ -13,25 +13,25 @@ We also have metadata about the artists: name, popularity, median year of the so
 
 We first studied the collaborations by musical genre. Then, we analyzed centrality measures to identify important nodes. We finished on community detection using clustering algorithms.
 
-1.	Collaborations by genre
+##1.	Collaborations by genre
 
 The pop genre is quite diverse, but most of the well-known pop artists are actually "dance pop" artists, which is also known to be commercial.  
 The two most represented hip hop sub-genres are the historically known Atlanta hip hop and the later alternative hip hop.
 The vast majority of known Latin American artists are reggaeton artists.
 Within a genre, the network is built around one or two sub-genres that dominate the market.
 
-2.	Collaborations of connected artists
+##2.	Collaborations of connected artists
 
 We have selected the artists who have a degree higher or equal to 15 to study more finely the collaborations. We notice 2 groups: 1 Latin group and 1 hip hop/pop group. The Latin and hip hop artists collaborate little. Indeed, the Spanish-speaking artists have an interest in collaborating with pop artists to seduce a mass audience.
 
-3.	Centrality measures
+##3.	Centrality measures
 
 We have identified the 10 artists who stand out, according to different measures of centrality:
 - Centrality of degree : influential artists in their respective genres
 - Centrality of proximity : pop artists, at the heart of the network of collaborations
 - Centrality of intermediality : artists frequently linked to other genres.
 
-4.	Communities detection and analysis
+##4.	Communities detection and analysis
 
 The idea is to apply clustering algorithms on our data and to identify the criteria for creating clusters. Our graph contains 89 nodes connected by 519 edges.
 
